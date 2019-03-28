@@ -35,51 +35,51 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS
   8 .comment      00000023  00000000  00000000  000096f4  2**0
                   CONTENTS, READONLY
-  9 .debug_aranges 00000b90  00000000  00000000  00009718  2**3
+  9 .debug_aranges 00000ba8  00000000  00000000  00009718  2**3
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_info   000199a5  00000000  00000000  0000a2a8  2**0
+ 10 .debug_info   000199fb  00000000  00000000  0000a2c0  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_abbrev 00006e25  00000000  00000000  00023c4d  2**0
+ 11 .debug_abbrev 00006e40  00000000  00000000  00023cbb  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_line   000076bb  00000000  00000000  0002aa72  2**0
+ 12 .debug_line   000076d8  00000000  00000000  0002aafb  2**0
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_frame  00001ad8  00000000  00000000  00032130  2**2
+ 13 .debug_frame  00001ad8  00000000  00000000  000321d4  2**2
                   CONTENTS, READONLY, DEBUGGING
- 14 .debug_str    00002ee5  00000000  00000000  00033c08  2**0
+ 14 .debug_str    00002ee5  00000000  00000000  00033cac  2**0
                   CONTENTS, READONLY, DEBUGGING
- 15 .debug_loc    00005dd9  00000000  00000000  00036aed  2**0
+ 15 .debug_loc    00005dd9  00000000  00000000  00036b91  2**0
                   CONTENTS, READONLY, DEBUGGING
- 16 .debug_alt_sim_info 00000010  00000000  00000000  0003c8c8  2**2
+ 16 .debug_alt_sim_info 00000010  00000000  00000000  0003c96c  2**2
                   CONTENTS, READONLY, DEBUGGING
- 17 .debug_ranges 00000848  00000000  00000000  0003c8d8  2**3
+ 17 .debug_ranges 00000848  00000000  00000000  0003c980  2**3
                   CONTENTS, READONLY, DEBUGGING
- 18 .thread_model 00000003  00000000  00000000  0003fc72  2**0
+ 18 .thread_model 00000003  00000000  00000000  0003fd2a  2**0
                   CONTENTS, READONLY
- 19 .cpu          00000005  00000000  00000000  0003fc75  2**0
+ 19 .cpu          00000005  00000000  00000000  0003fd2d  2**0
                   CONTENTS, READONLY
- 20 .qsys         00000001  00000000  00000000  0003fc7a  2**0
+ 20 .qsys         00000001  00000000  00000000  0003fd32  2**0
                   CONTENTS, READONLY
- 21 .simulation_enabled 00000001  00000000  00000000  0003fc7b  2**0
+ 21 .simulation_enabled 00000001  00000000  00000000  0003fd33  2**0
                   CONTENTS, READONLY
- 22 .sysid_hash   00000004  00000000  00000000  0003fc7c  2**0
+ 22 .sysid_hash   00000004  00000000  00000000  0003fd34  2**0
                   CONTENTS, READONLY
- 23 .sysid_base   00000004  00000000  00000000  0003fc80  2**0
+ 23 .sysid_base   00000004  00000000  00000000  0003fd38  2**0
                   CONTENTS, READONLY
- 24 .sysid_time   00000004  00000000  00000000  0003fc84  2**0
+ 24 .sysid_time   00000004  00000000  00000000  0003fd3c  2**0
                   CONTENTS, READONLY
- 25 .stderr_dev   00000009  00000000  00000000  0003fc88  2**0
+ 25 .stderr_dev   00000009  00000000  00000000  0003fd40  2**0
                   CONTENTS, READONLY
- 26 .stdin_dev    00000009  00000000  00000000  0003fc91  2**0
+ 26 .stdin_dev    00000009  00000000  00000000  0003fd49  2**0
                   CONTENTS, READONLY
- 27 .stdout_dev   00000009  00000000  00000000  0003fc9a  2**0
+ 27 .stdout_dev   00000009  00000000  00000000  0003fd52  2**0
                   CONTENTS, READONLY
- 28 .sopc_system_name 0000000f  00000000  00000000  0003fca3  2**0
+ 28 .sopc_system_name 0000000f  00000000  00000000  0003fd5b  2**0
                   CONTENTS, READONLY
- 29 .quartus_project_dir 0000005c  00000000  00000000  0003fcb2  2**0
+ 29 .quartus_project_dir 0000005c  00000000  00000000  0003fd6a  2**0
                   CONTENTS, READONLY
- 30 .jdi          00006bd6  00000000  00000000  0003fd0e  2**0
+ 30 .jdi          00006bd6  00000000  00000000  0003fdc6  2**0
                   CONTENTS, READONLY
- 31 .sopcinfo     000b9313  00000000  00000000  000468e4  2**0
+ 31 .sopcinfo     000b9313  00000000  00000000  0004699c  2**0
                   CONTENTS, READONLY
 SYMBOL TABLE:
 00000000 l    d  .entry	00000000 .entry
@@ -106,6 +106,7 @@ SYMBOL TABLE:
 00000000 l    df *ABS*	00000000 alt_instruction_exception_entry.c
 00000000 l    df *ABS*	00000000 ServoAPI.c
 00000000 l    df *ABS*	00000000 SevenSegs.c
+00000000 l    df *ABS*	00000000 adc.c
 00000000 l    df *ABS*	00000000 delay.c
 00000000 l    df *ABS*	00000000 main.c
 00000000 l    df *ABS*	00000000 lib2-divmod.c
