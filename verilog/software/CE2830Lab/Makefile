@@ -146,6 +146,7 @@ C_SRCS += ServoAPI.c
 C_SRCS += SevenSegs.c
 C_SRCS += delay.c
 C_SRCS += main.c
+C_SRCS += adc.c
 CXX_SRCS :=
 ASM_SRCS :=
 
