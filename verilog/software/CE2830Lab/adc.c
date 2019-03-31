@@ -8,23 +8,26 @@
  * Analog-to-Digital Converters
  */
 
+ #include "alt_types.h"
  #include "adc.h"
 
-// static volatile alt_u32* sequencerCmd = (alt_u32*) ADC_SEQUENCER_BASE;
-// static volatile *ADC_SAMPLE_STORE samples = ADC_SAMPLE_STORE_BASE;
-//
-//void adc_init(){
-//
-//}
-//
-// alt_u16 read_channel1(){
-//     alt_u16 data = samples.slot1;
-//     data &= 0xFFF;
-//     return data;
-// }
-//
-// alt_u16 read_channel2(){
-//     alt_u16 data = samples.slot2;
-//     data &= 0xFFF;
-//     return data;
-// }
+static volatile ADC_SAMPLE_STORE* samples = (alt_u32*) ADC_SAMPLE_STORE_BASE;
+
+void adc_init(){
+
+	alt_u32 data = *sequencerCmd;
+	data = (data&0xF)|0b0001;
+	*sequencerCmd = data;
+}
+
+ alt_u16 read_channel1(){
+     alt_u32 data = samples->slot0;
+     data &= 0xFFF;
+     return data;
+}
+
+ alt_u16 read_channel2(){
+     alt_u32 data = samples->slot1;
+     data &= 0xFFF;
+     return data;
+}

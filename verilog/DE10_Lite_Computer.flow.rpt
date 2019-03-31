@@ -1,5 +1,5 @@
 Flow report for DE10_Lite_Computer
-Thu Mar 28 12:21:10 2019
+Sat Mar 30 15:29:08 2019
 Quartus Prime Version 17.0.2 Build 602 07/19/2017 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Thu Mar 28 12:20:50 2019       ;
+; Flow Status                        ; Successful - Sat Mar 30 15:28:46 2019       ;
 ; Quartus Prime Version              ; 17.0.2 Build 602 07/19/2017 SJ Lite Edition ;
 ; Revision Name                      ; DE10_Lite_Computer                          ;
 ; Top-level Entity Name              ; DE10_Lite_Computer                          ;
@@ -67,7 +67,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/28/2019 12:16:43 ;
+; Start date & time ; 03/30/2019 15:24:36 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; DE10_Lite_Computer  ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ agreement for further details.
 +-------------------------------------+-------------------------------------------------------------------+---------------+-----------------+------------+
 ; Assignment Name                     ; Value                                                             ; Default Value ; Entity Name     ; Section Id ;
 +-------------------------------------+-------------------------------------------------------------------+---------------+-----------------+------------+
-; COMPILER_SIGNATURE_ID               ; 2543711158273.155379340223192                                     ; --            ; --              ; --         ;
+; COMPILER_SIGNATURE_ID               ; 2543711158273.155397747638832                                     ; --            ; --              ; --         ;
 ; ENABLE_SIGNALTAP                    ; On                                                                ; --            ; --              ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                                                ; --            ; --              ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                                                 ; --            ; --              ; --         ;
@@ -103,11 +103,11 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:01:46     ; 1.0                     ; 1120 MB             ; 00:02:15                           ;
-; Fitter                    ; 00:02:03     ; 1.2                     ; 1456 MB             ; 00:02:59                           ;
-; Assembler                 ; 00:00:05     ; 1.0                     ; 638 MB              ; 00:00:05                           ;
-; TimeQuest Timing Analyzer ; 00:00:18     ; 1.6                     ; 836 MB              ; 00:00:28                           ;
-; Total                     ; 00:04:12     ; --                      ; --                  ; 00:05:47                           ;
+; Analysis & Synthesis      ; 00:01:37     ; 1.0                     ; 5245 MB             ; 00:02:04                           ;
+; Fitter                    ; 00:02:16     ; 1.2                     ; 5583 MB             ; 00:03:12                           ;
+; Assembler                 ; 00:00:05     ; 1.0                     ; 4763 MB             ; 00:00:05                           ;
+; TimeQuest Timing Analyzer ; 00:00:19     ; 1.6                     ; 4959 MB             ; 00:00:29                           ;
+; Total                     ; 00:04:17     ; --                      ; --                  ; 00:05:50                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -116,10 +116,10 @@ agreement for further details.
 +---------------------------+------------------+------------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +---------------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis      ; MSOE-5CG729129B  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter                    ; MSOE-5CG729129B  ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler                 ; MSOE-5CG729129B  ; Windows 10 ; 10.0       ; x86_64         ;
-; TimeQuest Timing Analyzer ; MSOE-5CG729129B  ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis      ; MSOE-5CG7290ZQJ  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter                    ; MSOE-5CG7290ZQJ  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler                 ; MSOE-5CG7290ZQJ  ; Windows 10 ; 10.0       ; x86_64         ;
+; TimeQuest Timing Analyzer ; MSOE-5CG7290ZQJ  ; Windows 10 ; 10.0       ; x86_64         ;
 +---------------------------+------------------+------------+------------+----------------+
 
 

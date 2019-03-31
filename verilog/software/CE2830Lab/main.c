@@ -21,27 +21,33 @@
 #include "SevenSegs.h"
 #include "delay.h"
 #include "ServoAPI.h"
+#include "adc.h"
+#include "CommonRegisters.h"
 
-int main()
-{
-  printf("Welcome to the 7-Seg Switch Display!\n");
 
-  alt_u16* leds = (alt_u16*) LEDS_BASE;
-  volatile alt_u8* pushbuttons = (alt_u8*) PUSHBUTTONS_BASE;
-  alt_u32* HEX0HEX3 = (alt_u32*) 0xFF200020;
-  alt_u32* HEX4HEX5 = (alt_u32*) 0xFF200030;
-  volatile alt_u16* slideSwitches = (alt_u16*) 0xFF200040;
-
-  char BCDOut[7] = {0};
-  alt_u32 HexOut = 0;
+int main(){
+  printf("Welcome to the test display!\n");
   //clear on boot up
   clearSevenSegs();
+  //initalize ADC
+  adc_init();
 
   //main loop
   while(1){
-	  servo_randomMovement(SERVO_Y);
-	  servo_randomMovement(SERVO_X);
-	  delay_1ms(50);
+
+	  //printf("X: %d\n", read_channel1());
+	  //printf("Y: %d\n", read_channel2());
+
+	  //determine if switch 0 is on or off. if on display channel 1
+	  //else if off, display channel 2 on the hex display
+	  if(((*slideSwitches)&1) == 1){
+		  *HEX4HEX5 = (*HEX4HEX5&0x0000)|(ASCII_to_7Seg('1')<< 8);
+		  num_to_7Seg(read_channel1());
+	  } else {
+		  *HEX4HEX5 = (*HEX4HEX5&0x0000)|(ASCII_to_7Seg('0')<< 8);
+		  num_to_7Seg(read_channel2());
+	  }
+	  delay_1s(1);
 
   }
   return 0;

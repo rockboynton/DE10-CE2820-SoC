@@ -6,15 +6,18 @@
  */
 #include "alt_types.h"
 #include "SevenSegs.h"
+#include <stdio.h>
 
-alt_u32* HEX3dt0 = (alt_32*) 0xFF200020;
-alt_u32* HEX4ut5 = (alt_32*) 0xFF200030;
+void clearSevenSegs(){
+	*HEX0HEX3 = 0;
+    *HEX4HEX5 = 0;
+}
 
-alt_u8 ASCII_to_7Seg(char c){
+char ASCII_to_7Seg(char c){
 	if(c != 0){
 		c -= 0x30;
 	}
-	alt_u8 HEXMap[10] = {0b0111111,
+	char HEXMap[10] = {0b0111111,
 			0b0000110,
 			0b1011011,
 			0b1001111,
@@ -27,8 +30,15 @@ alt_u8 ASCII_to_7Seg(char c){
 	return HEXMap[c];
 };
 
-void clearSevenSegs(){
-	*HEX3dt0 = 0;
-    *HEX4ut5 = 0;
+void num_to_7Seg(alt_u16 num){
+	char BCDOut[6] = {0};
+	sprintf(BCDOut, "%d", (num>9999 ? 9999 : num));
+	alt_u32 HexOut = 0;
+	for(int i = 0; i <= 3; i++){
+		if(BCDOut[i] != 0){
+			HexOut = HexOut << 8;
+			HexOut |= ASCII_to_7Seg(BCDOut[i]);
+		}
+	}
+	*HEX0HEX3 = HexOut;
 }
-

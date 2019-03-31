@@ -12,9 +12,19 @@
 #include "alt_types.h"
 #include "system.h"
 
+#define ADC_SEQUENCER_BASE 0xff200210
+#define ADC_SAMPLE_STORE_BASE 0xff200400
+
+static volatile alt_u32* sequencerCmd = (alt_u32*) ADC_SEQUENCER_BASE;
+
+typedef struct{
+	alt_u32 slot0;
+	alt_u32 slot1;
+	alt_u32 slot2;
+}ADC_SAMPLE_STORE;
 /**
- * Initialize the ADC.
- * 
+ * Initialize the ADC to continuous mode
+ * and turns the sequencer on.
  */
 void adc_init();
 
