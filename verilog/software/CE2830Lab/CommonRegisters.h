@@ -7,6 +7,7 @@
 
 #ifndef COMMONREGISTERS_H_
 #define COMMONREGISTERS_H_
+
 #include "system.h"
 #include "alt_types.h"
 
