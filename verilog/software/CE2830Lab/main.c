@@ -19,7 +19,6 @@
  */
 #define DEBUG 2
 
-static void read_joystick();
 
 int main(){
   printf("Welcome to the test display!\n");
