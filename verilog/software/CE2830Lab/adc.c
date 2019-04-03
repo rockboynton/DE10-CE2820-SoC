@@ -32,6 +32,6 @@ alt_u16 read_channel2() {
 }
 
 void read_joystick() {
-	servo_setAngle(SERVO_Y, (alt_8) (read_channel1() / 3800.0 * 90 - 45));
-	servo_setAngle(SERVO_X, (alt_8) (read_channel2() / 3800.0 * 90 - 45));
+	servo_setAngle(SERVO_Y, (alt_8) (read_channel1() / 4000.0 * 90 - 45));
+	servo_setAngle(SERVO_X, (alt_8) (read_channel2() / 4000.0 * 90 - 45));
 }
