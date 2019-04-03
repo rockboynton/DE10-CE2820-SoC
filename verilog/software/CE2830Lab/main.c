@@ -49,9 +49,4 @@ int main(){
   return 0;
 }
 
-static void read_joystick() {
-	servo_setAngle(SERVO_Y, (alt_8) (read_channel1() / 3800.0 * 90 - 45));
-	servo_setAngle(SERVO_X, (alt_8) (read_channel2() / 3800.0 * 90 - 45));
-}
-
 
