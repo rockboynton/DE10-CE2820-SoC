@@ -45,7 +45,7 @@ begin
         Z=>Z
     );
 
-    -- continuous clock
+    -- continuous 50MHz clock
     clock: process
     begin
         CLK <= '0';
@@ -56,11 +56,12 @@ begin
 
     tester: process
     begin
-        -- test asynchronous reset
-        RST <= '1', '0' after 15ns;
+        -- test asynchronous, active low reset
+        RST <= '0', '1' after 15ns;
         -- test accelerometer
         -- TODO
-
+        -- CS - "This line must go low at the start of a transmission and high at the end of a transmission" - Pg. 14 Docs
+        CS <= '1', '0' after 150ns;
         wait;
     end process tester;
 
