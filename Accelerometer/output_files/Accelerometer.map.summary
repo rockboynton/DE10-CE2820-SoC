@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Mon Apr 08 01:27:35 2019
+Quartus Prime Version : 17.0.2 Build 602 07/19/2017 SJ Lite Edition
+Revision Name : Accelerometer
+Top-level Entity Name : AccelerometerControl
+Family : MAX 10
+Total logic elements : 85
+    Total combinational functions : 70
+    Dedicated logic registers : 54
+Total registers : 54
+Total pins : 36
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
