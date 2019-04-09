@@ -21,12 +21,12 @@ architecture TESTBENCH of AccelerometerControl_TB is
 	end component AccelerometerControl;
 
 	--create signals for each pin in the input/outputs
-    signal CLK    : std_logic : = '0';
-    signal MDI    : std_logic : = '0';
-    signal RST    : std_logic : = '0';
-    signal CS     : std_logic : = '0';
-    signal MDO    : std_logic : = '0';
-    signal CLKOUT : std_logic : = '0';
+    signal CLK    : std_logic := '0';
+    signal MDI    : std_logic := '0';
+    signal RST    : std_logic := '0';
+    signal CS     : std_logic := '0';
+    signal MDO    : std_logic := '0';
+    signal CLKOUT : std_logic := '0';
     signal X      : std_logic_vector(7 downto 0);
     signal Y      : std_logic_vector(7 downto 0);
     signal Z      : std_logic_vector(7 downto 0);
@@ -34,14 +34,14 @@ architecture TESTBENCH of AccelerometerControl_TB is
 begin
 
     UUT: AccelerometerControl port map(
-        CLK=>CLK
-        MDI=>MDI
-        RST=>RST
-        CS=>CS
-        MDO=>MDO
-        CLKOUT=>CLKOUT
-        X=>X
-        Y=>Y
+        CLK=>CLK,
+        MDI=>MDI,
+        RST=>RST,
+        CS=>CS,
+        MDO=>MDO,
+        CLKOUT=>CLKOUT,
+        X=>X,
+        Y=>Y,
         Z=>Z
     );
 
@@ -64,7 +64,7 @@ begin
         -- t_delay == 5ns,
         -- t_sdo == 40ns,
         -- need to wait RST test time + t_delay + t_sclk + t_sdo + 7(t_sclk)
-        -- ==
+        -- == 1660ns
         MDI <= '0',
             -- begin transmission of test value "0b1010_1010", CS should be low
             '1' after 1660ns, -- D7
@@ -75,7 +75,7 @@ begin
             '0' after 2460ns, -- D3
             '0' after 2860ns, -- D2
             '0' after 3060ns, -- D1
-            '0' after 3260ns, -- D0
+            '0' after 3260ns; -- D0
             -- CS should now return high
         wait;
     end process tester;
