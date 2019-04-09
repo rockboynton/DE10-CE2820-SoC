@@ -45,7 +45,7 @@ begin
         Z=>Z
     );
 
-    -- continuous 50MHz clock
+    -- continuous 50MHz clock  (System clock)
     clock: process
     begin
         CLK <= '0';
@@ -59,9 +59,24 @@ begin
         -- test asynchronous, active low reset
         RST <= '0', '1' after 15ns;
         -- test accelerometer
-        -- TODO
-        -- CS - "This line must go low at the start of a transmission and high at the end of a transmission" - Pg. 14 Docs
-        CS <= '1', '0' after 150ns;
+        -- Calculations: (pg. 15 & 16)
+        -- t_sclk == 200ns,
+        -- t_delay == 5ns,
+        -- t_sdo == 40ns,
+        -- need to wait RST test time + t_delay + t_sclk + t_sdo + 7(t_sclk)
+        -- ==
+        MDI <= '0',
+            -- begin transmission of test value "0b1010_1010", CS should be low
+            '1' after 1660ns, -- D7
+            -- each subsequent bit is on the next clock edge (Draven: which clock edge?)
+            '0' after 1860ns, -- D6
+            '0' after 2060ns, -- D5
+            '0' after 2260ns, -- D4
+            '0' after 2460ns, -- D3
+            '0' after 2860ns, -- D2
+            '0' after 3060ns, -- D1
+            '0' after 3260ns, -- D0
+            -- CS should now return high
         wait;
     end process tester;
 
