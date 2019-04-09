@@ -66,18 +66,72 @@ begin
         -- need to wait RST test time + t_delay + t_sclk + t_sdo + 7(t_sclk)
         -- == 1660ns
         MDI <= '0',
-            -- begin transmission of test value "0b1010_1010", CS should be low
+            -- begin XHIGHER transmission of test value "0b1010_1010", CS should be low
             '1' after 1660ns, -- D7
-            -- each subsequent bit is on the next clock edge (Draven: which clock edge?)
-				-- rock: data is updated on the falling edge of the clock and is sampled on the rising edge. so i think this is right?
-            '1' after 1860ns, -- D6
-            '0' after 2060ns, -- D5
-            '1' after 2260ns, -- D4
-            '0' after 2460ns, -- D3
-            '1' after 2860ns, -- D2
-            '0' after 3060ns, -- D1
-            '0' after 3260ns, -- D0
-				--rock: repeat d7-d0 5 more times, then cs should go high. also try different inputs '1''s '0''s to distinguish that it's acutually reading.
+            -- each subsequent bit is on the next clock edge
+            '0' after 1860ns, -- D6
+            '1' after 2060ns, -- D5
+            '0' after 2260ns, -- D4
+            '1' after 2460ns, -- D3
+            '0' after 2660ns, -- D2
+            '1' after 2860ns, -- D1
+            '0' after 3060ns, -- D0
+
+            -- begin XLOWER transmission of test value "0b0101_0101"
+            '0' after 3260ns, -- D7
+            -- each subsequent bit is on the next clock edge
+            '1' after 3460ns, -- D6
+            '0' after 3660ns, -- D5
+            '1' after 3860ns, -- D4
+            '0' after 4060ns, -- D3
+            '1' after 4260ns, -- D2
+            '0' after 4460ns, -- D1
+            '1' after 4660ns, -- D0
+
+            -- begin YHIGHER transmission of test value "0b1111_1111", CS should be low
+            '1' after 4860ns, -- D7
+            -- each subsequent bit is on the next clock edge
+            '1' after 5060ns, -- D6
+            '1' after 5260ns, -- D5
+            '1' after 5460ns, -- D4
+            '1' after 5660ns, -- D3
+            '1' after 5860ns, -- D2
+            '1' after 6060ns, -- D1
+            '1' after 6260ns, -- D0
+
+            -- begin YLOWER transmission of test value "0b0000_0000", CS should be low
+            '0' after 6460ns, -- D7
+            -- each subsequent bit is on the next clock edge
+            '0' after 6660ns, -- D6
+            '0' after 6860ns, -- D5
+            '0' after 7060ns, -- D4
+            '0' after 7260ns, -- D3
+            '0' after 7460ns, -- D2
+            '0' after 7660ns, -- D1
+            '0' after 7860ns, -- D0
+
+            -- begin ZHIGHER transmission of test value "01111_0000", CS should be low
+            '1' after 8060ns, -- D7
+            -- each subsequent bit is on the next clock edge
+            '1' after 8260ns, -- D6
+            '1' after 8460ns, -- D5
+            '1' after 8660ns, -- D4
+            '0' after 8860ns, -- D3
+            '0' after 9060ns, -- D2
+            '0' after 9260ns, -- D1
+            '0' after 9460ns, -- D0
+
+            -- begin ZLOWER transmission of test value "0b0000_1111", CS should be low
+            '0' after 9660ns, -- D7
+            -- each subsequent bit is on the next clock edge
+            '0' after 9860ns, -- D6
+            '0' after 10060ns, -- D5
+            '0' after 10260ns, -- D4
+            '1' after 10460ns, -- D3
+            '1' after 10660ns, -- D2
+            '1' after 10860ns, -- D1
+            '1' after 11060ns, -- D0
+
             -- CS should now return high
         wait;
     end process tester;
