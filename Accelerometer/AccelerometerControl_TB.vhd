@@ -34,14 +34,14 @@ architecture TESTBENCH of AccelerometerControl_TB is
 begin
 
     UUT: AccelerometerControl port map(
-        CLK=>CLK
-        MDI=>MDI
-        RST=>RST
-        CS=>CS
-        MDO=>MDO
-        CLKOUT=>CLKOUT
-        X=>X
-        Y=>Y
+        CLK=>CLK,
+        MDI=>MDI,
+        RST=>RST,
+        CS=>CS,
+        MDO=>MDO,
+        CLKOUT=>CLKOUT,
+        X=>X,
+        Y=>Y,
         Z=>Z
     );
 
@@ -64,7 +64,7 @@ begin
         -- t_delay == 5ns,
         -- t_sdo == 40ns,
         -- need to wait RST test time + t_delay + t_sclk + t_sdo + 7(t_sclk)
-        -- ==
+        -- == 1660ns
         MDI <= '0',
             -- begin transmission of test value "0b1010_1010", CS should be low
             '1' after 1660ns, -- D7
