@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Accelerometer
-Mon Apr 08 01:27:35 2019
+Mon Apr 08 20:19:40 2019
 Quartus Prime Version 17.0.2 Build 602 07/19/2017 SJ Lite Edition
 
 
@@ -16,10 +16,9 @@ Quartus Prime Version 17.0.2 Build 602 07/19/2017 SJ Lite Edition
   8. State Machine - |AccelerometerControl|AS
   9. User-Specified and Inferred Latches
  10. General Register Statistics
- 11. Multiplexer Restructuring Statistics (Restructuring Performed)
- 12. Post-Synthesis Netlist Statistics for Top Partition
- 13. Elapsed Time Per Partition
- 14. Analysis & Synthesis Messages
+ 11. Post-Synthesis Netlist Statistics for Top Partition
+ 12. Elapsed Time Per Partition
+ 13. Analysis & Synthesis Messages
 
 
 
@@ -46,7 +45,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Apr 08 01:27:35 2019       ;
+; Analysis & Synthesis Status        ; Successful - Mon Apr 08 20:19:40 2019       ;
 ; Quartus Prime Version              ; 17.0.2 Build 602 07/19/2017 SJ Lite Edition ;
 ; Revision Name                      ; Accelerometer                               ;
 ; Top-level Entity Name              ; AccelerometerControl                        ;
@@ -275,15 +274,6 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                               ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output     ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------+
-; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |AccelerometerControl|COUNT[3] ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------+
-
-
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
 +-----------------------+-----------------------------+
@@ -322,29 +312,20 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.0.2 Build 602 07/19/2017 SJ Lite Edition
-    Info: Processing started: Mon Apr 08 01:27:21 2019
+    Info: Processing started: Mon Apr 08 20:19:26 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Accelerometer -c Accelerometer
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
-Info (12021): Found 2 design units, including 1 entities, in source file /users/schillingdl/documents/classes/freshman year/ce 1911/lab9/controller.vhd
-    Info (12022): Found design unit 1: CONTROLLER-BEHAV File: C:/Users/schillingdl/Documents/Classes/Freshman Year/CE 1911/Lab9/CONTROLLER.vhd Line: 30
-    Info (12023): Found entity 1: CONTROLLER File: C:/Users/schillingdl/Documents/Classes/Freshman Year/CE 1911/Lab9/CONTROLLER.vhd Line: 19
-Info (12021): Found 2 design units, including 1 entities, in source file /users/schillingdl/documents/classes/freshman year/ce 1911/lab4/engine.vhd
-    Info (12022): Found design unit 1: engine-BEHAVIORAL File: C:/Users/schillingdl/Documents/Classes/Freshman Year/CE 1911/Lab4/engine.vhd Line: 23
-    Info (12023): Found entity 1: engine File: C:/Users/schillingdl/Documents/Classes/Freshman Year/CE 1911/Lab4/engine.vhd Line: 14
-Info (12021): Found 2 design units, including 1 entities, in source file /users/schillingdl/documents/github/de10-ce2820-soc/verilog/servo.vhd
-    Info (12022): Found design unit 1: Servo-BEHAV File: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Servo.vhd Line: 22
-    Info (12023): Found entity 1: Servo File: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Servo.vhd Line: 11
 Info (12021): Found 2 design units, including 1 entities, in source file accelerometercontrol.vhd
-    Info (12022): Found design unit 1: AccelerometerControl-BEHAV File: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/Accelerometer/AccelerometerControl.vhd Line: 27
-    Info (12023): Found entity 1: AccelerometerControl File: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/Accelerometer/AccelerometerControl.vhd Line: 16
+    Info (12022): Found design unit 1: AccelerometerControl-BEHAV File: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/Accelerometer/AccelerometerControl.vhd Line: 25
+    Info (12023): Found entity 1: AccelerometerControl File: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/Accelerometer/AccelerometerControl.vhd Line: 17
 Info (12127): Elaborating entity "AccelerometerControl" for the top level hierarchy
-Warning (10492): VHDL Process Statement warning at AccelerometerControl.vhd(173): signal "DATACOUNT" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/Accelerometer/AccelerometerControl.vhd Line: 173
-Warning (10492): VHDL Process Statement warning at AccelerometerControl.vhd(174): signal "DATACOUNT" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/Accelerometer/AccelerometerControl.vhd Line: 174
-Warning (10631): VHDL Process Statement warning at AccelerometerControl.vhd(152): inferring latch(es) for signal or variable "DATACOUNT", which holds its previous value in one or more paths through the process File: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/Accelerometer/AccelerometerControl.vhd Line: 152
-Info (10041): Inferred latch for "DATACOUNT[0]" at AccelerometerControl.vhd(152) File: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/Accelerometer/AccelerometerControl.vhd Line: 152
-Info (10041): Inferred latch for "DATACOUNT[1]" at AccelerometerControl.vhd(152) File: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/Accelerometer/AccelerometerControl.vhd Line: 152
-Info (10041): Inferred latch for "DATACOUNT[2]" at AccelerometerControl.vhd(152) File: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/Accelerometer/AccelerometerControl.vhd Line: 152
+Warning (10492): VHDL Process Statement warning at AccelerometerControl.vhd(169): signal "DATACOUNT" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/Accelerometer/AccelerometerControl.vhd Line: 169
+Warning (10492): VHDL Process Statement warning at AccelerometerControl.vhd(170): signal "DATACOUNT" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/Accelerometer/AccelerometerControl.vhd Line: 170
+Warning (10631): VHDL Process Statement warning at AccelerometerControl.vhd(148): inferring latch(es) for signal or variable "DATACOUNT", which holds its previous value in one or more paths through the process File: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/Accelerometer/AccelerometerControl.vhd Line: 148
+Info (10041): Inferred latch for "DATACOUNT[0]" at AccelerometerControl.vhd(148) File: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/Accelerometer/AccelerometerControl.vhd Line: 148
+Info (10041): Inferred latch for "DATACOUNT[1]" at AccelerometerControl.vhd(148) File: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/Accelerometer/AccelerometerControl.vhd Line: 148
+Info (10041): Inferred latch for "DATACOUNT[2]" at AccelerometerControl.vhd(148) File: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/Accelerometer/AccelerometerControl.vhd Line: 148
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -353,9 +334,9 @@ Info (21057): Implemented 121 device resources after synthesis - the final resou
     Info (21059): Implemented 33 output pins
     Info (21061): Implemented 85 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4814 megabytes
-    Info: Processing ended: Mon Apr 08 01:27:35 2019
+    Info: Peak virtual memory: 4805 megabytes
+    Info: Processing ended: Mon Apr 08 20:19:40 2019
     Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:30
+    Info: Total CPU time (on all processors): 00:00:29
 
 
