@@ -1,5 +1,5 @@
 Flow report for Accelerometer
-Mon Apr 08 01:27:35 2019
+Mon Apr 08 20:19:40 2019
 Quartus Prime Version 17.0.2 Build 602 07/19/2017 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Mon Apr 08 01:27:35 2019       ;
+; Flow Status                        ; Successful - Mon Apr 08 20:19:40 2019       ;
 ; Quartus Prime Version              ; 17.0.2 Build 602 07/19/2017 SJ Lite Edition ;
 ; Revision Name                      ; Accelerometer                               ;
 ; Top-level Entity Name              ; AccelerometerControl                        ;
@@ -67,7 +67,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/08/2019 01:27:22 ;
+; Start date & time ; 04/08/2019 20:19:27 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Accelerometer       ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+----------------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name          ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+----------------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 2543711158273.155470484237156          ; --            ; --                   ; --             ;
+; COMPILER_SIGNATURE_ID               ; 2543711158273.155477276735144          ; --            ; --                   ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                   ; --            ; --                   ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                 ; <None>        ; --                   ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --                   ; eda_simulation ;
@@ -99,8 +99,8 @@ agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:14     ; 1.0                     ; 4814 MB             ; 00:00:30                           ;
-; Total                ; 00:00:14     ; --                      ; --                  ; 00:00:30                           ;
+; Analysis & Synthesis ; 00:00:14     ; 1.0                     ; 4805 MB             ; 00:00:29                           ;
+; Total                ; 00:00:14     ; --                      ; --                  ; 00:00:29                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
