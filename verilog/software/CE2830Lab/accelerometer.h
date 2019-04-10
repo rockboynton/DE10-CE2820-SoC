@@ -8,8 +8,8 @@
 #ifndef ACCELEROMETER_H_
 #define ACCELEROMETER_H_
 
-#include "altera_up_avalon_accelerometer_spi.h"
-
+//#include "altera_up_avalon_accelerometer_spi.h"
+#include "alt_types.h"
 #define ACCELEROMETER_BASE 0xFF2000B0
 
 #define DATAX0 0x32
@@ -18,6 +18,11 @@
 #define DATAY1 0x35
 #define DATAZ0 0x36
 #define DATAZ1 0x37
+
+typedef struct{
+	alt_u8 address;
+	alt_u8 data;
+} ACCELEROMETER;
 
 /**
  * Reads x-axis from accelerometer

@@ -11,6 +11,7 @@
 #include "ServoAPI.h"
 #include "adc.h"
 #include "CommonRegisters.h"
+#include "accelerometer.h"
 
 /**
  * 0: main program
@@ -30,8 +31,7 @@ int main(){
   //main loop
   while(1){
 
-	//printf("X: %d\n", read_channel1());
-	//printf("Y: %d\n", read_channel2());
+
 	//determine if switch 0 is on or off. if on display channel 1
 	//else if off, display channel 2 on the hex display
 	while (DEBUG == 2) {
@@ -43,6 +43,10 @@ int main(){
 			num_to_7Seg(read_channel2());
 		}
 		read_joystick();
+		printf("X: %d\n", acc_read_x());
+		printf("Y: %d\n", acc_read_y());
+		printf("Z: %d\n", acc_read_z());
+		printf("\n");
 		delay_1ms(200);
 	}
   }
