@@ -7,7 +7,9 @@
    <irq preferredWidth="34" />
   </columns>
  </systemtable>
- <library expandedCategories="Project,Library" />
+ <library
+   expandedCategories="Library,Project,Library/University Program/Generic IO,Library/University Program" />
  <window width="1920" height="1025" x="0" y="15" />
  <generation synthesis="VHDL" />
+ <hdlexample language="VHDL" />
 </preferences>

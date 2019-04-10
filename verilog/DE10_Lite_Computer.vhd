@@ -91,7 +91,12 @@ architecture Structural of DE10_Lite_Computer is
             system_pll_ref_reset_reset : in    std_logic                     := 'X';              -- reset
 				
 				servo_1_control_export            : out   std_logic_vector(7 downto 0);                     -- export
-            servo_2_control_export            : out   std_logic_vector(7 downto 0)                      -- export
+            servo_2_control_export            : out   std_logic_vector(7 downto 0);                      -- export
+				
+				acceleromter_control_I2C_SDAT      : inout std_logic                     := 'X';             -- I2C_SDAT
+            acceleromter_control_I2C_SCLK      : out   std_logic;                                        -- I2C_SCLK
+            acceleromter_control_G_SENSOR_CS_N : out   std_logic;                                        -- G_SENSOR_CS_N
+            acceleromter_control_G_SENSOR_INT  : in    std_logic                     := 'X'              -- G_SENSOR_INT
 				
         );
     end component Computer_System;
@@ -139,7 +144,12 @@ begin
             system_pll_ref_reset_reset => '0',  -- system_pll_ref_reset.reset
 				
 				servo_1_control_export            => servo1_data,            --            servo1_pw.export
-            servo_2_control_export            => servo2_data             --            servo2_pw.export
+            servo_2_control_export            => servo2_data,             --            servo2_pw.export
+				
+				acceleromter_control_I2C_SDAT      => G_SENSOR_SDI,      -- acceleromter_control.I2C_SDAT
+            acceleromter_control_I2C_SCLK      => G_SENSOR_SCLK,      --                     .I2C_SCLK
+            acceleromter_control_G_SENSOR_CS_N => G_SENSOR_CS_N, --                     .G_SENSOR_CS_N
+            acceleromter_control_G_SENSOR_INT  => open   --                     .G_SENSOR_INT
         );
 		  
 		  
