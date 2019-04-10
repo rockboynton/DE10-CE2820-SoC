@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Mar 28, 2019 12:28:14 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1553794094259</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>Apr 10, 2019 12:10:16 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1554916216311</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>C:\intelFPGA_lite\17.0\University_Program\Computer_Systems\DE10-Lite\DE10-CE2820-SoC\verilog\software\CE2830Lab_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\Computer_System.sopcinfo</SopcDesignFile>
@@ -956,6 +956,12 @@
                 <slaveDescriptor>servo_2</slaveDescriptor>
                 <addressRange>0xFF2000A0 - 0xFF2000AF</addressRange>
                 <addressSpan>16</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>Accelerometer_SPI</slaveDescriptor>
+                <addressRange>0xFF2000B0 - 0xFF2000B1</addressRange>
+                <addressSpan>2</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>

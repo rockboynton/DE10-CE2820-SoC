@@ -4,7 +4,7 @@
  * Machine generated for CPU 'Nios2' in SOPC Builder design 'Computer_System'
  * SOPC Builder design path: ../../Computer_System.sopcinfo
  *
- * Generated: Thu Mar 28 12:26:15 CDT 2019
+ * Generated: Wed Apr 10 12:10:17 CDT 2019
  */
 
 /*
@@ -67,6 +67,20 @@
 #define ADC_PLL_SPAN 16
 #define ADC_PLL_TYPE "altpll"
 #define ALT_MODULE_CLASS_ADC_PLL altpll
+
+
+/*
+ * Accelerometer_SPI configuration
+ *
+ */
+
+#define ACCELEROMETER_SPI_BASE 0xff2000b0
+#define ACCELEROMETER_SPI_IRQ -1
+#define ACCELEROMETER_SPI_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define ACCELEROMETER_SPI_NAME "/dev/Accelerometer_SPI"
+#define ACCELEROMETER_SPI_SPAN 2
+#define ACCELEROMETER_SPI_TYPE "altera_up_avalon_accelerometer_spi"
+#define ALT_MODULE_CLASS_Accelerometer_SPI altera_up_avalon_accelerometer_spi
 
 
 /*
@@ -220,6 +234,7 @@
 #define __ALTERA_MODULAR_ADC
 #define __ALTERA_NIOS2_GEN2
 #define __ALTERA_NIOS_CUSTOM_INSTR_FLOATING_POINT
+#define __ALTERA_UP_AVALON_ACCELEROMETER_SPI
 #define __ALTPLL
 
 
@@ -743,7 +758,7 @@
 #define SYSID_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define SYSID_NAME "/dev/SysID"
 #define SYSID_SPAN 8
-#define SYSID_TIMESTAMP 1553793334
+#define SYSID_TIMESTAMP 1554914251
 #define SYSID_TYPE "altera_avalon_sysid_qsys"
 
 

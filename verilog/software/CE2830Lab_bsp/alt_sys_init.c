@@ -4,7 +4,7 @@
  * Machine generated for CPU 'Nios2' in SOPC Builder design 'Computer_System'
  * SOPC Builder design path: ../../Computer_System.sopcinfo
  *
- * Generated: Thu Mar 28 12:26:15 CDT 2019
+ * Generated: Wed Apr 10 12:10:17 CDT 2019
  */
 
 /*
@@ -63,6 +63,7 @@
 #include "altera_avalon_sysid_qsys.h"
 #include "altera_avalon_timer.h"
 #include "altera_modular_adc.h"
+#include "altera_up_avalon_accelerometer_spi.h"
 
 /*
  * Allocate the device storage
@@ -74,6 +75,7 @@ ALTERA_AVALON_SYSID_QSYS_INSTANCE ( SYSID, SysID);
 ALTERA_AVALON_TIMER_INSTANCE ( INTERVAL_TIMER, Interval_Timer);
 ALTERA_AVALON_TIMER_INSTANCE ( INTERVAL_TIMER_2, Interval_Timer_2);
 ALTERA_MODULAR_ADC_INSTANCE ( JOYSTICK_ADC, JoyStick_ADC);
+ALTERA_UP_AVALON_ACCELEROMETER_SPI_INSTANCE ( ACCELEROMETER_SPI, Accelerometer_SPI);
 
 /*
  * Initialize the interrupt controller devices
@@ -101,4 +103,5 @@ void alt_sys_init( void )
     ALTERA_AVALON_JTAG_UART_INIT ( JTAG_UART, JTAG_UART);
     ALTERA_AVALON_SYSID_QSYS_INIT ( SYSID, SysID);
     ALTERA_MODULAR_ADC_INIT ( JOYSTICK_ADC, JoyStick_ADC);
+    ALTERA_UP_AVALON_ACCELEROMETER_SPI_INIT ( ACCELEROMETER_SPI, Accelerometer_SPI);
 }
