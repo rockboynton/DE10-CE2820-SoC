@@ -37,4 +37,9 @@ int acc_read_y();
  */ 
 int acc_read_z();
 
+/**
+ * Sets the servo position to compensate for the accelerometer reading.
+ */ 
+void acc_steady_servo();
+
 #endif /* ACCELEROMETER_H_ */
