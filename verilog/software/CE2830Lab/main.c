@@ -42,7 +42,8 @@ int main(){
 			*HEX4HEX5 = (*HEX4HEX5&0x0000)|(ASCII_to_7Seg('0')<< 8);
 			num_to_7Seg(read_channel2());
 		}
-		read_joystick();
+		//read_joystick();
+		acc_steady_servo();
 		printf("X: %d\n", acc_read_x());
 		printf("Y: %d\n", acc_read_y());
 		printf("Z: %d\n", acc_read_z());
