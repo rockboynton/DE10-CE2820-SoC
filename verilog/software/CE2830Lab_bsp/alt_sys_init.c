@@ -4,7 +4,7 @@
  * Machine generated for CPU 'Nios2' in SOPC Builder design 'Computer_System'
  * SOPC Builder design path: ../../Computer_System.sopcinfo
  *
- * Generated: Wed Apr 10 12:10:17 CDT 2019
+ * Generated: Tue Apr 30 16:02:56 CDT 2019
  */
 
 /*
@@ -59,6 +59,7 @@
  */
 
 #include "altera_nios2_gen2_irq.h"
+#include "altera_avalon_i2c.h"
 #include "altera_avalon_jtag_uart.h"
 #include "altera_avalon_sysid_qsys.h"
 #include "altera_avalon_timer.h"
@@ -70,6 +71,7 @@
  */
 
 ALTERA_NIOS2_GEN2_IRQ_INSTANCE ( NIOS2, Nios2);
+ALTERA_AVALON_I2C_INSTANCE ( CAMERA_I2C, camera_i2c);
 ALTERA_AVALON_JTAG_UART_INSTANCE ( JTAG_UART, JTAG_UART);
 ALTERA_AVALON_SYSID_QSYS_INSTANCE ( SYSID, SysID);
 ALTERA_AVALON_TIMER_INSTANCE ( INTERVAL_TIMER, Interval_Timer);
@@ -100,6 +102,7 @@ void alt_sys_init( void )
 {
     ALTERA_AVALON_TIMER_INIT ( INTERVAL_TIMER, Interval_Timer);
     ALTERA_AVALON_TIMER_INIT ( INTERVAL_TIMER_2, Interval_Timer_2);
+    ALTERA_AVALON_I2C_INIT ( CAMERA_I2C, camera_i2c);
     ALTERA_AVALON_JTAG_UART_INIT ( JTAG_UART, JTAG_UART);
     ALTERA_AVALON_SYSID_QSYS_INIT ( SYSID, SysID);
     ALTERA_MODULAR_ADC_INIT ( JOYSTICK_ADC, JoyStick_ADC);

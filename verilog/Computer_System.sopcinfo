@@ -5,11 +5,11 @@
  version="1.0"
  fabric="QSYS">
  <!-- Format version 17.0 602 (Future versions may contain additional information.) -->
- <!-- 2019.04.29.13:34:56 -->
+ <!-- 2019.04.30.16:15:55 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
-  <value>1556562896</value>
+  <value>1556658953</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -15403,7 +15403,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="internalIrqMaskSystemInfo">
    <type>long</type>
-   <value>10503</value>
+   <value>10511</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -16490,6 +16490,13 @@ parameters are a RESULT of the module parameters. -->
     <width>32</width>
     <role>irq</role>
    </port>
+   <interrupt>
+    <isBridge>false</isBridge>
+    <moduleName>camera_i2c</moduleName>
+    <slaveName>interrupt_sender</slaveName>
+    <name>camera_i2c.interrupt_sender</name>
+    <interruptNumber>3</interruptNumber>
+   </interrupt>
    <interrupt>
     <isBridge>false</isBridge>
     <moduleName>Pushbuttons</moduleName>
@@ -21225,7 +21232,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.TIMESTAMP</name>
-   <value>1556562896</value>
+   <value>1556658953</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.compatible</name>
@@ -21245,7 +21252,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.dts.params.timestamp</name>
-   <value>1556562896</value>
+   <value>1556658953</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.vendor</name>
@@ -21261,7 +21268,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="timestamp">
    <type>int</type>
-   <value>1556562896</value>
+   <value>1556658953</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -27528,6 +27535,41 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>locked_conduit</endConnectionPoint>
  </connection>
  <connection
+   name="Nios2.irq/camera_i2c.interrupt_sender"
+   kind="interrupt"
+   version="17.0"
+   start="Nios2.irq"
+   end="camera_i2c.interrupt_sender">
+  <parameter name="irqNumber">
+   <type>int</type>
+   <value>3</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>Nios2</startModule>
+  <startConnectionPoint>irq</startConnectionPoint>
+  <endModule>camera_i2c</endModule>
+  <endConnectionPoint>interrupt_sender</endConnectionPoint>
+ </connection>
+ <connection
    name="Nios2.irq/Pushbuttons.irq"
    kind="interrupt"
    version="17.0"
@@ -28650,7 +28692,7 @@ parameters are a RESULT of the module parameters. -->
   <version>17.0</version>
  </plugin>
  <plugin>
-  <instanceCount>6</instanceCount>
+  <instanceCount>7</instanceCount>
   <name>interrupt</name>
   <type>com.altera.entityinterfaces.IElementClass</type>
   <subtype>com.altera.entityinterfaces.IConnection</subtype>

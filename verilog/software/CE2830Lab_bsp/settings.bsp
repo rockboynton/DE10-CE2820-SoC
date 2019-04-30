@@ -2,9 +2,9 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Apr 23, 2019 12:40:09 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1556041209039</BspGeneratedUnixTimeStamp>
-        <BspGeneratedLocation>C:\intelFPGA_lite\17.0\University_Program\Computer_Systems\DE10-Lite\DE10-CE2820-SoC\verilog\software\CE2830Lab_bsp</BspGeneratedLocation>
+        <BspGeneratedTimeStamp>Apr 30, 2019 4:30:44 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1556659844502</BspGeneratedUnixTimeStamp>
+        <BspGeneratedLocation>C:\Users\schillingdl\Documents\GitHub\DE10-CE2820-SoC\verilog\software\CE2830Lab_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\Computer_System.sopcinfo</SopcDesignFile>
         <JdiFile>default</JdiFile>
@@ -962,6 +962,12 @@
                 <slaveDescriptor>Accelerometer_SPI</slaveDescriptor>
                 <addressRange>0xFF2000B0 - 0xFF2000B1</addressRange>
                 <addressSpan>2</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>camera_i2c</slaveDescriptor>
+                <addressRange>0xFF2000C0 - 0xFF2000FF</addressRange>
+                <addressSpan>64</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>

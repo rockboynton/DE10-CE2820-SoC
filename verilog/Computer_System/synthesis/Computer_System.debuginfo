@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="Computer_System" kind="system" version="17.0" fabric="QSYS">
  <!-- Format version 17.0 602 (Future versions may contain additional information.) -->
- <!-- 2019.04.29.13:36:07 -->
+ <!-- 2019.04.30.16:17:21 -->
  <!-- A collection of modules and connections -->
  <parameter name="clockCrossingAdapter">
   <type>com.altera.sopcmodel.ensemble.EClockAdapter</type>
@@ -53,7 +53,7 @@
  </parameter>
  <parameter name="generationId">
   <type>int</type>
-  <value>1556562896</value>
+  <value>1556658953</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>true</visible>
@@ -15303,7 +15303,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="internalIrqMaskSystemInfo">
    <type>long</type>
-   <value>10503</value>
+   <value>10511</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -20906,7 +20906,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.TIMESTAMP</name>
-   <value>1556562896</value>
+   <value>1556658953</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.compatible</name>
@@ -20926,7 +20926,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.dts.params.timestamp</name>
-   <value>1556562896</value>
+   <value>1556658953</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.vendor</name>
@@ -20942,7 +20942,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="timestamp">
    <type>int</type>
-   <value>1556562896</value>
+   <value>1556658953</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -34745,7 +34745,7 @@ parameters are a RESULT of the module parameters. -->
 the requested settings for a module instance. -->
   <parameter name="NUM_RCVRS">
    <type>int</type>
-   <value>6</value>
+   <value>7</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -34761,7 +34761,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="IRQ_MAP">
    <type>java.lang.String</type>
-   <value>0:1,1:11,2:13,3:8,4:0,5:2</value>
+   <value>0:3,1:1,2:11,3:13,4:8,5:0,6:2</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -34953,9 +34953,9 @@ parameters are a RESULT of the module parameters. -->
    </port>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>Pushbuttons</moduleName>
-    <slaveName>irq</slaveName>
-    <name>Pushbuttons.irq</name>
+    <moduleName>camera_i2c</moduleName>
+    <slaveName>interrupt_sender</slaveName>
+    <name>camera_i2c.interrupt_sender</name>
     <interruptNumber>0</interruptNumber>
    </interrupt>
   </interface>
@@ -35029,9 +35029,9 @@ parameters are a RESULT of the module parameters. -->
    </port>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>Expansion_JP1</moduleName>
+    <moduleName>Pushbuttons</moduleName>
     <slaveName>irq</slaveName>
-    <name>Expansion_JP1.irq</name>
+    <name>Pushbuttons.irq</name>
     <interruptNumber>0</interruptNumber>
    </interrupt>
   </interface>
@@ -35105,9 +35105,9 @@ parameters are a RESULT of the module parameters. -->
    </port>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>Arduino_GPIO</moduleName>
+    <moduleName>Expansion_JP1</moduleName>
     <slaveName>irq</slaveName>
-    <name>Arduino_GPIO.irq</name>
+    <name>Expansion_JP1.irq</name>
     <interruptNumber>0</interruptNumber>
    </interrupt>
   </interface>
@@ -35181,9 +35181,9 @@ parameters are a RESULT of the module parameters. -->
    </port>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>JTAG_UART</moduleName>
+    <moduleName>Arduino_GPIO</moduleName>
     <slaveName>irq</slaveName>
-    <name>JTAG_UART.irq</name>
+    <name>Arduino_GPIO.irq</name>
     <interruptNumber>0</interruptNumber>
    </interrupt>
   </interface>
@@ -35257,9 +35257,9 @@ parameters are a RESULT of the module parameters. -->
    </port>
    <interrupt>
     <isBridge>false</isBridge>
-    <moduleName>Interval_Timer</moduleName>
+    <moduleName>JTAG_UART</moduleName>
     <slaveName>irq</slaveName>
-    <name>Interval_Timer.irq</name>
+    <name>JTAG_UART.irq</name>
     <interruptNumber>0</interruptNumber>
    </interrupt>
   </interface>
@@ -35327,6 +35327,82 @@ parameters are a RESULT of the module parameters. -->
    <isStart>true</isStart>
    <port>
     <name>receiver5_irq</name>
+    <direction>Input</direction>
+    <width>1</width>
+    <role>irq</role>
+   </port>
+   <interrupt>
+    <isBridge>false</isBridge>
+    <moduleName>Interval_Timer</moduleName>
+    <slaveName>irq</slaveName>
+    <name>Interval_Timer.irq</name>
+    <interruptNumber>0</interruptNumber>
+   </interrupt>
+  </interface>
+  <interface name="receiver6" kind="interrupt_receiver" version="17.0">
+   <!-- The connection points exposed by a module instance for the
+particular module parameters. Connection points and their
+parameters are a RESULT of the module parameters. -->
+   <parameter name="associatedAddressablePoint">
+    <type>com.altera.entityinterfaces.IConnectionPoint</type>
+    <value></value>
+    <derived>false</derived>
+    <enabled>true</enabled>
+    <visible>true</visible>
+    <valid>true</valid>
+   </parameter>
+   <parameter name="associatedClock">
+    <type>java.lang.String</type>
+    <value>clk</value>
+    <derived>false</derived>
+    <enabled>true</enabled>
+    <visible>false</visible>
+    <valid>true</valid>
+   </parameter>
+   <parameter name="associatedReset">
+    <type>java.lang.String</type>
+    <value>clk_reset</value>
+    <derived>false</derived>
+    <enabled>true</enabled>
+    <visible>false</visible>
+    <valid>true</valid>
+   </parameter>
+   <parameter name="irqMap">
+    <type>java.lang.String</type>
+    <value></value>
+    <derived>false</derived>
+    <enabled>true</enabled>
+    <visible>false</visible>
+    <valid>true</valid>
+   </parameter>
+   <parameter name="irqScheme">
+    <type>com.altera.sopcmodel.interrupt.InterruptConnectionPoint$EIrqScheme</type>
+    <value>INDIVIDUAL_REQUESTS</value>
+    <derived>false</derived>
+    <enabled>true</enabled>
+    <visible>true</visible>
+    <valid>true</valid>
+   </parameter>
+   <parameter name="deviceFamily">
+    <type>java.lang.String</type>
+    <value>UNKNOWN</value>
+    <derived>false</derived>
+    <enabled>true</enabled>
+    <visible>true</visible>
+    <valid>true</valid>
+   </parameter>
+   <parameter name="generateLegacySim">
+    <type>boolean</type>
+    <value>false</value>
+    <derived>false</derived>
+    <enabled>true</enabled>
+    <visible>true</visible>
+    <valid>true</valid>
+   </parameter>
+   <type>interrupt</type>
+   <isStart>true</isStart>
+   <port>
+    <name>receiver6_irq</name>
     <direction>Input</direction>
     <width>1</width>
     <role>irq</role>
@@ -39162,11 +39238,11 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>s2</endConnectionPoint>
  </connection>
  <connection
-   name="irq_mapper.receiver0/Pushbuttons.irq"
+   name="irq_mapper.receiver0/camera_i2c.interrupt_sender"
    kind="interrupt"
    version="17.0"
    start="irq_mapper.receiver0"
-   end="Pushbuttons.irq">
+   end="camera_i2c.interrupt_sender">
   <parameter name="irqNumber">
    <type>int</type>
    <value>0</value>
@@ -39193,15 +39269,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>irq_mapper</startModule>
   <startConnectionPoint>receiver0</startConnectionPoint>
-  <endModule>Pushbuttons</endModule>
-  <endConnectionPoint>irq</endConnectionPoint>
+  <endModule>camera_i2c</endModule>
+  <endConnectionPoint>interrupt_sender</endConnectionPoint>
  </connection>
  <connection
-   name="irq_mapper.receiver1/Expansion_JP1.irq"
+   name="irq_mapper.receiver1/Pushbuttons.irq"
    kind="interrupt"
    version="17.0"
    start="irq_mapper.receiver1"
-   end="Expansion_JP1.irq">
+   end="Pushbuttons.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>0</value>
@@ -39228,15 +39304,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>irq_mapper</startModule>
   <startConnectionPoint>receiver1</startConnectionPoint>
-  <endModule>Expansion_JP1</endModule>
+  <endModule>Pushbuttons</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="irq_mapper.receiver2/Arduino_GPIO.irq"
+   name="irq_mapper.receiver2/Expansion_JP1.irq"
    kind="interrupt"
    version="17.0"
    start="irq_mapper.receiver2"
-   end="Arduino_GPIO.irq">
+   end="Expansion_JP1.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>0</value>
@@ -39263,15 +39339,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>irq_mapper</startModule>
   <startConnectionPoint>receiver2</startConnectionPoint>
-  <endModule>Arduino_GPIO</endModule>
+  <endModule>Expansion_JP1</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="irq_mapper.receiver3/JTAG_UART.irq"
+   name="irq_mapper.receiver3/Arduino_GPIO.irq"
    kind="interrupt"
    version="17.0"
    start="irq_mapper.receiver3"
-   end="JTAG_UART.irq">
+   end="Arduino_GPIO.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>0</value>
@@ -39298,15 +39374,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>irq_mapper</startModule>
   <startConnectionPoint>receiver3</startConnectionPoint>
-  <endModule>JTAG_UART</endModule>
+  <endModule>Arduino_GPIO</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="irq_mapper.receiver4/Interval_Timer.irq"
+   name="irq_mapper.receiver4/JTAG_UART.irq"
    kind="interrupt"
    version="17.0"
    start="irq_mapper.receiver4"
-   end="Interval_Timer.irq">
+   end="JTAG_UART.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>0</value>
@@ -39333,15 +39409,15 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>irq_mapper</startModule>
   <startConnectionPoint>receiver4</startConnectionPoint>
-  <endModule>Interval_Timer</endModule>
+  <endModule>JTAG_UART</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
  <connection
-   name="irq_mapper.receiver5/Interval_Timer_2.irq"
+   name="irq_mapper.receiver5/Interval_Timer.irq"
    kind="interrupt"
    version="17.0"
    start="irq_mapper.receiver5"
-   end="Interval_Timer_2.irq">
+   end="Interval_Timer.irq">
   <parameter name="irqNumber">
    <type>int</type>
    <value>0</value>
@@ -39368,6 +39444,41 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <startModule>irq_mapper</startModule>
   <startConnectionPoint>receiver5</startConnectionPoint>
+  <endModule>Interval_Timer</endModule>
+  <endConnectionPoint>irq</endConnectionPoint>
+ </connection>
+ <connection
+   name="irq_mapper.receiver6/Interval_Timer_2.irq"
+   kind="interrupt"
+   version="17.0"
+   start="irq_mapper.receiver6"
+   end="Interval_Timer_2.irq">
+  <parameter name="irqNumber">
+   <type>int</type>
+   <value>0</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>irq_mapper</startModule>
+  <startConnectionPoint>receiver6</startConnectionPoint>
   <endModule>Interval_Timer_2</endModule>
   <endConnectionPoint>irq</endConnectionPoint>
  </connection>
@@ -41020,7 +41131,7 @@ parameters are a RESULT of the module parameters. -->
   <version>17.0</version>
  </plugin>
  <plugin>
-  <instanceCount>7</instanceCount>
+  <instanceCount>8</instanceCount>
   <name>interrupt_receiver</name>
   <type>com.altera.entityinterfaces.IElementClass</type>
   <subtype>com.altera.entityinterfaces.IMutableConnectionPoint</subtype>
@@ -41196,7 +41307,7 @@ parameters are a RESULT of the module parameters. -->
   <version>17.0</version>
  </plugin>
  <plugin>
-  <instanceCount>7</instanceCount>
+  <instanceCount>8</instanceCount>
   <name>interrupt</name>
   <type>com.altera.entityinterfaces.IElementClass</type>
   <subtype>com.altera.entityinterfaces.IConnection</subtype>
@@ -41212,5 +41323,5 @@ parameters are a RESULT of the module parameters. -->
   <version>17.0</version>
  </plugin>
  <reportVersion>17.0 602</reportVersion>
- <uniqueIdentifier>F8633F500D7B0000016A6A611163</uniqueIdentifier>
+ <uniqueIdentifier>F8633F500D7B0000016A701AE2F2</uniqueIdentifier>
 </EnsembleReport>

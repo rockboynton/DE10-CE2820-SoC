@@ -4,7 +4,7 @@
  * Machine generated for CPU 'Nios2' in SOPC Builder design 'Computer_System'
  * SOPC Builder design path: ../../Computer_System.sopcinfo
  *
- * Generated: Wed Apr 10 12:10:17 CDT 2019
+ * Generated: Tue Apr 30 16:30:45 CDT 2019
  */
 
 /*
@@ -225,6 +225,7 @@
  *
  */
 
+#define __ALTERA_AVALON_I2C
 #define __ALTERA_AVALON_JTAG_UART
 #define __ALTERA_AVALON_NEW_SDRAM_CONTROLLER
 #define __ALTERA_AVALON_ONCHIP_MEMORY2
@@ -758,7 +759,7 @@
 #define SYSID_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define SYSID_NAME "/dev/SysID"
 #define SYSID_SPAN 8
-#define SYSID_TIMESTAMP 1554914251
+#define SYSID_TIMESTAMP 1556658953
 #define SYSID_TYPE "altera_avalon_sysid_qsys"
 
 
@@ -796,6 +797,23 @@
 #define ALT_STDOUT_PRESENT
 #define ALT_STDOUT_TYPE "altera_avalon_jtag_uart"
 #define ALT_SYSTEM_NAME "Computer_System"
+
+
+/*
+ * camera_i2c configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_camera_i2c altera_avalon_i2c
+#define CAMERA_I2C_BASE 0xff2000c0
+#define CAMERA_I2C_FIFO_DEPTH 8
+#define CAMERA_I2C_FREQ 100000000
+#define CAMERA_I2C_IRQ 3
+#define CAMERA_I2C_IRQ_INTERRUPT_CONTROLLER_ID 0
+#define CAMERA_I2C_NAME "/dev/camera_i2c"
+#define CAMERA_I2C_SPAN 64
+#define CAMERA_I2C_TYPE "altera_avalon_i2c"
+#define CAMERA_I2C_USE_AV_ST 0
 
 
 /*

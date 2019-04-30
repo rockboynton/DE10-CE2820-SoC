@@ -1082,7 +1082,7 @@
   <parameter name="instruction_master_high_performance_paddr_size" value="0" />
   <parameter name="instruction_master_paddr_base" value="0" />
   <parameter name="instruction_master_paddr_size" value="0" />
-  <parameter name="internalIrqMaskSystemInfo" value="10503" />
+  <parameter name="internalIrqMaskSystemInfo" value="10511" />
   <parameter name="io_regionbase" value="0" />
   <parameter name="io_regionsize" value="0" />
   <parameter name="master_addr_map" value="false" />
@@ -1927,6 +1927,13 @@
   <parameter name="startPort" value="" />
   <parameter name="startPortLSB" value="0" />
   <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="interrupt"
+   version="17.0"
+   start="Nios2.irq"
+   end="camera_i2c.interrupt_sender">
+  <parameter name="irqNumber" value="3" />
  </connection>
  <connection
    kind="interrupt"

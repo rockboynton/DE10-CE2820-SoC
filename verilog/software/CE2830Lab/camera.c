@@ -11,12 +11,14 @@ static volatile CAMERA* camera = (alt_u32*) CAM_BASE;
 
 void cam_init() {
     // TODO
+	//turn disable peripheral core
+	camera->CTRL &= 0xFFFFFFFE;
 	//set to standard transfer mode
 	camera->CTRL &= 0xFFFFFFFD;
-	//enable peripheral core
-	camera->CTRL |= 0b1;
 	//enable rx and tx interrupts
 	camera->ISER |= 0x3;
+	//enable peripheral core
+	camera->CTRL |= 0b1;
 }
 
 void cam_setReg(alt_u32* cmd) {
@@ -61,7 +63,7 @@ alt_u8 cam_read_data(int addr){
 	//specify address (shift for write bit)
 	camera->TFR_CMD = addr<<1;
 	//stop transmit
-	camera->TFR_CMD |= 1<<8;
+	//camera->TFR_CMD |= 1<<8;
 	//do i need to restart transmit here? doc's just stay stop
 	camera->TFR_CMD |= 1<<9;
 	//wait for transmit ready

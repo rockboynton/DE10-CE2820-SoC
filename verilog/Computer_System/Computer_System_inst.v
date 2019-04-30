@@ -5,6 +5,10 @@
 		.acceleromter_control_G_SENSOR_INT  (<connected-to-acceleromter_control_G_SENSOR_INT>),  //                     .G_SENSOR_INT
 		.arduino_gpio_export                (<connected-to-arduino_gpio_export>),                //         arduino_gpio.export
 		.arduino_reset_n_export             (<connected-to-arduino_reset_n_export>),             //      arduino_reset_n.export
+		.camera_control_sda_in              (<connected-to-camera_control_sda_in>),              //       camera_control.sda_in
+		.camera_control_scl_in              (<connected-to-camera_control_scl_in>),              //                     .scl_in
+		.camera_control_sda_oe              (<connected-to-camera_control_sda_oe>),              //                     .sda_oe
+		.camera_control_scl_oe              (<connected-to-camera_control_scl_oe>),              //                     .scl_oe
 		.expansion_jp1_export               (<connected-to-expansion_jp1_export>),               //        expansion_jp1.export
 		.hex3_hex0_export                   (<connected-to-hex3_hex0_export>),                   //            hex3_hex0.export
 		.hex5_hex4_export                   (<connected-to-hex5_hex4_export>),                   //            hex5_hex4.export
@@ -24,10 +28,6 @@
 		.servo_2_control_export             (<connected-to-servo_2_control_export>),             //      servo_2_control.export
 		.slider_switches_export             (<connected-to-slider_switches_export>),             //      slider_switches.export
 		.system_pll_ref_clk_clk             (<connected-to-system_pll_ref_clk_clk>),             //   system_pll_ref_clk.clk
-		.system_pll_ref_reset_reset         (<connected-to-system_pll_ref_reset_reset>),         // system_pll_ref_reset.reset
-		.camera_control_sda_in              (<connected-to-camera_control_sda_in>),              //       camera_control.sda_in
-		.camera_control_scl_in              (<connected-to-camera_control_scl_in>),              //                     .scl_in
-		.camera_control_sda_oe              (<connected-to-camera_control_sda_oe>),              //                     .sda_oe
-		.camera_control_scl_oe              (<connected-to-camera_control_scl_oe>)               //                     .scl_oe
+		.system_pll_ref_reset_reset         (<connected-to-system_pll_ref_reset_reset>)          // system_pll_ref_reset.reset
 	);
 

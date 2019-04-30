@@ -12,6 +12,7 @@
 #include "adc.h"
 #include "CommonRegisters.h"
 #include "accelerometer.h"
+#include "camera.h"
 
 /**
  * 0: main program
@@ -27,10 +28,11 @@ int main(){
   clearSevenSegs();
   //initalize ADC
   adc_init();
+  cam_init();
+  cam_write_data(0x01,0x40);
 
   //main loop
   while(1){
-
 
 	//determine if switch 0 is on or off. if on display channel 1
 	//else if off, display channel 2 on the hex display
@@ -44,9 +46,10 @@ int main(){
 		}
 		//read_joystick();
 		acc_steady_servo();
-		printf("X: %d\n", acc_read_x());
-		printf("Y: %d\n", acc_read_y());
-		printf("Z: %d\n", acc_read_z());
+		//printf("X: %d\n", acc_read_x());
+		//printf("Y: %d\n", acc_read_y());
+		//printf("Z: %d\n", acc_read_z());
+		printf("camera blue gain: %d\n", cam_read_data(0x01));
 		printf("\n");
 		delay_1ms(200);
 	}

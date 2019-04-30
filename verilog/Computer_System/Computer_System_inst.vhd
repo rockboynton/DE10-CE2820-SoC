@@ -6,6 +6,10 @@
 			acceleromter_control_G_SENSOR_INT  : in    std_logic                     := 'X';             -- G_SENSOR_INT
 			arduino_gpio_export                : inout std_logic_vector(15 downto 0) := (others => 'X'); -- export
 			arduino_reset_n_export             : out   std_logic;                                        -- export
+			camera_control_sda_in              : in    std_logic                     := 'X';             -- sda_in
+			camera_control_scl_in              : in    std_logic                     := 'X';             -- scl_in
+			camera_control_sda_oe              : out   std_logic;                                        -- sda_oe
+			camera_control_scl_oe              : out   std_logic;                                        -- scl_oe
 			expansion_jp1_export               : inout std_logic_vector(31 downto 0) := (others => 'X'); -- export
 			hex3_hex0_export                   : out   std_logic_vector(31 downto 0);                    -- export
 			hex5_hex4_export                   : out   std_logic_vector(15 downto 0);                    -- export
@@ -25,11 +29,7 @@
 			servo_2_control_export             : out   std_logic_vector(7 downto 0);                     -- export
 			slider_switches_export             : in    std_logic_vector(9 downto 0)  := (others => 'X'); -- export
 			system_pll_ref_clk_clk             : in    std_logic                     := 'X';             -- clk
-			system_pll_ref_reset_reset         : in    std_logic                     := 'X';             -- reset
-			camera_control_sda_in              : in    std_logic                     := 'X';             -- sda_in
-			camera_control_scl_in              : in    std_logic                     := 'X';             -- scl_in
-			camera_control_sda_oe              : out   std_logic;                                        -- sda_oe
-			camera_control_scl_oe              : out   std_logic                                         -- scl_oe
+			system_pll_ref_reset_reset         : in    std_logic                     := 'X'              -- reset
 		);
 	end component Computer_System;
 
@@ -41,6 +41,10 @@
 			acceleromter_control_G_SENSOR_INT  => CONNECTED_TO_acceleromter_control_G_SENSOR_INT,  --                     .G_SENSOR_INT
 			arduino_gpio_export                => CONNECTED_TO_arduino_gpio_export,                --         arduino_gpio.export
 			arduino_reset_n_export             => CONNECTED_TO_arduino_reset_n_export,             --      arduino_reset_n.export
+			camera_control_sda_in              => CONNECTED_TO_camera_control_sda_in,              --       camera_control.sda_in
+			camera_control_scl_in              => CONNECTED_TO_camera_control_scl_in,              --                     .scl_in
+			camera_control_sda_oe              => CONNECTED_TO_camera_control_sda_oe,              --                     .sda_oe
+			camera_control_scl_oe              => CONNECTED_TO_camera_control_scl_oe,              --                     .scl_oe
 			expansion_jp1_export               => CONNECTED_TO_expansion_jp1_export,               --        expansion_jp1.export
 			hex3_hex0_export                   => CONNECTED_TO_hex3_hex0_export,                   --            hex3_hex0.export
 			hex5_hex4_export                   => CONNECTED_TO_hex5_hex4_export,                   --            hex5_hex4.export
@@ -60,10 +64,6 @@
 			servo_2_control_export             => CONNECTED_TO_servo_2_control_export,             --      servo_2_control.export
 			slider_switches_export             => CONNECTED_TO_slider_switches_export,             --      slider_switches.export
 			system_pll_ref_clk_clk             => CONNECTED_TO_system_pll_ref_clk_clk,             --   system_pll_ref_clk.clk
-			system_pll_ref_reset_reset         => CONNECTED_TO_system_pll_ref_reset_reset,         -- system_pll_ref_reset.reset
-			camera_control_sda_in              => CONNECTED_TO_camera_control_sda_in,              --       camera_control.sda_in
-			camera_control_scl_in              => CONNECTED_TO_camera_control_scl_in,              --                     .scl_in
-			camera_control_sda_oe              => CONNECTED_TO_camera_control_sda_oe,              --                     .sda_oe
-			camera_control_scl_oe              => CONNECTED_TO_camera_control_scl_oe               --                     .scl_oe
+			system_pll_ref_reset_reset         => CONNECTED_TO_system_pll_ref_reset_reset          -- system_pll_ref_reset.reset
 		);
 

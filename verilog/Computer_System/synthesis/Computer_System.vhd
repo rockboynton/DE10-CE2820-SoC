@@ -754,6 +754,7 @@ architecture rtl of Computer_System is
 			receiver3_irq : in  std_logic                     := 'X'; -- irq
 			receiver4_irq : in  std_logic                     := 'X'; -- irq
 			receiver5_irq : in  std_logic                     := 'X'; -- irq
+			receiver6_irq : in  std_logic                     := 'X'; -- irq
 			sender_irq    : out std_logic_vector(31 downto 0)         -- irq
 		);
 	end component Computer_System_irq_mapper;
@@ -1165,12 +1166,13 @@ architecture rtl of Computer_System is
 	signal mm_interconnect_0_onchip_sram_s2_write                                              : std_logic;                     -- mm_interconnect_0:Onchip_SRAM_s2_write -> Onchip_SRAM:write2
 	signal mm_interconnect_0_onchip_sram_s2_writedata                                          : std_logic_vector(31 downto 0); -- mm_interconnect_0:Onchip_SRAM_s2_writedata -> Onchip_SRAM:writedata2
 	signal mm_interconnect_0_onchip_sram_s2_clken                                              : std_logic;                     -- mm_interconnect_0:Onchip_SRAM_s2_clken -> Onchip_SRAM:clken2
-	signal irq_mapper_receiver0_irq                                                            : std_logic;                     -- Pushbuttons:irq -> irq_mapper:receiver0_irq
-	signal irq_mapper_receiver1_irq                                                            : std_logic;                     -- Expansion_JP1:irq -> irq_mapper:receiver1_irq
-	signal irq_mapper_receiver2_irq                                                            : std_logic;                     -- Arduino_GPIO:irq -> irq_mapper:receiver2_irq
-	signal irq_mapper_receiver3_irq                                                            : std_logic;                     -- JTAG_UART:av_irq -> irq_mapper:receiver3_irq
-	signal irq_mapper_receiver4_irq                                                            : std_logic;                     -- Interval_Timer:irq -> irq_mapper:receiver4_irq
-	signal irq_mapper_receiver5_irq                                                            : std_logic;                     -- Interval_Timer_2:irq -> irq_mapper:receiver5_irq
+	signal irq_mapper_receiver0_irq                                                            : std_logic;                     -- camera_i2c:intr -> irq_mapper:receiver0_irq
+	signal irq_mapper_receiver1_irq                                                            : std_logic;                     -- Pushbuttons:irq -> irq_mapper:receiver1_irq
+	signal irq_mapper_receiver2_irq                                                            : std_logic;                     -- Expansion_JP1:irq -> irq_mapper:receiver2_irq
+	signal irq_mapper_receiver3_irq                                                            : std_logic;                     -- Arduino_GPIO:irq -> irq_mapper:receiver3_irq
+	signal irq_mapper_receiver4_irq                                                            : std_logic;                     -- JTAG_UART:av_irq -> irq_mapper:receiver4_irq
+	signal irq_mapper_receiver5_irq                                                            : std_logic;                     -- Interval_Timer:irq -> irq_mapper:receiver5_irq
+	signal irq_mapper_receiver6_irq                                                            : std_logic;                     -- Interval_Timer_2:irq -> irq_mapper:receiver6_irq
 	signal nios2_irq_irq                                                                       : std_logic_vector(31 downto 0); -- irq_mapper:sender_irq -> Nios2:irq
 	signal rst_controller_reset_out_reset                                                      : std_logic;                     -- rst_controller:reset_out -> [ADC_PLL:reset, Accelerometer_SPI:reset, Onchip_SRAM:reset, mm_interconnect_0:Accelerometer_SPI_reset_reset_bridge_in_reset_reset, mm_interconnect_0:JTAG_to_FPGA_Bridge_clk_reset_reset_bridge_in_reset_reset, rst_controller_reset_out_reset:in, rst_translator:in_reset]
 	signal rst_controller_reset_out_reset_req                                                  : std_logic;                     -- rst_controller:reset_req -> [Onchip_SRAM:reset_req, rst_translator:reset_req_in]
@@ -1255,7 +1257,7 @@ begin
 			chipselect => mm_interconnect_0_arduino_gpio_s1_chipselect,      --                    .chipselect
 			readdata   => mm_interconnect_0_arduino_gpio_s1_readdata,        --                    .readdata
 			bidir_port => arduino_gpio_export,                               -- external_connection.export
-			irq        => irq_mapper_receiver2_irq                           --                 irq.irq
+			irq        => irq_mapper_receiver3_irq                           --                 irq.irq
 		);
 
 	arduino_reset_n : component Computer_System_Arduino_Reset_N
@@ -1280,7 +1282,7 @@ begin
 			chipselect => mm_interconnect_0_expansion_jp1_s1_chipselect,      --                    .chipselect
 			readdata   => mm_interconnect_0_expansion_jp1_s1_readdata,        --                    .readdata
 			bidir_port => expansion_jp1_export,                               -- external_connection.export
-			irq        => irq_mapper_receiver1_irq                            --                 irq.irq
+			irq        => irq_mapper_receiver2_irq                            --                 irq.irq
 		);
 
 	hex3_hex0 : component Computer_System_HEX3_HEX0
@@ -1316,7 +1318,7 @@ begin
 			readdata   => mm_interconnect_0_interval_timer_s1_readdata,        --      .readdata
 			chipselect => mm_interconnect_0_interval_timer_s1_chipselect,      --      .chipselect
 			write_n    => mm_interconnect_0_interval_timer_s1_write_ports_inv, --      .write_n
-			irq        => irq_mapper_receiver4_irq                             --   irq.irq
+			irq        => irq_mapper_receiver5_irq                             --   irq.irq
 		);
 
 	interval_timer_2 : component Computer_System_Interval_Timer
@@ -1328,7 +1330,7 @@ begin
 			readdata   => mm_interconnect_0_interval_timer_2_s1_readdata,        --      .readdata
 			chipselect => mm_interconnect_0_interval_timer_2_s1_chipselect,      --      .chipselect
 			write_n    => mm_interconnect_0_interval_timer_2_s1_write_ports_inv, --      .write_n
-			irq        => irq_mapper_receiver5_irq                               --   irq.irq
+			irq        => irq_mapper_receiver6_irq                               --   irq.irq
 		);
 
 	jtag_uart : component Computer_System_JTAG_UART
@@ -1342,7 +1344,7 @@ begin
 			av_write_n     => mm_interconnect_0_jtag_uart_avalon_jtag_slave_write_ports_inv, --                  .write_n
 			av_writedata   => mm_interconnect_0_jtag_uart_avalon_jtag_slave_writedata,       --                  .writedata
 			av_waitrequest => mm_interconnect_0_jtag_uart_avalon_jtag_slave_waitrequest,     --                  .waitrequest
-			av_irq         => irq_mapper_receiver3_irq                                       --               irq.irq
+			av_irq         => irq_mapper_receiver4_irq                                       --               irq.irq
 		);
 
 	jtag_to_fpga_bridge : component Computer_System_JTAG_to_FPGA_Bridge
@@ -1493,7 +1495,7 @@ begin
 			chipselect => mm_interconnect_0_pushbuttons_s1_chipselect,      --                    .chipselect
 			readdata   => mm_interconnect_0_pushbuttons_s1_readdata,        --                    .readdata
 			in_port    => pushbuttons_export,                               -- external_connection.export
-			irq        => irq_mapper_receiver0_irq                          --                 irq.irq
+			irq        => irq_mapper_receiver1_irq                          --                 irq.irq
 		);
 
 	sdram : component Computer_System_SDRAM
@@ -1555,7 +1557,7 @@ begin
 		port map (
 			clk       => system_pll_sys_clk_clk,                     --            clock.clk
 			rst_n     => rst_controller_reset_out_reset_ports_inv,   --       reset_sink.reset_n
-			intr      => open,                                       -- interrupt_sender.irq
+			intr      => irq_mapper_receiver0_irq,                   -- interrupt_sender.irq
 			addr      => mm_interconnect_0_camera_i2c_csr_address,   --              csr.address
 			read      => mm_interconnect_0_camera_i2c_csr_read,      --                 .read
 			write     => mm_interconnect_0_camera_i2c_csr_write,     --                 .write
@@ -1909,6 +1911,7 @@ begin
 			receiver3_irq => irq_mapper_receiver3_irq,           -- receiver3.irq
 			receiver4_irq => irq_mapper_receiver4_irq,           -- receiver4.irq
 			receiver5_irq => irq_mapper_receiver5_irq,           -- receiver5.irq
+			receiver6_irq => irq_mapper_receiver6_irq,           -- receiver6.irq
 			sender_irq    => nios2_irq_irq                       --    sender.irq
 		);
 

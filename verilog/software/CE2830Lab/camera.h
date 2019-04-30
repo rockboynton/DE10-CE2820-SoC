@@ -15,12 +15,6 @@
 #define BLUE_GAIN_REG = 0x01
 #define BLUE_GAIN_DEFAULT_VAL = 0x80;
 
-typedef struct{
-	alt_u32 slot0;
-	alt_u32 slot1;
-	alt_u32 slot2;
-} ADC_SAMPLE_STORE;
-
 typedef struct {
     alt_u32 TFR_CMD;            // Transfer command FIFO
     alt_u32 RX_DATA;            // Receive data FIFO
