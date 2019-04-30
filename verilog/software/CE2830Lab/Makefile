@@ -148,6 +148,7 @@ C_SRCS += delay.c
 C_SRCS += main.c
 C_SRCS += adc.c
 C_SRCS += accelerometer.c
+C_SRCS += camera.c
 CXX_SRCS :=
 ASM_SRCS :=
 
