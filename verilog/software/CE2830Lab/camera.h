@@ -12,6 +12,9 @@
 
 #define CAM_BASE 0xFF2000C0
 
+#define BLUE_GAIN_REG = 0x01
+#define BLUE_GAIN_DEFAULT_VAL = 0x80;
+
 typedef struct{
 	alt_u32 slot0;
 	alt_u32 slot1;
@@ -46,6 +49,17 @@ void cam_setReg(alt_u32* cmd);
  * Gets the current register value from the camera
  */
 alt_u32 cam_getReg();
+
+/**
+ * Writes data to the camera address though i2c.
+ */
+void cam_write_data(int addr, int data);
+
+/**
+ * Reads data from the camera at the supplied address
+ * through the i2c.
+ */
+alt_u8 cam_read_data(int addr);
 
 
 
