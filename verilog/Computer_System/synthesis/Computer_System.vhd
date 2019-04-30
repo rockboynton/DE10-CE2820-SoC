@@ -14,6 +14,10 @@ entity Computer_System is
 		acceleromter_control_G_SENSOR_INT  : in    std_logic                     := '0';             --                     .G_SENSOR_INT
 		arduino_gpio_export                : inout std_logic_vector(15 downto 0) := (others => '0'); --         arduino_gpio.export
 		arduino_reset_n_export             : out   std_logic;                                        --      arduino_reset_n.export
+		camera_control_sda_in              : in    std_logic                     := '0';             --       camera_control.sda_in
+		camera_control_scl_in              : in    std_logic                     := '0';             --                     .scl_in
+		camera_control_sda_oe              : out   std_logic;                                        --                     .sda_oe
+		camera_control_scl_oe              : out   std_logic;                                        --                     .scl_oe
 		expansion_jp1_export               : inout std_logic_vector(31 downto 0) := (others => '0'); --        expansion_jp1.export
 		hex3_hex0_export                   : out   std_logic_vector(31 downto 0);                    --            hex3_hex0.export
 		hex5_hex4_export                   : out   std_logic_vector(15 downto 0);                    --            hex5_hex4.export
@@ -393,6 +397,34 @@ architecture rtl of Computer_System is
 		);
 	end component Computer_System_System_PLL;
 
+	component altera_avalon_i2c is
+		generic (
+			USE_AV_ST       : integer := 0;
+			FIFO_DEPTH      : integer := 4;
+			FIFO_DEPTH_LOG2 : integer := 2
+		);
+		port (
+			clk       : in  std_logic                     := 'X';             -- clk
+			rst_n     : in  std_logic                     := 'X';             -- reset_n
+			intr      : out std_logic;                                        -- irq
+			addr      : in  std_logic_vector(3 downto 0)  := (others => 'X'); -- address
+			read      : in  std_logic                     := 'X';             -- read
+			write     : in  std_logic                     := 'X';             -- write
+			writedata : in  std_logic_vector(31 downto 0) := (others => 'X'); -- writedata
+			readdata  : out std_logic_vector(31 downto 0);                    -- readdata
+			sda_in    : in  std_logic                     := 'X';             -- sda_in
+			scl_in    : in  std_logic                     := 'X';             -- scl_in
+			sda_oe    : out std_logic;                                        -- sda_oe
+			scl_oe    : out std_logic;                                        -- scl_oe
+			src_data  : out std_logic_vector(7 downto 0);                     -- data
+			src_valid : out std_logic;                                        -- valid
+			src_ready : in  std_logic                     := 'X';             -- ready
+			snk_data  : in  std_logic_vector(15 downto 0) := (others => 'X'); -- data
+			snk_valid : in  std_logic                     := 'X';             -- valid
+			snk_ready : out std_logic                                         -- ready
+		);
+	end component altera_avalon_i2c;
+
 	component Computer_System_servo_1 is
 		port (
 			clk        : in  std_logic                     := 'X';             -- clk
@@ -607,6 +639,11 @@ architecture rtl of Computer_System is
 			Arduino_Reset_N_s1_readdata                                       : in  std_logic_vector(31 downto 0) := (others => 'X'); -- readdata
 			Arduino_Reset_N_s1_writedata                                      : out std_logic_vector(31 downto 0);                    -- writedata
 			Arduino_Reset_N_s1_chipselect                                     : out std_logic;                                        -- chipselect
+			camera_i2c_csr_address                                            : out std_logic_vector(3 downto 0);                     -- address
+			camera_i2c_csr_write                                              : out std_logic;                                        -- write
+			camera_i2c_csr_read                                               : out std_logic;                                        -- read
+			camera_i2c_csr_readdata                                           : in  std_logic_vector(31 downto 0) := (others => 'X'); -- readdata
+			camera_i2c_csr_writedata                                          : out std_logic_vector(31 downto 0);                    -- writedata
 			Expansion_JP1_s1_address                                          : out std_logic_vector(1 downto 0);                     -- address
 			Expansion_JP1_s1_write                                            : out std_logic;                                        -- write
 			Expansion_JP1_s1_readdata                                         : in  std_logic_vector(31 downto 0) := (others => 'X'); -- readdata
@@ -920,7 +957,7 @@ architecture rtl of Computer_System is
 	end component computer_system_rst_controller_002;
 
 	signal adc_pll_c0_clk                                                                      : std_logic;                     -- ADC_PLL:c0 -> [JoyStick_ADC:adc_pll_clock_clk, JoyStick_ADC:clock_clk, mm_interconnect_0:ADC_PLL_c0_clk, rst_controller_001:clk]
-	signal system_pll_sys_clk_clk                                                              : std_logic;                     -- System_PLL:sys_clk_clk -> [ADC_PLL:clk, Accelerometer_SPI:clk, Arduino_GPIO:clk, Arduino_Reset_N:clk, Expansion_JP1:clk, HEX3_HEX0:clk, HEX5_HEX4:clk, Interval_Timer:clk, Interval_Timer_2:clk, JTAG_UART:clk, JTAG_to_FPGA_Bridge:clk_clk, LEDs:clk, Nios2:clk, Onchip_SRAM:clk, Pushbuttons:clk, SDRAM:clk, Slider_Switches:clk, SysID:clock, irq_mapper:clk, mm_interconnect_0:System_PLL_sys_clk_clk, rst_controller:clk, rst_controller_002:clk, servo_1:clk, servo_2:clk]
+	signal system_pll_sys_clk_clk                                                              : std_logic;                     -- System_PLL:sys_clk_clk -> [ADC_PLL:clk, Accelerometer_SPI:clk, Arduino_GPIO:clk, Arduino_Reset_N:clk, Expansion_JP1:clk, HEX3_HEX0:clk, HEX5_HEX4:clk, Interval_Timer:clk, Interval_Timer_2:clk, JTAG_UART:clk, JTAG_to_FPGA_Bridge:clk_clk, LEDs:clk, Nios2:clk, Onchip_SRAM:clk, Pushbuttons:clk, SDRAM:clk, Slider_Switches:clk, SysID:clock, camera_i2c:clk, irq_mapper:clk, mm_interconnect_0:System_PLL_sys_clk_clk, rst_controller:clk, rst_controller_002:clk, servo_1:clk, servo_2:clk]
 	signal adc_pll_locked_conduit_export                                                       : std_logic;                     -- ADC_PLL:locked -> JoyStick_ADC:adc_pll_locked_export
 	signal system_pll_reset_source_reset                                                       : std_logic;                     -- System_PLL:reset_source_reset -> [JTAG_to_FPGA_Bridge:clk_reset_reset, rst_controller:reset_in0, rst_controller_001:reset_in0, rst_controller_002:reset_in1]
 	signal nios2_custom_instruction_master_readra                                              : std_logic;                     -- Nios2:D_ci_readra -> Nios2_custom_instruction_master_translator:ci_slave_readra
@@ -1020,6 +1057,11 @@ architecture rtl of Computer_System is
 	signal mm_interconnect_0_jtag_uart_avalon_jtag_slave_writedata                             : std_logic_vector(31 downto 0); -- mm_interconnect_0:JTAG_UART_avalon_jtag_slave_writedata -> JTAG_UART:av_writedata
 	signal mm_interconnect_0_sysid_control_slave_readdata                                      : std_logic_vector(31 downto 0); -- SysID:readdata -> mm_interconnect_0:SysID_control_slave_readdata
 	signal mm_interconnect_0_sysid_control_slave_address                                       : std_logic_vector(0 downto 0);  -- mm_interconnect_0:SysID_control_slave_address -> SysID:address
+	signal mm_interconnect_0_camera_i2c_csr_readdata                                           : std_logic_vector(31 downto 0); -- camera_i2c:readdata -> mm_interconnect_0:camera_i2c_csr_readdata
+	signal mm_interconnect_0_camera_i2c_csr_address                                            : std_logic_vector(3 downto 0);  -- mm_interconnect_0:camera_i2c_csr_address -> camera_i2c:addr
+	signal mm_interconnect_0_camera_i2c_csr_read                                               : std_logic;                     -- mm_interconnect_0:camera_i2c_csr_read -> camera_i2c:read
+	signal mm_interconnect_0_camera_i2c_csr_write                                              : std_logic;                     -- mm_interconnect_0:camera_i2c_csr_write -> camera_i2c:write
+	signal mm_interconnect_0_camera_i2c_csr_writedata                                          : std_logic_vector(31 downto 0); -- mm_interconnect_0:camera_i2c_csr_writedata -> camera_i2c:writedata
 	signal mm_interconnect_0_nios2_debug_mem_slave_readdata                                    : std_logic_vector(31 downto 0); -- Nios2:debug_mem_slave_readdata -> mm_interconnect_0:Nios2_debug_mem_slave_readdata
 	signal mm_interconnect_0_nios2_debug_mem_slave_waitrequest                                 : std_logic;                     -- Nios2:debug_mem_slave_waitrequest -> mm_interconnect_0:Nios2_debug_mem_slave_waitrequest
 	signal mm_interconnect_0_nios2_debug_mem_slave_debugaccess                                 : std_logic;                     -- mm_interconnect_0:Nios2_debug_mem_slave_debugaccess -> Nios2:debug_mem_slave_debugaccess
@@ -1151,7 +1193,7 @@ architecture rtl of Computer_System is
 	signal mm_interconnect_0_interval_timer_2_s1_write_ports_inv                               : std_logic;                     -- mm_interconnect_0_interval_timer_2_s1_write:inv -> Interval_Timer_2:write_n
 	signal mm_interconnect_0_servo_1_s1_write_ports_inv                                        : std_logic;                     -- mm_interconnect_0_servo_1_s1_write:inv -> servo_1:write_n
 	signal mm_interconnect_0_servo_2_s1_write_ports_inv                                        : std_logic;                     -- mm_interconnect_0_servo_2_s1_write:inv -> servo_2:write_n
-	signal rst_controller_reset_out_reset_ports_inv                                            : std_logic;                     -- rst_controller_reset_out_reset:inv -> [Arduino_GPIO:reset_n, Arduino_Reset_N:reset_n, Expansion_JP1:reset_n, HEX3_HEX0:reset_n, HEX5_HEX4:reset_n, Interval_Timer:reset_n, Interval_Timer_2:reset_n, JTAG_UART:rst_n, LEDs:reset_n, Pushbuttons:reset_n, SDRAM:reset_n, Slider_Switches:reset_n, SysID:reset_n, servo_1:reset_n, servo_2:reset_n]
+	signal rst_controller_reset_out_reset_ports_inv                                            : std_logic;                     -- rst_controller_reset_out_reset:inv -> [Arduino_GPIO:reset_n, Arduino_Reset_N:reset_n, Expansion_JP1:reset_n, HEX3_HEX0:reset_n, HEX5_HEX4:reset_n, Interval_Timer:reset_n, Interval_Timer_2:reset_n, JTAG_UART:rst_n, LEDs:reset_n, Pushbuttons:reset_n, SDRAM:reset_n, Slider_Switches:reset_n, SysID:reset_n, camera_i2c:rst_n, servo_1:reset_n, servo_2:reset_n]
 	signal rst_controller_001_reset_out_reset_ports_inv                                        : std_logic;                     -- rst_controller_001_reset_out_reset:inv -> JoyStick_ADC:reset_sink_reset_n
 	signal rst_controller_002_reset_out_reset_ports_inv                                        : std_logic;                     -- rst_controller_002_reset_out_reset:inv -> Nios2:reset_n
 
@@ -1504,6 +1546,33 @@ begin
 			reset_source_reset => system_pll_reset_source_reset  -- reset_source.reset
 		);
 
+	camera_i2c : component altera_avalon_i2c
+		generic map (
+			USE_AV_ST       => 0,
+			FIFO_DEPTH      => 8,
+			FIFO_DEPTH_LOG2 => 3
+		)
+		port map (
+			clk       => system_pll_sys_clk_clk,                     --            clock.clk
+			rst_n     => rst_controller_reset_out_reset_ports_inv,   --       reset_sink.reset_n
+			intr      => open,                                       -- interrupt_sender.irq
+			addr      => mm_interconnect_0_camera_i2c_csr_address,   --              csr.address
+			read      => mm_interconnect_0_camera_i2c_csr_read,      --                 .read
+			write     => mm_interconnect_0_camera_i2c_csr_write,     --                 .write
+			writedata => mm_interconnect_0_camera_i2c_csr_writedata, --                 .writedata
+			readdata  => mm_interconnect_0_camera_i2c_csr_readdata,  --                 .readdata
+			sda_in    => camera_control_sda_in,                      --       i2c_serial.sda_in
+			scl_in    => camera_control_scl_in,                      --                 .scl_in
+			sda_oe    => camera_control_sda_oe,                      --                 .sda_oe
+			scl_oe    => camera_control_scl_oe,                      --                 .scl_oe
+			src_data  => open,                                       --      (terminated)
+			src_valid => open,                                       --      (terminated)
+			src_ready => '0',                                        --      (terminated)
+			snk_data  => "0000000000000000",                         --      (terminated)
+			snk_valid => '0',                                        --      (terminated)
+			snk_ready => open                                        --      (terminated)
+		);
+
 	servo_1 : component Computer_System_servo_1
 		port map (
 			clk        => system_pll_sys_clk_clk,                       --                 clk.clk
@@ -1726,6 +1795,11 @@ begin
 			Arduino_Reset_N_s1_readdata                                       => mm_interconnect_0_arduino_reset_n_s1_readdata,                                       --                                                      .readdata
 			Arduino_Reset_N_s1_writedata                                      => mm_interconnect_0_arduino_reset_n_s1_writedata,                                      --                                                      .writedata
 			Arduino_Reset_N_s1_chipselect                                     => mm_interconnect_0_arduino_reset_n_s1_chipselect,                                     --                                                      .chipselect
+			camera_i2c_csr_address                                            => mm_interconnect_0_camera_i2c_csr_address,                                            --                                        camera_i2c_csr.address
+			camera_i2c_csr_write                                              => mm_interconnect_0_camera_i2c_csr_write,                                              --                                                      .write
+			camera_i2c_csr_read                                               => mm_interconnect_0_camera_i2c_csr_read,                                               --                                                      .read
+			camera_i2c_csr_readdata                                           => mm_interconnect_0_camera_i2c_csr_readdata,                                           --                                                      .readdata
+			camera_i2c_csr_writedata                                          => mm_interconnect_0_camera_i2c_csr_writedata,                                          --                                                      .writedata
 			Expansion_JP1_s1_address                                          => mm_interconnect_0_expansion_jp1_s1_address,                                          --                                      Expansion_JP1_s1.address
 			Expansion_JP1_s1_write                                            => mm_interconnect_0_expansion_jp1_s1_write,                                            --                                                      .write
 			Expansion_JP1_s1_readdata                                         => mm_interconnect_0_expansion_jp1_s1_readdata,                                         --                                                      .readdata

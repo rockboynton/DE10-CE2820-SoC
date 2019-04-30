@@ -1,5 +1,9 @@
 
 module Computer_System (
+	acceleromter_control_I2C_SDAT,
+	acceleromter_control_I2C_SCLK,
+	acceleromter_control_G_SENSOR_CS_N,
+	acceleromter_control_G_SENSOR_INT,
 	arduino_gpio_export,
 	arduino_reset_n_export,
 	expansion_jp1_export,
@@ -22,11 +26,15 @@ module Computer_System (
 	slider_switches_export,
 	system_pll_ref_clk_clk,
 	system_pll_ref_reset_reset,
-	acceleromter_control_I2C_SDAT,
-	acceleromter_control_I2C_SCLK,
-	acceleromter_control_G_SENSOR_CS_N,
-	acceleromter_control_G_SENSOR_INT);	
+	camera_control_sda_in,
+	camera_control_scl_in,
+	camera_control_sda_oe,
+	camera_control_scl_oe);	
 
+	inout		acceleromter_control_I2C_SDAT;
+	output		acceleromter_control_I2C_SCLK;
+	output		acceleromter_control_G_SENSOR_CS_N;
+	input		acceleromter_control_G_SENSOR_INT;
 	inout	[15:0]	arduino_gpio_export;
 	output		arduino_reset_n_export;
 	inout	[31:0]	expansion_jp1_export;
@@ -49,8 +57,8 @@ module Computer_System (
 	input	[9:0]	slider_switches_export;
 	input		system_pll_ref_clk_clk;
 	input		system_pll_ref_reset_reset;
-	inout		acceleromter_control_I2C_SDAT;
-	output		acceleromter_control_I2C_SCLK;
-	output		acceleromter_control_G_SENSOR_CS_N;
-	input		acceleromter_control_G_SENSOR_INT;
+	input		camera_control_sda_in;
+	input		camera_control_scl_in;
+	output		camera_control_sda_oe;
+	output		camera_control_scl_oe;
 endmodule
