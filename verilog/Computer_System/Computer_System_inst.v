@@ -1,4 +1,8 @@
 	Computer_System u0 (
+		.acceleromter_control_I2C_SDAT      (<connected-to-acceleromter_control_I2C_SDAT>),      // acceleromter_control.I2C_SDAT
+		.acceleromter_control_I2C_SCLK      (<connected-to-acceleromter_control_I2C_SCLK>),      //                     .I2C_SCLK
+		.acceleromter_control_G_SENSOR_CS_N (<connected-to-acceleromter_control_G_SENSOR_CS_N>), //                     .G_SENSOR_CS_N
+		.acceleromter_control_G_SENSOR_INT  (<connected-to-acceleromter_control_G_SENSOR_INT>),  //                     .G_SENSOR_INT
 		.arduino_gpio_export                (<connected-to-arduino_gpio_export>),                //         arduino_gpio.export
 		.arduino_reset_n_export             (<connected-to-arduino_reset_n_export>),             //      arduino_reset_n.export
 		.expansion_jp1_export               (<connected-to-expansion_jp1_export>),               //        expansion_jp1.export
@@ -21,9 +25,9 @@
 		.slider_switches_export             (<connected-to-slider_switches_export>),             //      slider_switches.export
 		.system_pll_ref_clk_clk             (<connected-to-system_pll_ref_clk_clk>),             //   system_pll_ref_clk.clk
 		.system_pll_ref_reset_reset         (<connected-to-system_pll_ref_reset_reset>),         // system_pll_ref_reset.reset
-		.acceleromter_control_I2C_SDAT      (<connected-to-acceleromter_control_I2C_SDAT>),      // acceleromter_control.I2C_SDAT
-		.acceleromter_control_I2C_SCLK      (<connected-to-acceleromter_control_I2C_SCLK>),      //                     .I2C_SCLK
-		.acceleromter_control_G_SENSOR_CS_N (<connected-to-acceleromter_control_G_SENSOR_CS_N>), //                     .G_SENSOR_CS_N
-		.acceleromter_control_G_SENSOR_INT  (<connected-to-acceleromter_control_G_SENSOR_INT>)   //                     .G_SENSOR_INT
+		.camera_control_sda_in              (<connected-to-camera_control_sda_in>),              //       camera_control.sda_in
+		.camera_control_scl_in              (<connected-to-camera_control_scl_in>),              //                     .scl_in
+		.camera_control_sda_oe              (<connected-to-camera_control_sda_oe>),              //                     .sda_oe
+		.camera_control_scl_oe              (<connected-to-camera_control_scl_oe>)               //                     .scl_oe
 	);
 

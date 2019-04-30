@@ -96,7 +96,12 @@ architecture Structural of DE10_Lite_Computer is
 				acceleromter_control_I2C_SDAT      : inout std_logic                     := 'X';             -- I2C_SDAT
             acceleromter_control_I2C_SCLK      : out   std_logic;                                        -- I2C_SCLK
             acceleromter_control_G_SENSOR_CS_N : out   std_logic;                                        -- G_SENSOR_CS_N
-            acceleromter_control_G_SENSOR_INT  : in    std_logic                     := 'X'              -- G_SENSOR_INT
+            acceleromter_control_G_SENSOR_INT  : in    std_logic                     := 'X';              -- G_SENSOR_INT
+				
+            camera_control_sda_in              : in    std_logic                     := 'X';             -- sda_in
+            camera_control_scl_in              : in    std_logic                     := 'X';             -- scl_in
+            camera_control_sda_oe              : out   std_logic;                                        -- sda_oe
+            camera_control_scl_oe              : out   std_logic                                         -- scl_oe
 				
         );
     end component Computer_System;
@@ -118,6 +123,16 @@ architecture Structural of DE10_Lite_Computer is
 	
 	signal servo1_data : std_logic_vector(7 downto 0);
 	signal servo2_data : std_logic_vector(7 downto 0);
+	
+	component CAMERA_CLK_PSC is
+	port(
+			CLK_IN: in std_logic;
+			CLK_OUT: out std_logic
+		);
+	end component CAMERA_CLK_PSC;
+	
+	signal sda_in,sda_oe,scl_in,scl_oe: std_logic;
+	signal half_clk : std_logic;
 
 begin
 	u0 : component Computer_System
@@ -149,8 +164,29 @@ begin
 				acceleromter_control_I2C_SDAT      => G_SENSOR_SDI,      -- acceleromter_control.I2C_SDAT
             acceleromter_control_I2C_SCLK      => G_SENSOR_SCLK,      --                     .I2C_SCLK
             acceleromter_control_G_SENSOR_CS_N => G_SENSOR_CS_N, --                     .G_SENSOR_CS_N
-            acceleromter_control_G_SENSOR_INT  => open   --                     .G_SENSOR_INT
+            acceleromter_control_G_SENSOR_INT  => open,   --                     .G_SENSOR_INT
+				
+				camera_control_sda_in              => sda_in,              --       camera_control.sda_in
+            camera_control_scl_in              => scl_in,              --                     .scl_in
+            camera_control_sda_oe              => sda_oe,              --                     .sda_oe
+            camera_control_scl_oe              => scl_oe               --                     .scl_oe
         );
+		  
+		  halfclk : component CAMERA_CLK_PSC
+			port map(
+					CLK_IN => CLOCK_50,
+					CLK_OUT => half_clk
+				);
+				
+		  ARDUINO_IO(11) <= half_clk;
+		  
+		  scl_in <= ARDUINO_IO(15);
+		  ARDUINO_IO(15) <= '0' when scl_oe = '1' else 'Z';
+		  sda_in <= ARDUINO_IO(14);
+		  ARDUINO_IO(14) <='0' when sda_oe = '1' else 'Z';
+		  
+		  
+		  
 		  
 		  
 			HEX0 <= not hex3_hex0(7 downto 0);

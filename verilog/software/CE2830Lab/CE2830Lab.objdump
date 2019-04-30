@@ -37,49 +37,49 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
   9 .debug_aranges 00001120  00000000  00000000  000176f8  2**3
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_info   0002a984  00000000  00000000  00018818  2**0
+ 10 .debug_info   0002a927  00000000  00000000  00018818  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_abbrev 0000ac22  00000000  00000000  0004319c  2**0
+ 11 .debug_abbrev 0000ac22  00000000  00000000  0004313f  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_line   0000df04  00000000  00000000  0004ddbe  2**0
+ 12 .debug_line   0000df04  00000000  00000000  0004dd61  2**0
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_frame  00002928  00000000  00000000  0005bcc4  2**2
+ 13 .debug_frame  00002928  00000000  00000000  0005bc68  2**2
                   CONTENTS, READONLY, DEBUGGING
- 14 .debug_str    0000413c  00000000  00000000  0005e5ec  2**0
+ 14 .debug_str    000041e2  00000000  00000000  0005e590  2**0
                   CONTENTS, READONLY, DEBUGGING
- 15 .debug_loc    0001d090  00000000  00000000  00062728  2**0
+ 15 .debug_loc    0001d090  00000000  00000000  00062772  2**0
                   CONTENTS, READONLY, DEBUGGING
- 16 .debug_alt_sim_info 00000010  00000000  00000000  0007f7b8  2**2
+ 16 .debug_alt_sim_info 00000010  00000000  00000000  0007f804  2**2
                   CONTENTS, READONLY, DEBUGGING
- 17 .debug_ranges 00001bc8  00000000  00000000  0007f7c8  2**3
+ 17 .debug_ranges 00001bc8  00000000  00000000  0007f818  2**3
                   CONTENTS, READONLY, DEBUGGING
- 18 .thread_model 00000003  00000000  00000000  00084e2e  2**0
+ 18 .thread_model 00000003  00000000  00000000  00084e7e  2**0
                   CONTENTS, READONLY
- 19 .cpu          00000005  00000000  00000000  00084e31  2**0
+ 19 .cpu          00000005  00000000  00000000  00084e81  2**0
                   CONTENTS, READONLY
- 20 .qsys         00000001  00000000  00000000  00084e36  2**0
+ 20 .qsys         00000001  00000000  00000000  00084e86  2**0
                   CONTENTS, READONLY
- 21 .simulation_enabled 00000001  00000000  00000000  00084e37  2**0
+ 21 .simulation_enabled 00000001  00000000  00000000  00084e87  2**0
                   CONTENTS, READONLY
- 22 .sysid_hash   00000004  00000000  00000000  00084e38  2**0
+ 22 .sysid_hash   00000004  00000000  00000000  00084e88  2**0
                   CONTENTS, READONLY
- 23 .sysid_base   00000004  00000000  00000000  00084e3c  2**0
+ 23 .sysid_base   00000004  00000000  00000000  00084e8c  2**0
                   CONTENTS, READONLY
- 24 .sysid_time   00000004  00000000  00000000  00084e40  2**0
+ 24 .sysid_time   00000004  00000000  00000000  00084e90  2**0
                   CONTENTS, READONLY
- 25 .stderr_dev   00000009  00000000  00000000  00084e44  2**0
+ 25 .stderr_dev   00000009  00000000  00000000  00084e94  2**0
                   CONTENTS, READONLY
- 26 .stdin_dev    00000009  00000000  00000000  00084e4d  2**0
+ 26 .stdin_dev    00000009  00000000  00000000  00084e9d  2**0
                   CONTENTS, READONLY
- 27 .stdout_dev   00000009  00000000  00000000  00084e56  2**0
+ 27 .stdout_dev   00000009  00000000  00000000  00084ea6  2**0
                   CONTENTS, READONLY
- 28 .sopc_system_name 0000000f  00000000  00000000  00084e5f  2**0
+ 28 .sopc_system_name 0000000f  00000000  00000000  00084eaf  2**0
                   CONTENTS, READONLY
- 29 .quartus_project_dir 0000005c  00000000  00000000  00084e6e  2**0
+ 29 .quartus_project_dir 0000003d  00000000  00000000  00084ebe  2**0
                   CONTENTS, READONLY
- 30 .jdi          00006bd6  00000000  00000000  00084eca  2**0
+ 30 .jdi          00006bd6  00000000  00000000  00084efb  2**0
                   CONTENTS, READONLY
- 31 .sopcinfo     000c5f8b  00000000  00000000  0008baa0  2**0
+ 31 .sopcinfo     000bf2e8  00000000  00000000  0008bad1  2**0
                   CONTENTS, READONLY
 SYMBOL TABLE:
 00000000 l    d  .entry	00000000 .entry
@@ -1111,7 +1111,6 @@ bool servo_randomMovement(SERVO servo){
      364:	00034c40 	call	34c4 <time>
      368:	1009883a 	mov	r4,r2
      36c:	00010300 	call	1030 <srand>
-	*addr = ((alt_u8)(rand()%200));
      370:	00010480 	call	1048 <rand>
      374:	01403204 	movi	r5,200
      378:	1009883a 	mov	r4,r2
@@ -1229,7 +1228,6 @@ void num_to_7Seg(alt_u16 num){
      4b0:	2951e804 	addi	r5,r5,18336
      4b4:	1809883a 	mov	r4,r3
      4b8:	00011040 	call	1104 <sprintf>
-	alt_u32 HexOut = 0;
      4bc:	e03ffb15 	stw	zero,-20(fp)
 	for(int i = 0; i <= 3; i++){
      4c0:	e03ffc15 	stw	zero,-16(fp)
@@ -1450,8 +1448,8 @@ int acc_read_y(){
      720:	dfc00115 	stw	ra,4(sp)
      724:	df000015 	stw	fp,0(sp)
      728:	d839883a 	mov	fp,sp
-	 servo_setAngle(SERVO_Y, (alt_8)(-acc_read_x()*0.1765));
-     72c:	000056c0 	call	56c <acc_read_x>
+	 servo_setAngle(SERVO_X, (alt_8)(-acc_read_y()*0.1765));
+     72c:	00005fc0 	call	5fc <acc_read_y>
      730:	0085c83a 	sub	r2,zero,r2
      734:	1009883a 	mov	r4,r2
      738:	0000d480 	call	d48 <__floatsisf>
@@ -1466,10 +1464,10 @@ int acc_read_y(){
      75c:	10bfe004 	addi	r2,r2,-128
      760:	100b883a 	mov	r5,r2
      764:	013fc834 	movhi	r4,65312
-     768:	21002804 	addi	r4,r4,160
+     768:	21002404 	addi	r4,r4,144
      76c:	000026c0 	call	26c <servo_setAngle>
-	 servo_setAngle(SERVO_X, (alt_8)(-acc_read_z()*0.1765));
-     770:	000068c0 	call	68c <acc_read_z>
+	 servo_setAngle(SERVO_Y, (alt_8)(-acc_read_x()*0.1765));
+     770:	000056c0 	call	56c <acc_read_x>
      774:	0085c83a 	sub	r2,zero,r2
      778:	1009883a 	mov	r4,r2
      77c:	0000d480 	call	d48 <__floatsisf>
@@ -1484,7 +1482,7 @@ int acc_read_y(){
      7a0:	10bfe004 	addi	r2,r2,-128
      7a4:	100b883a 	mov	r5,r2
      7a8:	013fc834 	movhi	r4,65312
-     7ac:	21002404 	addi	r4,r4,144
+     7ac:	21002804 	addi	r4,r4,160
      7b0:	000026c0 	call	26c <servo_setAngle>
  }
      7b4:	0001883a 	nop
@@ -1626,40 +1624,22 @@ void read_joystick() {
      948:	f800283a 	ret
 
 0000094c <delay_1s>:
- */
-
-#include "alt_types.h"
-#include "delay.h"  //include declaration header file
-
-void delay_1s(alt_u32 n){
      94c:	defffc04 	addi	sp,sp,-16
      950:	dfc00315 	stw	ra,12(sp)
      954:	df000215 	stw	fp,8(sp)
      958:	df000204 	addi	fp,sp,8
      95c:	e13fff15 	stw	r4,-4(fp)
-	int i = 500000*n;
      960:	01400234 	movhi	r5,8
      964:	29684804 	addi	r5,r5,-24288
      968:	e13fff17 	ldw	r4,-4(fp)
      96c:	0000cb00 	call	cb0 <__mulsi3>
      970:	e0bffe15 	stw	r2,-8(fp)
-	while(i>0){
      974:	00000306 	br	984 <delay_1s+0x38>
-		i--;
      978:	e0bffe17 	ldw	r2,-8(fp)
      97c:	10bfffc4 	addi	r2,r2,-1
      980:	e0bffe15 	stw	r2,-8(fp)
-#include "alt_types.h"
-#include "delay.h"  //include declaration header file
-
-void delay_1s(alt_u32 n){
-	int i = 500000*n;
-	while(i>0){
      984:	e0bffe17 	ldw	r2,-8(fp)
      988:	00bffb16 	blt	zero,r2,978 <__alt_mem_Onchip_SRAM+0xf8000978>
-		i--;
-	}
-}
      98c:	0001883a 	nop
      990:	e037883a 	mov	sp,fp
      994:	dfc00117 	ldw	ra,4(sp)
@@ -1668,34 +1648,21 @@ void delay_1s(alt_u32 n){
      9a0:	f800283a 	ret
 
 000009a4 <delay_1ms>:
-void delay_1ms(alt_u32 n){
      9a4:	defffc04 	addi	sp,sp,-16
      9a8:	dfc00315 	stw	ra,12(sp)
      9ac:	df000215 	stw	fp,8(sp)
      9b0:	df000204 	addi	fp,sp,8
      9b4:	e13fff15 	stw	r4,-4(fp)
-	int i = 500*n;
      9b8:	01407d04 	movi	r5,500
      9bc:	e13fff17 	ldw	r4,-4(fp)
      9c0:	0000cb00 	call	cb0 <__mulsi3>
      9c4:	e0bffe15 	stw	r2,-8(fp)
-	while(i>0){
      9c8:	00000306 	br	9d8 <delay_1ms+0x34>
-		i--;
      9cc:	e0bffe17 	ldw	r2,-8(fp)
      9d0:	10bfffc4 	addi	r2,r2,-1
      9d4:	e0bffe15 	stw	r2,-8(fp)
-		i--;
-	}
-}
-void delay_1ms(alt_u32 n){
-	int i = 500*n;
-	while(i>0){
      9d8:	e0bffe17 	ldw	r2,-8(fp)
      9dc:	00bffb16 	blt	zero,r2,9cc <__alt_mem_Onchip_SRAM+0xf80009cc>
-		i--;
-	}
-}
      9e0:	0001883a 	nop
      9e4:	e037883a 	mov	sp,fp
      9e8:	dfc00117 	ldw	ra,4(sp)
@@ -19561,12 +19528,6 @@ int ALT_FSTAT (int file, struct stat *st)
    11aac:	f800283a 	ret
 
 00011ab0 <gettimeofday>:
- */
- 
-
-#if defined (__GNUC__) && (__GNUC__ >= 4)
-int ALT_GETTIMEOFDAY (struct timeval  *ptimeval, void *ptimezone_vptr)
-{
    11ab0:	defff404 	addi	sp,sp,-48
    11ab4:	dfc00b15 	stw	ra,44(sp)
    11ab8:	df000a15 	stw	fp,40(sp)
@@ -19578,42 +19539,14 @@ int ALT_GETTIMEOFDAY (struct timeval  *ptimeval, void *ptimezone_vptr)
    11ad0:	df000a04 	addi	fp,sp,40
    11ad4:	e13ff915 	stw	r4,-28(fp)
    11ad8:	e17ffa15 	stw	r5,-24(fp)
-  struct timezone *ptimezone = (struct timezone*)ptimezone_vptr;
    11adc:	e0bffa17 	ldw	r2,-24(fp)
    11ae0:	e0bff615 	stw	r2,-40(fp)
- * alt_nticks() returns the elapsed number of system clock ticks since reset.
- */
-
-static ALT_INLINE alt_u32 ALT_ALWAYS_INLINE alt_nticks (void)
-{
-  return _alt_nticks;
    11ae4:	d0a70c17 	ldw	r2,-25552(gp)
-#else
-int ALT_GETTIMEOFDAY (struct timeval  *ptimeval, struct timezone *ptimezone)
-{
-#endif
-  
-  alt_u32 nticks = alt_nticks (); 
    11ae8:	e0bff715 	stw	r2,-36(fp)
- * Obtain the system clock rate in ticks/s. 
- */
-
-static ALT_INLINE alt_u32 ALT_ALWAYS_INLINE alt_ticks_per_second (void)
-{
-  return _alt_tick_rate;
    11aec:	d0a70b17 	ldw	r2,-25556(gp)
-  alt_u32 tick_rate = alt_ticks_per_second ();
    11af0:	e0bff815 	stw	r2,-32(fp)
-   * non-zero system clock rate. If the system clock is not running, an error
-   * is generated and the contents of "ptimeval" and "ptimezone" are not
-   * updated.
-   */
-
-  if (tick_rate)
    11af4:	e0bff817 	ldw	r2,-32(fp)
    11af8:	10005f26 	beq	r2,zero,11c78 <gettimeofday+0x1c8>
-  {
-    ptimeval->tv_sec  = alt_resettime.tv_sec  + nticks/tick_rate;
    11afc:	d0a70617 	ldw	r2,-25576(gp)
    11b00:	1029883a 	mov	r20,r2
    11b04:	e17ff817 	ldw	r5,-32(fp)
@@ -19623,10 +19556,8 @@ static ALT_INLINE alt_u32 ALT_ALWAYS_INLINE alt_ticks_per_second (void)
    11b14:	1007883a 	mov	r3,r2
    11b18:	e0bff917 	ldw	r2,-28(fp)
    11b1c:	10c00015 	stw	r3,0(r2)
-    ptimeval->tv_usec = alt_resettime.tv_usec +
    11b20:	d0a70717 	ldw	r2,-25572(gp)
    11b24:	1029883a 	mov	r20,r2
-     (alt_u32)(((alt_u64)nticks*(ALT_US/tick_rate))%ALT_US);
    11b28:	e0bff717 	ldw	r2,-36(fp)
    11b2c:	1021883a 	mov	r16,r2
    11b30:	0023883a 	mov	r17,zero
@@ -19655,43 +19586,24 @@ static ALT_INLINE alt_u32 ALT_ALWAYS_INLINE alt_ticks_per_second (void)
    11b8c:	180b883a 	mov	r5,r3
    11b90:	2005883a 	mov	r2,r4
    11b94:	2807883a 	mov	r3,r5
-   */
-
-  if (tick_rate)
-  {
-    ptimeval->tv_sec  = alt_resettime.tv_sec  + nticks/tick_rate;
-    ptimeval->tv_usec = alt_resettime.tv_usec +
    11b98:	a085883a 	add	r2,r20,r2
    11b9c:	1007883a 	mov	r3,r2
    11ba0:	e0bff917 	ldw	r2,-28(fp)
    11ba4:	10c00115 	stw	r3,4(r2)
-     (alt_u32)(((alt_u64)nticks*(ALT_US/tick_rate))%ALT_US);
-      
-    while(ptimeval->tv_usec < 0) {
    11ba8:	00001406 	br	11bfc <gettimeofday+0x14c>
-      if (ptimeval->tv_sec <= 0)
    11bac:	e0bff917 	ldw	r2,-28(fp)
    11bb0:	10800017 	ldw	r2,0(r2)
    11bb4:	00800516 	blt	zero,r2,11bcc <gettimeofday+0x11c>
-      {
-          ptimeval->tv_sec = 0;
    11bb8:	e0bff917 	ldw	r2,-28(fp)
    11bbc:	10000015 	stw	zero,0(r2)
-          ptimeval->tv_usec = 0;
    11bc0:	e0bff917 	ldw	r2,-28(fp)
    11bc4:	10000115 	stw	zero,4(r2)
-          break;
    11bc8:	00000f06 	br	11c08 <gettimeofday+0x158>
-      }
-      else
-      {
-          ptimeval->tv_sec--;
    11bcc:	e0bff917 	ldw	r2,-28(fp)
    11bd0:	10800017 	ldw	r2,0(r2)
    11bd4:	10ffffc4 	addi	r3,r2,-1
    11bd8:	e0bff917 	ldw	r2,-28(fp)
    11bdc:	10c00015 	stw	r3,0(r2)
-          ptimeval->tv_usec += ALT_US;
    11be0:	e0bff917 	ldw	r2,-28(fp)
    11be4:	10c00117 	ldw	r3,4(r2)
    11be8:	008003f4 	movhi	r2,15
@@ -19699,29 +19611,15 @@ static ALT_INLINE alt_u32 ALT_ALWAYS_INLINE alt_ticks_per_second (void)
    11bf0:	1887883a 	add	r3,r3,r2
    11bf4:	e0bff917 	ldw	r2,-28(fp)
    11bf8:	10c00115 	stw	r3,4(r2)
-  {
-    ptimeval->tv_sec  = alt_resettime.tv_sec  + nticks/tick_rate;
-    ptimeval->tv_usec = alt_resettime.tv_usec +
-     (alt_u32)(((alt_u64)nticks*(ALT_US/tick_rate))%ALT_US);
-      
-    while(ptimeval->tv_usec < 0) {
    11bfc:	e0bff917 	ldw	r2,-28(fp)
    11c00:	10800117 	ldw	r2,4(r2)
    11c04:	103fe916 	blt	r2,zero,11bac <__alt_mem_Onchip_SRAM+0xf8011bac>
-          ptimeval->tv_sec--;
-          ptimeval->tv_usec += ALT_US;
-      }
-    }
-    
-    while(ptimeval->tv_usec >= ALT_US) {
    11c08:	00000c06 	br	11c3c <gettimeofday+0x18c>
-      ptimeval->tv_sec++;
    11c0c:	e0bff917 	ldw	r2,-28(fp)
    11c10:	10800017 	ldw	r2,0(r2)
    11c14:	10c00044 	addi	r3,r2,1
    11c18:	e0bff917 	ldw	r2,-28(fp)
    11c1c:	10c00015 	stw	r3,0(r2)
-      ptimeval->tv_usec -= ALT_US;
    11c20:	e0bff917 	ldw	r2,-28(fp)
    11c24:	10c00117 	ldw	r3,4(r2)
    11c28:	00bffc74 	movhi	r2,65521
@@ -19729,43 +19627,22 @@ static ALT_INLINE alt_u32 ALT_ALWAYS_INLINE alt_ticks_per_second (void)
    11c30:	1887883a 	add	r3,r3,r2
    11c34:	e0bff917 	ldw	r2,-28(fp)
    11c38:	10c00115 	stw	r3,4(r2)
-          ptimeval->tv_sec--;
-          ptimeval->tv_usec += ALT_US;
-      }
-    }
-    
-    while(ptimeval->tv_usec >= ALT_US) {
    11c3c:	e0bff917 	ldw	r2,-28(fp)
    11c40:	10c00117 	ldw	r3,4(r2)
    11c44:	008003f4 	movhi	r2,15
    11c48:	10908fc4 	addi	r2,r2,16959
    11c4c:	10ffef16 	blt	r2,r3,11c0c <__alt_mem_Onchip_SRAM+0xf8011c0c>
-      ptimeval->tv_sec++;
-      ptimeval->tv_usec -= ALT_US;
-    }
-      
-    if (ptimezone)
    11c50:	e0bff617 	ldw	r2,-40(fp)
    11c54:	10000626 	beq	r2,zero,11c70 <gettimeofday+0x1c0>
-    { 
-      ptimezone->tz_minuteswest = alt_timezone.tz_minuteswest;
    11c58:	d0e70417 	ldw	r3,-25584(gp)
    11c5c:	e0bff617 	ldw	r2,-40(fp)
    11c60:	10c00015 	stw	r3,0(r2)
-      ptimezone->tz_dsttime     = alt_timezone.tz_dsttime;
    11c64:	d0e70517 	ldw	r3,-25580(gp)
    11c68:	e0bff617 	ldw	r2,-40(fp)
    11c6c:	10c00115 	stw	r3,4(r2)
-    }
-
-    return 0;
    11c70:	0005883a 	mov	r2,zero
    11c74:	00000106 	br	11c7c <gettimeofday+0x1cc>
-  }
-
-  return -ENOTSUP;
    11c78:	00bfde84 	movi	r2,-134
-}
    11c7c:	e6fffb04 	addi	sp,fp,-20
    11c80:	dfc00617 	ldw	ra,24(sp)
    11c84:	df000517 	ldw	fp,20(sp)
@@ -19885,27 +19762,16 @@ int ALT_ISATTY (int file)
    11d88:	f800283a 	ret
 
 00011d8c <alt_load_section>:
- */
-
-static void ALT_INLINE alt_load_section (alt_u32* from, 
-                                         alt_u32* to, 
-                                         alt_u32* end)
-{
    11d8c:	defffc04 	addi	sp,sp,-16
    11d90:	df000315 	stw	fp,12(sp)
    11d94:	df000304 	addi	fp,sp,12
    11d98:	e13ffd15 	stw	r4,-12(fp)
    11d9c:	e17ffe15 	stw	r5,-8(fp)
    11da0:	e1bfff15 	stw	r6,-4(fp)
-  if (to != from)
    11da4:	e0fffe17 	ldw	r3,-8(fp)
    11da8:	e0bffd17 	ldw	r2,-12(fp)
    11dac:	18800c26 	beq	r3,r2,11de0 <alt_load_section+0x54>
-  {
-    while( to != end )
    11db0:	00000806 	br	11dd4 <alt_load_section+0x48>
-    {
-      *to++ = *from++;
    11db4:	e0bffe17 	ldw	r2,-8(fp)
    11db8:	10c00104 	addi	r3,r2,4
    11dbc:	e0fffe15 	stw	r3,-8(fp)
@@ -19914,20 +19780,9 @@ static void ALT_INLINE alt_load_section (alt_u32* from,
    11dc8:	e13ffd15 	stw	r4,-12(fp)
    11dcc:	18c00017 	ldw	r3,0(r3)
    11dd0:	10c00015 	stw	r3,0(r2)
-                                         alt_u32* to, 
-                                         alt_u32* end)
-{
-  if (to != from)
-  {
-    while( to != end )
    11dd4:	e0fffe17 	ldw	r3,-8(fp)
    11dd8:	e0bfff17 	ldw	r2,-4(fp)
    11ddc:	18bff51e 	bne	r3,r2,11db4 <__alt_mem_Onchip_SRAM+0xf8011db4>
-    {
-      *to++ = *from++;
-    }
-  }
-}
    11de0:	0001883a 	nop
    11de4:	e037883a 	mov	sp,fp
    11de8:	df000017 	ldw	fp,0(sp)
@@ -19935,21 +19790,10 @@ static void ALT_INLINE alt_load_section (alt_u32* from,
    11df0:	f800283a 	ret
 
 00011df4 <alt_load>:
- * there is no bootloader, so this application is responsible for loading to
- * RAM any sections that are required.
- */  
-
-void alt_load (void)
-{
    11df4:	defffe04 	addi	sp,sp,-8
    11df8:	dfc00115 	stw	ra,4(sp)
    11dfc:	df000015 	stw	fp,0(sp)
    11e00:	d839883a 	mov	fp,sp
-  /* 
-   * Copy the .rwdata section. 
-   */
-
-  alt_load_section (&__flash_rwdata_start, 
    11e04:	01800074 	movhi	r6,1
    11e08:	3199b404 	addi	r6,r6,26320
    11e0c:	01400074 	movhi	r5,1
@@ -19957,12 +19801,6 @@ void alt_load (void)
    11e14:	01000074 	movhi	r4,1
    11e18:	2119b404 	addi	r4,r4,26320
    11e1c:	0011d8c0 	call	11d8c <alt_load_section>
-
-  /*
-   * Copy the exception handler.
-   */
-
-  alt_load_section (&__flash_exceptions_start, 
    11e20:	01800034 	movhi	r6,0
    11e24:	31808c04 	addi	r6,r6,560
    11e28:	01400034 	movhi	r5,0
@@ -19970,12 +19808,6 @@ void alt_load (void)
    11e30:	01000034 	movhi	r4,0
    11e34:	21000804 	addi	r4,r4,32
    11e38:	0011d8c0 	call	11d8c <alt_load_section>
-
-  /*
-   * Copy the .rodata section.
-   */
-
-  alt_load_section (&__flash_rodata_start, 
    11e3c:	01800074 	movhi	r6,1
    11e40:	3192d304 	addi	r6,r6,19276
    11e44:	01400074 	movhi	r5,1
@@ -19983,16 +19815,8 @@ void alt_load (void)
    11e4c:	01000074 	movhi	r4,1
    11e50:	2111e804 	addi	r4,r4,18336
    11e54:	0011d8c0 	call	11d8c <alt_load_section>
-  
-  /*
-   * Now ensure that the caches are in synch.
-   */
-  
-  alt_dcache_flush_all();
    11e58:	001388c0 	call	1388c <alt_dcache_flush_all>
-  alt_icache_flush_all();
    11e5c:	0013adc0 	call	13adc <alt_icache_flush_all>
-}
    11e60:	0001883a 	nop
    11e64:	e037883a 	mov	sp,fp
    11e68:	dfc00117 	ldw	ra,4(sp)
@@ -20209,17 +20033,10 @@ void alt_main (void)
    12008:	00144200 	call	14420 <exit>
 
 0001200c <__malloc_lock>:
- * configuration is single threaded, so there is nothing to do here. Note that 
- * this requires that malloc is never called by an interrupt service routine.
- */
-
-void __malloc_lock ( struct _reent *_r )
-{
    1200c:	defffe04 	addi	sp,sp,-8
    12010:	df000115 	stw	fp,4(sp)
    12014:	df000104 	addi	fp,sp,4
    12018:	e13fff15 	stw	r4,-4(fp)
-}
    1201c:	0001883a 	nop
    12020:	e037883a 	mov	sp,fp
    12024:	df000017 	ldw	fp,0(sp)
@@ -20227,26 +20044,15 @@ void __malloc_lock ( struct _reent *_r )
    1202c:	f800283a 	ret
 
 00012030 <__malloc_unlock>:
-/*
- *
- */
-
-void __malloc_unlock ( struct _reent *_r )
-{
    12030:	defffe04 	addi	sp,sp,-8
    12034:	df000115 	stw	fp,4(sp)
    12038:	df000104 	addi	fp,sp,4
    1203c:	e13fff15 	stw	r4,-4(fp)
-}
    12040:	0001883a 	nop
    12044:	e037883a 	mov	sp,fp
    12048:	df000017 	ldw	fp,0(sp)
    1204c:	dec00104 	addi	sp,sp,4
    12050:	f800283a 	ret
-
-00012054 <alt_get_errno>:
-#undef errno
-
 extern int errno;
 
 static ALT_INLINE int* alt_get_errno(void)
@@ -21175,6 +20981,12 @@ void altera_avalon_jtag_uart_init(altera_avalon_jtag_uart_state* sp,
   if (alt_alarm_start(&sp->alarm, alt_ticks_per_second(), 
    1286c:	e0bffd17 	ldw	r2,-12(fp)
    12870:	10800204 	addi	r2,r2,8
+ * Obtain the system clock rate in ticks/s. 
+ */
+
+static ALT_INLINE alt_u32 ALT_ALWAYS_INLINE alt_ticks_per_second (void)
+{
+  return _alt_tick_rate;
    12874:	d0e70b17 	ldw	r3,-25556(gp)
    12878:	e1fffd17 	ldw	r7,-12(fp)
    1287c:	01800074 	movhi	r6,1
@@ -23145,24 +22957,16 @@ void alt_dcache_flush_all (void)
    138a8:	f800283a 	ret
 
 000138ac <alt_get_errno>:
-#undef errno
-
-extern int errno;
-
-static ALT_INLINE int* alt_get_errno(void)
-{
    138ac:	defffe04 	addi	sp,sp,-8
    138b0:	dfc00115 	stw	ra,4(sp)
    138b4:	df000015 	stw	fp,0(sp)
    138b8:	d839883a 	mov	fp,sp
-  return ((alt_errno) ? alt_errno() : &errno);
    138bc:	d0a01517 	ldw	r2,-32684(gp)
    138c0:	10000326 	beq	r2,zero,138d0 <alt_get_errno+0x24>
    138c4:	d0a01517 	ldw	r2,-32684(gp)
    138c8:	103ee83a 	callr	r2
    138cc:	00000106 	br	138d4 <alt_get_errno+0x28>
    138d0:	d0a6fd04 	addi	r2,gp,-25612
-}
    138d4:	e037883a 	mov	sp,fp
    138d8:	dfc00117 	ldw	ra,4(sp)
    138dc:	df000017 	ldw	fp,0(sp)
@@ -23170,75 +22974,42 @@ static ALT_INLINE int* alt_get_errno(void)
    138e4:	f800283a 	ret
 
 000138e8 <alt_dev_llist_insert>:
-/*
- *
- */
-
-int alt_dev_llist_insert (alt_dev_llist* dev, alt_llist* list)
-{
    138e8:	defffa04 	addi	sp,sp,-24
    138ec:	dfc00515 	stw	ra,20(sp)
    138f0:	df000415 	stw	fp,16(sp)
    138f4:	df000404 	addi	fp,sp,16
    138f8:	e13ffe15 	stw	r4,-8(fp)
    138fc:	e17fff15 	stw	r5,-4(fp)
-  /*
-   * check that the device exists, and that it has a valid name.
-   */
-
-  if (!dev || !dev->name)
    13900:	e0bffe17 	ldw	r2,-8(fp)
    13904:	10000326 	beq	r2,zero,13914 <alt_dev_llist_insert+0x2c>
    13908:	e0bffe17 	ldw	r2,-8(fp)
    1390c:	10800217 	ldw	r2,8(r2)
    13910:	1000061e 	bne	r2,zero,1392c <alt_dev_llist_insert+0x44>
-  {
-    ALT_ERRNO = EINVAL;
    13914:	00138ac0 	call	138ac <alt_get_errno>
    13918:	1007883a 	mov	r3,r2
    1391c:	00800584 	movi	r2,22
    13920:	18800015 	stw	r2,0(r3)
-    return -EINVAL;
    13924:	00bffa84 	movi	r2,-22
    13928:	00001306 	br	13978 <alt_dev_llist_insert+0x90>
-  
-  /*
-   * register the device.
-   */
-  
-  alt_llist_insert(list, &dev->llist);
    1392c:	e0bffe17 	ldw	r2,-8(fp)
    13930:	e0ffff17 	ldw	r3,-4(fp)
    13934:	e0fffc15 	stw	r3,-16(fp)
    13938:	e0bffd15 	stw	r2,-12(fp)
- */
-
-static ALT_INLINE void ALT_ALWAYS_INLINE alt_llist_insert(alt_llist* list, 
-                alt_llist* entry)
-{
-  entry->previous = list;
    1393c:	e0bffd17 	ldw	r2,-12(fp)
    13940:	e0fffc17 	ldw	r3,-16(fp)
    13944:	10c00115 	stw	r3,4(r2)
-  entry->next     = list->next;
    13948:	e0bffc17 	ldw	r2,-16(fp)
    1394c:	10c00017 	ldw	r3,0(r2)
    13950:	e0bffd17 	ldw	r2,-12(fp)
    13954:	10c00015 	stw	r3,0(r2)
-
-  list->next->previous = entry;
    13958:	e0bffc17 	ldw	r2,-16(fp)
    1395c:	10800017 	ldw	r2,0(r2)
    13960:	e0fffd17 	ldw	r3,-12(fp)
    13964:	10c00115 	stw	r3,4(r2)
-  list->next           = entry;
    13968:	e0bffc17 	ldw	r2,-16(fp)
    1396c:	e0fffd17 	ldw	r3,-12(fp)
    13970:	10c00015 	stw	r3,0(r2)
-
-  return 0;  
    13974:	0005883a 	mov	r2,zero
-}
    13978:	e037883a 	mov	sp,fp
    1397c:	dfc00117 	ldw	ra,4(sp)
    13980:	df000017 	ldw	fp,0(sp)
@@ -23246,33 +23017,17 @@ static ALT_INLINE void ALT_ALWAYS_INLINE alt_llist_insert(alt_llist* list,
    13988:	f800283a 	ret
 
 0001398c <_do_ctors>:
-/*
- * Run the C++ static constructors.
- */
-
-void _do_ctors(void)
-{
    1398c:	defffd04 	addi	sp,sp,-12
    13990:	dfc00215 	stw	ra,8(sp)
    13994:	df000115 	stw	fp,4(sp)
    13998:	df000104 	addi	fp,sp,4
-  constructor* ctor;
-
-  for (ctor = &__CTOR_END__[-1]; ctor >= __CTOR_LIST__; ctor--)
    1399c:	00800074 	movhi	r2,1
    139a0:	1091e704 	addi	r2,r2,18332
    139a4:	e0bfff15 	stw	r2,-4(fp)
    139a8:	00000606 	br	139c4 <_do_ctors+0x38>
-        (*ctor) (); 
    139ac:	e0bfff17 	ldw	r2,-4(fp)
    139b0:	10800017 	ldw	r2,0(r2)
    139b4:	103ee83a 	callr	r2
-
-void _do_ctors(void)
-{
-  constructor* ctor;
-
-  for (ctor = &__CTOR_END__[-1]; ctor >= __CTOR_LIST__; ctor--)
    139b8:	e0bfff17 	ldw	r2,-4(fp)
    139bc:	10bfff04 	addi	r2,r2,-4
    139c0:	e0bfff15 	stw	r2,-4(fp)
@@ -23280,8 +23035,6 @@ void _do_ctors(void)
    139c8:	00800074 	movhi	r2,1
    139cc:	1091e804 	addi	r2,r2,18336
    139d0:	18bff62e 	bgeu	r3,r2,139ac <__alt_mem_Onchip_SRAM+0xf80139ac>
-        (*ctor) (); 
-}
    139d4:	0001883a 	nop
    139d8:	e037883a 	mov	sp,fp
    139dc:	dfc00117 	ldw	ra,4(sp)
@@ -23290,33 +23043,17 @@ void _do_ctors(void)
    139e8:	f800283a 	ret
 
 000139ec <_do_dtors>:
-/*
- * Run the C++ static destructors.
- */
-
-void _do_dtors(void)
-{
    139ec:	defffd04 	addi	sp,sp,-12
    139f0:	dfc00215 	stw	ra,8(sp)
    139f4:	df000115 	stw	fp,4(sp)
    139f8:	df000104 	addi	fp,sp,4
-  destructor* dtor;
-
-  for (dtor = &__DTOR_END__[-1]; dtor >= __DTOR_LIST__; dtor--)
    139fc:	00800074 	movhi	r2,1
    13a00:	1091e704 	addi	r2,r2,18332
    13a04:	e0bfff15 	stw	r2,-4(fp)
    13a08:	00000606 	br	13a24 <_do_dtors+0x38>
-        (*dtor) (); 
    13a0c:	e0bfff17 	ldw	r2,-4(fp)
    13a10:	10800017 	ldw	r2,0(r2)
    13a14:	103ee83a 	callr	r2
-
-void _do_dtors(void)
-{
-  destructor* dtor;
-
-  for (dtor = &__DTOR_END__[-1]; dtor >= __DTOR_LIST__; dtor--)
    13a18:	e0bfff17 	ldw	r2,-4(fp)
    13a1c:	10bfff04 	addi	r2,r2,-4
    13a20:	e0bfff15 	stw	r2,-4(fp)
@@ -23324,8 +23061,6 @@ void _do_dtors(void)
    13a28:	00800074 	movhi	r2,1
    13a2c:	1091e804 	addi	r2,r2,18336
    13a30:	18bff62e 	bgeu	r3,r2,13a0c <__alt_mem_Onchip_SRAM+0xf8013a0c>
-        (*dtor) (); 
-}
    13a34:	0001883a 	nop
    13a38:	e037883a 	mov	sp,fp
    13a3c:	dfc00117 	ldw	ra,4(sp)

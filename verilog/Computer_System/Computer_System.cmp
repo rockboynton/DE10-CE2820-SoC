@@ -6,6 +6,10 @@
 			acceleromter_control_G_SENSOR_INT  : in    std_logic                     := 'X';             -- G_SENSOR_INT
 			arduino_gpio_export                : inout std_logic_vector(15 downto 0) := (others => 'X'); -- export
 			arduino_reset_n_export             : out   std_logic;                                        -- export
+			camera_control_sda_in              : in    std_logic                     := 'X';             -- sda_in
+			camera_control_scl_in              : in    std_logic                     := 'X';             -- scl_in
+			camera_control_sda_oe              : out   std_logic;                                        -- sda_oe
+			camera_control_scl_oe              : out   std_logic;                                        -- scl_oe
 			expansion_jp1_export               : inout std_logic_vector(31 downto 0) := (others => 'X'); -- export
 			hex3_hex0_export                   : out   std_logic_vector(31 downto 0);                    -- export
 			hex5_hex4_export                   : out   std_logic_vector(15 downto 0);                    -- export
