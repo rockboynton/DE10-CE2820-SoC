@@ -1,0 +1,152 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/simulation/modelsim
+Ecamera_clk_psc
+Z1 w1556129594
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/CAMERA_CLK_PSC.vhd
+Z6 FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/CAMERA_CLK_PSC.vhd
+l0
+L11
+VM337a?GbRJl87EAkXSiWZ0
+!s100 d1NnB@FaO7UK1B>UDn3iO0
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1556661370
+!i10b 1
+Z9 !s108 1556661369.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/CAMERA_CLK_PSC.vhd|
+Z11 !s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/CAMERA_CLK_PSC.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehav
+R2
+R3
+R4
+DEx4 work 14 camera_clk_psc 0 22 M337a?GbRJl87EAkXSiWZ0
+l22
+L18
+VBa@PGO2akJG9X8=E^kiLi2
+!s100 0R60GV7E8W_abBOQUfOOl3
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecamera_clk_tb
+w1556661246
+R3
+R4
+R0
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/CAMERA_CLK_TB.vhd
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/CAMERA_CLK_TB.vhd
+l0
+L4
+VG4EoCMm<:_YRM@S3NKJCl0
+!s100 ^HL6Q9O;OT[LHLJ1^Q_7k1
+R7
+31
+R8
+!i10b 1
+!s108 1556661370.000000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/CAMERA_CLK_TB.vhd|
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/CAMERA_CLK_TB.vhd|
+!i113 1
+R12
+R13
+Ede10_lite_computer
+Z14 w1556583569
+R3
+R4
+R0
+Z15 8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/DE10_Lite_Computer.vhd
+Z16 FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/DE10_Lite_Computer.vhd
+l0
+L4
+Vz][OQDkIlRagz=WfnX7;:3
+!s100 [KT^McMK6[CfjTZ0ZfAAj2
+R7
+31
+Z17 !s110 1556661369
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/DE10_Lite_Computer.vhd|
+Z19 !s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/DE10_Lite_Computer.vhd|
+!i113 1
+R12
+R13
+Astructural
+R3
+R4
+DEx4 work 18 de10_lite_computer 0 22 z][OQDkIlRagz=WfnX7;:3
+l137
+L68
+VVIJI;NLkA;G4TJ[X_g4l91
+!s100 zez:Sl1E0TO4fK9^ln@?A0
+R7
+31
+R17
+!i10b 1
+R9
+R18
+R19
+!i113 1
+R12
+R13
+Eservo
+Z20 w1553795580
+R2
+R3
+R4
+R0
+Z21 8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Servo.vhd
+Z22 FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Servo.vhd
+l0
+L11
+VLV8`9zIgf=cIYJ]VhBn@l2
+!s100 @O432C]mZ:zgWGbgLC<5J1
+R7
+31
+R17
+!i10b 1
+Z23 !s108 1556661368.000000
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Servo.vhd|
+Z25 !s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Servo.vhd|
+!i113 1
+R12
+R13
+Abehav
+R2
+R3
+R4
+DEx4 work 5 servo 0 22 LV8`9zIgf=cIYJ]VhBn@l2
+l29
+L22
+VHRSjENnffL^JnB9]M:>Q92
+!s100 OB:9R@6V>G=1n=:T=oWVN3
+R7
+31
+R17
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R12
+R13

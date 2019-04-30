@@ -1,0 +1,4701 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/simulation/modelsim
+valtera_avalon_i2c
+Z1 !s110 1556661352
+!i10b 1
+!s100 i;I80YB`l0<cOH0Mh0OXC2
+I6U[3Zi8Y@[lPb`>NJ_28W1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1556659000
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c.v
+Z4 L0 18
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1556661352.000000
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c.v|
+!i113 1
+Z7 o-vlog01compat -work Computer_System
+Z8 !s92 -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules
+Z9 tCvgOpt 0
+valtera_avalon_i2c_clk_cnt
+R1
+!i10b 1
+!s100 CAQU3PEJGHFhmUSJ9nV@02
+IN177AfHODXH6kZ?5zV`Q?0
+R2
+R0
+R3
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_clk_cnt.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_clk_cnt.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_clk_cnt.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_clk_cnt.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_i2c_condt_det
+Z10 !s110 1556661353
+!i10b 1
+!s100 NWHS0:R1WP@@17W[f`AJI0
+IY3f``5]bNa0meOMlhf=NC0
+R2
+R0
+R3
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_condt_det.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_condt_det.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_condt_det.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_condt_det.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_i2c_condt_gen
+R10
+!i10b 1
+!s100 F?IU54?<EV_ITzfFeG@`Z2
+I3lA12TbmcJ;E>OoHikR2c2
+R2
+R0
+R3
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_condt_gen.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_condt_gen.v
+R4
+R5
+r1
+!s85 0
+31
+Z11 !s108 1556661353.000000
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_condt_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_condt_gen.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_i2c_csr
+R1
+!i10b 1
+!s100 _=XDE5_WWD1FP8Djl72V@1
+IRnM]^L^X1UGomUki=0[aG0
+R2
+R0
+R3
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_csr.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_csr.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_csr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_csr.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_i2c_fifo
+R10
+!i10b 1
+!s100 K6:GE0kJz4H;LzVG[N3Ao2
+I@^N1@V2KA`=19N5c9eNlf2
+R2
+R0
+R3
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_fifo.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_fifo.v
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_fifo.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_i2c_mstfsm
+R10
+!i10b 1
+!s100 EoIZ@gjk[7@:RNMP??jE51
+Ifz70iGU[ELYV]ImzLUI<X0
+R2
+R0
+R3
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_mstfsm.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_mstfsm.v
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_mstfsm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_mstfsm.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_i2c_rxshifter
+R10
+!i10b 1
+!s100 NH?j7@d_^5gIg43`l^N`W3
+IjmmKEAdP8E8Z@dBHMlIA23
+R2
+R0
+R3
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_rxshifter.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_rxshifter.v
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_rxshifter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_rxshifter.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_i2c_spksupp
+R10
+!i10b 1
+!s100 L4Jc3zDI^<U>:e]oA=kFJ0
+IX6V0`9bVEH20KgX]X`n:]1
+R2
+R0
+R3
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_spksupp.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_spksupp.v
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_spksupp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_spksupp.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_i2c_txout
+R10
+!i10b 1
+!s100 :0U7=ZbJ=6_9QSWgb9VmM1
+ITo2ZKRhoj?9ibLT59N0f40
+R2
+R0
+R3
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_txout.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_txout.v
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_txout.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_txout.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_i2c_txshifter
+R10
+!i10b 1
+!s100 ceW5>`_l>2G>TjfE>=9`60
+I[72GU3e>T2J@e@FZ=?7o:2
+R2
+R0
+R3
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_txshifter.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_txshifter.v
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_txshifter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_txshifter.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_packets_to_master
+Z12 !s110 1556661358
+!i10b 1
+!s100 lb8?6UKeHL0fO:A`Bb0Il1
+I_^`U`TP?BSVJW9Ef5YFa@3
+R2
+R0
+Z13 w1556659034
+Z14 8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_packets_to_master.v
+Z15 FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_packets_to_master.v
+Z16 L0 22
+R5
+r1
+!s85 0
+31
+Z17 !s108 1556661358.000000
+Z18 !s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_packets_to_master.v|
+Z19 !s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_packets_to_master.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_sc_fifo
+Z20 !s110 1556661366
+!i10b 1
+!s100 4mK@em][G=j]om3zJIhOc0
+IfJomgMS=?UWbNiFLY5lX72
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_sc_fifo.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_sc_fifo.v
+Z21 L0 21
+R5
+r1
+!s85 0
+31
+Z22 !s108 1556661365.000000
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_sc_fifo.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_st_bytes_to_packets
+Z23 !s110 1556661359
+!i10b 1
+!s100 ;<iYFY8LSk5SY9lfnK0]32
+IRK2?dQQJ>4g`[95NC4?gR3
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_bytes_to_packets.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_bytes_to_packets.v
+Z24 L0 19
+R5
+r1
+!s85 0
+31
+Z25 !s108 1556661359.000000
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_bytes_to_packets.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_bytes_to_packets.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_st_clock_crosser
+Z26 !s110 1556661362
+!i10b 1
+!s100 YbU`iK^TYJ_9Hz`CZekjQ3
+IGY2dSdV4X1HkKbA2K=i7C0
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_clock_crosser.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_clock_crosser.v
+R16
+R5
+r1
+!s85 0
+31
+Z27 !s108 1556661362.000000
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_st_handshake_clock_crosser
+R26
+!i10b 1
+!s100 3f<J9K;e[9FU@JKn0^PK?0
+I^_64gDc9@QGCSmNLWGFf03
+R2
+R0
+Z28 w1556659038
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+Z29 L0 24
+R5
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_st_idle_inserter
+R23
+!i10b 1
+!s100 S71b16BnCfDWcoZ^EEZTn1
+InhoQ67[<f=[LEziDJSTGa3
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_idle_inserter.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_idle_inserter.v
+R24
+R5
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_idle_inserter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_idle_inserter.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_st_idle_remover
+R23
+!i10b 1
+!s100 MZJlUT2CY>hnV]FQIb=S]1
+IQWB;J7iFfImR1S>YGAn6F0
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_idle_remover.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_idle_remover.v
+R24
+R5
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_idle_remover.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_idle_remover.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_st_jtag_interface
+R23
+!i10b 1
+!s100 N7o^ddA[oe3RDKPC5>UZG1
+IY?Zgz07SZPlVEg824KaG<2
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_jtag_interface.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_jtag_interface.v
+L0 20
+R5
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_jtag_interface.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_jtag_interface.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_st_packets_to_bytes
+R12
+!i10b 1
+!s100 OaagHT1fhIanF4eRR]VLL0
+I9^MSFM8__L<NZBae1QCTD1
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_packets_to_bytes.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_packets_to_bytes.v
+R24
+R5
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_packets_to_bytes.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_packets_to_bytes.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_st_pipeline_base
+R26
+!i10b 1
+!s100 SP[<U8JVkW?]RHOS`DzPF1
+IaacaZBQkfFkLc?f2Z@Ymk1
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_pipeline_base.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_pipeline_base.v
+R16
+R5
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_pipeline_base.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_pipeline_base.v|
+!i113 1
+R7
+R8
+R9
+valtera_customins_master_translator
+R1
+!i10b 1
+!s100 iAjRYXBhGZ_FfnYD?k0U83
+I^<:;;2T0_OHG2OeXB<hhC0
+R2
+R0
+Z30 w1556659001
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_customins_master_translator.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_customins_master_translator.v
+Z31 L0 23
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_customins_master_translator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_customins_master_translator.v|
+!i113 1
+R7
+R8
+R9
+valtera_customins_slave_translator
+Z32 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z33 !s110 1556661368
+!i10b 1
+!s100 eT_W^Bknf@>l5M0QHL[2D1
+I4lgj5Ib2J<hk3inO1UPkl3
+R2
+!s105 altera_customins_slave_translator_sv_unit
+S1
+R0
+R30
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_customins_slave_translator.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_customins_slave_translator.sv
+R31
+R5
+r1
+!s85 0
+31
+Z34 !s108 1556661367.000000
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_customins_slave_translator.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_customins_slave_translator.sv|
+!i113 1
+Z35 o-sv -work Computer_System
+Z36 !s92 -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules
+R9
+valtera_jtag_control_signal_crosser
+R23
+!i10b 1
+!s100 `=i;H1E7lBV>R_3e4D5452
+IL>BG2QJ:01;TQ?<YU[iKX2
+R2
+R0
+R13
+Z37 8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_jtag_dc_streaming.v
+Z38 FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_jtag_dc_streaming.v
+L0 30
+R5
+r1
+!s85 0
+31
+R25
+Z39 !s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_jtag_dc_streaming.v|
+Z40 !s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_jtag_dc_streaming.v|
+!i113 1
+R7
+R8
+R9
+valtera_jtag_dc_streaming
+R23
+!i10b 1
+!s100 EWdjgenNzZZ[1:h1cb56?0
+Io68^g1C3[1X2M:Bc5iHWz3
+R2
+R0
+R13
+R37
+R38
+L0 135
+R5
+r1
+!s85 0
+31
+R25
+R39
+R40
+!i113 1
+R7
+R8
+R9
+valtera_jtag_sld_node
+R23
+!i10b 1
+!s100 3n0e<ZJ7D0L][I>bEF?Oi2
+IZ5P2zXbzL9RUZRIDAlEVA2
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_jtag_sld_node.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_jtag_sld_node.v
+L0 17
+R5
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_jtag_sld_node.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_jtag_sld_node.v|
+!i113 1
+R7
+R8
+R9
+valtera_jtag_src_crosser
+R23
+!i10b 1
+!s100 4?GOPZ8SJm>`nd35FBFXc3
+I]`=KMDZn40JF3GZLQfSbe2
+R2
+R0
+R13
+R37
+R38
+L0 72
+R5
+r1
+!s85 0
+31
+R25
+R39
+R40
+!i113 1
+R7
+R8
+R9
+valtera_jtag_streaming
+R23
+!i10b 1
+!s100 ge70D<WS<=FgooM5G8W@b0
+IUe8XYfK5Rn[>zRTm6>XiY2
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_jtag_streaming.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_jtag_streaming.v
+R4
+R5
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_jtag_streaming.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_jtag_streaming.v|
+!i113 1
+R7
+R8
+R9
+valtera_merlin_arb_adder
+R32
+Z41 !s110 1556661363
+!i10b 1
+!s100 1Jn[a;@5nZmTN?DFKQNzj2
+IkBZT:>BL`]FL01fEFhIP11
+R2
+Z42 !s105 altera_merlin_arbitrator_sv_unit
+S1
+R0
+R28
+Z43 8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_arbitrator.sv
+Z44 FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_arbitrator.sv
+L0 228
+R5
+r1
+!s85 0
+31
+Z45 !s108 1556661363.000000
+Z46 !s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_arbitrator.sv|
+Z47 !s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_arbitrator.sv|
+!i113 1
+R35
+R36
+R9
+valtera_merlin_arbitrator
+R32
+R41
+!i10b 1
+!s100 NQTehjm2fNQROUMUzShGa1
+I5h3Fo7?93gPoQVNgNh3D`3
+R2
+R42
+S1
+R0
+R28
+R43
+R44
+L0 103
+R5
+r1
+!s85 0
+31
+R45
+R46
+R47
+!i113 1
+R35
+R36
+R9
+valtera_merlin_burst_adapter
+R32
+Z48 !s110 1556661365
+!i10b 1
+!s100 OCc70X^k:B?GW6i71n`L_3
+IKE@Mb;cB>8GaNM=MXYnk63
+R2
+!s105 altera_merlin_burst_adapter_sv_unit
+S1
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_burst_adapter.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_burst_adapter.sv
+R21
+R5
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_burst_adapter.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_burst_adapter.sv|
+!i113 1
+R35
+R36
+R9
+valtera_merlin_burst_adapter_uncompressed_only
+R32
+R48
+!i10b 1
+!s100 STH]BdUM[JDMJZNJGXCd>0
+ImKimFeU:F>M]PB5bNC7MC0
+R2
+!s105 altera_merlin_burst_adapter_uncmpr_sv_unit
+S1
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv
+L0 39
+R5
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv|
+!i113 1
+R35
+R36
+R9
+valtera_merlin_burst_uncompressor
+R32
+R41
+!i10b 1
+!s100 f1?Rb<=9U?R9LJoHl;7>T3
+IzeOPZ]=dJP7QHSdh4PgeX3
+R2
+!s105 altera_merlin_burst_uncompressor_sv_unit
+S1
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+L0 40
+R5
+r1
+!s85 0
+31
+R45
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!i113 1
+R35
+R36
+R9
+valtera_merlin_master_agent
+R32
+Z49 !s110 1556661367
+!i10b 1
+!s100 _CJm:YX=>U2LQKH;8=@cb0
+I9lgV5Th:DYMKh;V`9KIiA1
+R2
+!s105 altera_merlin_master_agent_sv_unit
+S1
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_master_agent.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_master_agent.sv
+Z50 L0 28
+R5
+r1
+!s85 0
+31
+R34
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_master_agent.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_master_agent.sv|
+!i113 1
+R35
+R36
+R9
+valtera_merlin_master_translator
+R32
+R49
+!i10b 1
+!s100 NdRk@]3fC2C@V7Rm;dQM31
+Iig[@jlLR6595Y5Fo3B_mb1
+R2
+!s105 altera_merlin_master_translator_sv_unit
+S1
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_master_translator.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_master_translator.sv
+Z51 L0 32
+R5
+r1
+!s85 0
+31
+R34
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_master_translator.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_master_translator.sv|
+!i113 1
+R35
+R36
+R9
+valtera_merlin_slave_agent
+R32
+R49
+!i10b 1
+!s100 ePZN1d?B062J`OBb?blff3
+I`VoWiXTL::Q@oTg8KQfAO0
+R2
+!s105 altera_merlin_slave_agent_sv_unit
+S1
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_slave_agent.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_slave_agent.sv
+Z52 L0 34
+R5
+r1
+!s85 0
+31
+R34
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_slave_agent.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_slave_agent.sv|
+!i113 1
+R35
+R36
+R9
+valtera_merlin_slave_translator
+R32
+R49
+!i10b 1
+!s100 k`9[YAn_dLTkg;GE`mOb61
+IWO6JeIKal]d=;gPTdcR3i0
+R2
+!s105 altera_merlin_slave_translator_sv_unit
+S1
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_slave_translator.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_slave_translator.sv
+L0 35
+R5
+r1
+!s85 0
+31
+R34
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_slave_translator.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_slave_translator.sv|
+!i113 1
+R35
+R36
+R9
+valtera_merlin_traffic_limiter
+R32
+R48
+!i10b 1
+!s100 0h4;DR_^c13j]SXILa7d?1
+I6DTgQWNl:>;o5e8j>m]dD0
+R2
+!s105 altera_merlin_traffic_limiter_sv_unit
+S1
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv
+L0 49
+R5
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv|
+!i113 1
+R35
+R36
+R9
+valtera_merlin_width_adapter
+R32
+R41
+!i10b 1
+!s100 QzdA5DP6CReOTH<9QzODa3
+IE[IHSQ6iS9U@:K7NNE7l[1
+R2
+!s105 altera_merlin_width_adapter_sv_unit
+S1
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_width_adapter.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_width_adapter.sv
+L0 25
+R5
+r1
+!s85 0
+31
+R45
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_width_adapter.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_width_adapter.sv|
+!i113 1
+R35
+R36
+R9
+valtera_modular_adc_control
+Z53 !s110 1556661357
+!i10b 1
+!s100 @NIJo_PKeT6JIV[6EeaBJ0
+I[TEP`Oc8P]oVD0S2hYD;V0
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_control.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_control.v
+R4
+R5
+r1
+!s85 0
+31
+Z54 !s108 1556661357.000000
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_control.v|
+!i113 1
+R7
+R8
+R9
+valtera_modular_adc_control_avrg_fifo
+R53
+!i10b 1
+!s100 A`h0K=1=Qn1TZ5S9FK@JT0
+ImOVACR1XnLIY70cNo3R7I2
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_control_avrg_fifo.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_control_avrg_fifo.v
+Z55 L0 53
+R5
+r1
+!s85 0
+31
+R54
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_control_avrg_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_control_avrg_fifo.v|
+!i113 1
+R7
+R8
+R9
+valtera_modular_adc_control_fsm
+R12
+!i10b 1
+!s100 2Qa:G@l15B00aj5KOP?mj0
+I0^bbj_L]O^[80RPRZHR^=1
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_control_fsm.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_control_fsm.v
+R4
+R5
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_control_fsm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_control_fsm.v|
+!i113 1
+R7
+R8
+R9
+valtera_modular_adc_sample_store
+R53
+!i10b 1
+!s100 2Gfcd72dMd5lZFl=hgFWU2
+I`Kd]W@;?iX0?fcYj8hCOc1
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sample_store.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sample_store.v
+R4
+R5
+r1
+!s85 0
+31
+R54
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sample_store.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sample_store.v|
+!i113 1
+R7
+R8
+R9
+valtera_modular_adc_sample_store_ram
+R53
+!i10b 1
+!s100 Y0j>YS0B`IT^3a?jko1QU0
+I34IEV`;j:LdMW0_YgUSMc1
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sample_store_ram.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sample_store_ram.v
+R55
+R5
+r1
+!s85 0
+31
+R54
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sample_store_ram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sample_store_ram.v|
+!i113 1
+R7
+R8
+R9
+valtera_modular_adc_sequencer
+R53
+!i10b 1
+!s100 hW9S5DAkfd91U=c`MPjnz1
+IPhU9kL_dCG_LQcJMddf@22
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sequencer.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sequencer.v
+R4
+R5
+r1
+!s85 0
+31
+R54
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sequencer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sequencer.v|
+!i113 1
+R7
+R8
+R9
+valtera_modular_adc_sequencer_csr
+R53
+!i10b 1
+!s100 X?8_4Q>7d3TH;da1Q1ee>0
+I8;4bfzQeW:_T`:Mgf>^Jh1
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sequencer_csr.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sequencer_csr.v
+R4
+R5
+r1
+!s85 0
+31
+R54
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sequencer_csr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sequencer_csr.v|
+!i113 1
+R7
+R8
+R9
+valtera_modular_adc_sequencer_ctrl
+R53
+!i10b 1
+!s100 RmTEAhSh1Bj39ClM8Nkj10
+IK>jAV;5b=2R7LYD`zMcjz0
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sequencer_ctrl.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sequencer_ctrl.v
+R4
+R5
+r1
+!s85 0
+31
+R54
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sequencer_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sequencer_ctrl.v|
+!i113 1
+R7
+R8
+R9
+valtera_reset_controller
+Z56 !s110 1556661351
+!i10b 1
+!s100 z[H_hRO9gO=:^2E3_jWH03
+ILlb5N2N5EzQOg5?:8n64g3
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_reset_controller.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_reset_controller.v
+L0 42
+R5
+r1
+!s85 0
+31
+!s108 1556661350.000000
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_reset_controller.v|
+!i113 1
+R7
+R8
+R9
+valtera_reset_synchronizer
+R56
+!i10b 1
+!s100 oWLYmSO[EOX[G0PgQhZ2=0
+Im:OXGQ=H>HAoJUGcI68Ii1
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_reset_synchronizer.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_reset_synchronizer.v
+R29
+R5
+r1
+!s85 0
+31
+Z57 !s108 1556661351.000000
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_reset_synchronizer.v|
+!i113 1
+R7
+R8
+R9
+valtera_std_synchronizer_nocut
+R41
+!i10b 1
+!s100 b8zV2<79GgkNg0GC<P[GJ2
+Ib7A`0QfGC:^<bKSFSKkV62
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_std_synchronizer_nocut.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_std_synchronizer_nocut.v
+L0 44
+R5
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_std_synchronizer_nocut.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_std_synchronizer_nocut.v|
+!i113 1
+R7
+R8
+R9
+valtera_up_accelerometer_spi_auto_init
+Z58 !s110 1556661361
+!i10b 1
+!s100 8M7a0^_HeM2FF=gaKY3Y51
+I?6a;PcTm3dSdl]`SP4Xa=3
+R2
+R0
+Z59 w1556658984
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_auto_init.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_auto_init.v
+Z60 L0 29
+R5
+r1
+!s85 0
+31
+Z61 !s108 1556661361.000000
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_auto_init.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_auto_init.v|
+!i113 1
+R7
+R8
+R9
+valtera_up_accelerometer_spi_auto_init_ctrl
+R58
+!i10b 1
+!s100 6`NnR7b7cVW?X7iToogkU2
+I^l:;6m7NlTD865<jUj`0F1
+R2
+R0
+R59
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_auto_init_ctrl.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_auto_init_ctrl.v
+R60
+R5
+r1
+!s85 0
+31
+R61
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_auto_init_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_auto_init_ctrl.v|
+!i113 1
+R7
+R8
+R9
+valtera_up_accelerometer_spi_serial_bus_controller
+R58
+!i10b 1
+!s100 5X[TUlQ86bei45Y>99AC@3
+I285bd;5ZPSPE[[4XbHESC2
+R2
+R0
+R59
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_serial_bus_controller.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_serial_bus_controller.v
+L0 15
+R5
+r1
+!s85 0
+31
+R61
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_serial_bus_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_serial_bus_controller.v|
+!i113 1
+R7
+R8
+R9
+valtera_up_accelerometer_spi_slow_clock_generator
+R58
+!i10b 1
+!s100 b;>gb4a`>9z46AP2@T4VP1
+IY>HadWIL@Hk40o1U2Db9g3
+R2
+R0
+R59
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_slow_clock_generator.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_slow_clock_generator.v
+R52
+R5
+r1
+!s85 0
+31
+R61
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_slow_clock_generator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_slow_clock_generator.v|
+!i113 1
+R7
+R8
+R9
+valtera_up_altpll
+Z62 !s110 1556661354
+!i10b 1
+!s100 3PZe942kH7SOdRl<kU04K3
+II8NIACcBXdBfc05QoiV720
+R2
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_altpll.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_altpll.v
+R60
+R5
+r1
+!s85 0
+31
+Z63 !s108 1556661354.000000
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_altpll.v|
+!i113 1
+R7
+R8
+R9
+valtera_up_avalon_reset_from_locked_signal
+R62
+!i10b 1
+!s100 21LY9FTb`4C4iU[D9:fdD3
+I>]DWEHzZJXzh1mh5U0i:j3
+R2
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_avalon_reset_from_locked_signal.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_avalon_reset_from_locked_signal.v
+R50
+R5
+r1
+!s85 0
+31
+R63
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_avalon_reset_from_locked_signal.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_avalon_reset_from_locked_signal.v|
+!i113 1
+R7
+R8
+R9
+vchsel_code_converter_sw_to_hw
+R12
+!i10b 1
+!s100 =WSfhd;Qi:YEOK:Ef_E3d3
+I5S_4HjIg0ha9X=[i1@6IW3
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/chsel_code_converter_sw_to_hw.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/chsel_code_converter_sw_to_hw.v
+R51
+R5
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/chsel_code_converter_sw_to_hw.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/chsel_code_converter_sw_to_hw.v|
+!i113 1
+R7
+R8
+R9
+Ecomputer_system
+Z64 w1556658981
+Z65 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z66 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z67 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z68 8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/Computer_System.vhd
+Z69 FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/Computer_System.vhd
+l0
+L9
+V<D`YZO17hB>MejGaXTE2A3
+!s100 =0NIa7@;;VE[[fOB:6iV:0
+Z70 OV;C;10.5b;63
+31
+Z71 !s110 1556661369
+!i10b 1
+Z72 !s108 1556661369.000000
+Z73 !s90 -reportprogress|300|-93|-work|Computer_System|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/Computer_System.vhd|
+Z74 !s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/Computer_System.vhd|
+!i113 1
+Z75 o-93 -work Computer_System
+Z76 tExplicit 1 CvgOpt 0
+Artl
+R65
+R66
+R67
+DEx4 work 15 computer_system 0 22 <D`YZO17hB>MejGaXTE2A3
+l1202
+L44
+VXUG1FVBP?0i^_TgeR^08h0
+!s100 Z6QR7TYDKUA7B<KO:nK<`3
+R70
+31
+R71
+!i10b 1
+R72
+R73
+R74
+!i113 1
+R75
+R76
+vComputer_System_Accelerometer_SPI
+R58
+!i10b 1
+!s100 o`P>IFLDYCnS>IfEh7CMA0
+I7KfiQWg1c^V`IfQzaAZBz2
+R2
+R0
+R59
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Accelerometer_SPI.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Accelerometer_SPI.v
+R50
+R5
+r1
+!s85 0
+31
+R61
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Accelerometer_SPI.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Accelerometer_SPI.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@accelerometer_@s@p@i
+vComputer_System_ADC_PLL
+R58
+!i10b 1
+!s100 6fY<Y;gMPPE1ZbO?KGNz83
+IP4OI=@nDz:35k8dQ=;mB82
+R2
+R0
+R59
+Z77 8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_ADC_PLL.v
+Z78 FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_ADC_PLL.v
+L0 214
+R5
+r1
+!s85 0
+31
+R61
+Z79 !s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_ADC_PLL.v|
+Z80 !s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_ADC_PLL.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@a@d@c_@p@l@l
+vComputer_System_ADC_PLL_altpll_gr22
+R58
+!i10b 1
+!s100 dMWK6;iN59S8D1e3<`>I^3
+IVCH=^XBc^AjN?50Ujgm9]0
+R2
+R0
+R59
+R77
+R78
+L0 131
+R5
+r1
+!s85 0
+31
+R61
+R79
+R80
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@a@d@c_@p@l@l_altpll_gr22
+vComputer_System_ADC_PLL_dffpipe_l2c
+R58
+!i10b 1
+!s100 KGE7P;zdz21W4A;JRX8XE1
+IjfKImYAUIFJfzYl1QG06d0
+R2
+R0
+R59
+R77
+R78
+L0 38
+R5
+r1
+!s85 0
+31
+R61
+R79
+R80
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@a@d@c_@p@l@l_dffpipe_l2c
+vComputer_System_ADC_PLL_stdsync_sv6
+R58
+!i10b 1
+!s100 ?4ffi2VW00;Zaj^Ll;;f22
+I1__HmG>nbMiPgAiiK]S^Y3
+R2
+R0
+R59
+R77
+R78
+L0 99
+R5
+r1
+!s85 0
+31
+R61
+R79
+R80
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@a@d@c_@p@l@l_stdsync_sv6
+vComputer_System_Arduino_GPIO
+R58
+!i10b 1
+!s100 =TQ^;aN9;;G0oi7lU0<3>0
+IOH`YGV6J`Y90l9f_NHWYG3
+R2
+R0
+w1556658985
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Arduino_GPIO.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Arduino_GPIO.v
+R21
+R5
+r1
+!s85 0
+31
+Z81 !s108 1556661360.000000
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Arduino_GPIO.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Arduino_GPIO.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@arduino_@g@p@i@o
+vComputer_System_Arduino_Reset_N
+Z82 !s110 1556661360
+!i10b 1
+!s100 _fOE?BcLQDfFf;Ba`2iN52
+IWKiM3Vo>^0MED3UEP=eKb0
+R2
+R0
+w1556658986
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Arduino_Reset_N.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Arduino_Reset_N.v
+R21
+R5
+r1
+!s85 0
+31
+R81
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Arduino_Reset_N.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Arduino_Reset_N.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@arduino_@reset_@n
+vComputer_System_Expansion_JP1
+R82
+!i10b 1
+!s100 1Qdlb:R@cPnZ8f_e=_mhU3
+IYo`QTkgelPVY_EW>e@m7^2
+R2
+R0
+w1556658988
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Expansion_JP1.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Expansion_JP1.v
+R21
+R5
+r1
+!s85 0
+31
+R81
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Expansion_JP1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Expansion_JP1.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@expansion_@j@p1
+vComputer_System_HEX3_HEX0
+R82
+!i10b 1
+!s100 Fc9>KeUNT9a`86]h_>XjG0
+IHbAM4GFXAaEf^IM>EXkUz1
+R2
+R0
+Z83 w1556658989
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_HEX3_HEX0.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_HEX3_HEX0.v
+R21
+R5
+r1
+!s85 0
+31
+R81
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_HEX3_HEX0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_HEX3_HEX0.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@h@e@x3_@h@e@x0
+vComputer_System_HEX5_HEX4
+R82
+!i10b 1
+!s100 g::S8YO6M2nDRFUmzaLe^1
+IbMchTA7SBN`mZSN2edS<Y2
+R2
+R0
+R83
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_HEX5_HEX4.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_HEX5_HEX4.v
+R21
+R5
+r1
+!s85 0
+31
+R81
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_HEX5_HEX4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_HEX5_HEX4.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@h@e@x5_@h@e@x4
+vComputer_System_Interval_Timer
+R82
+!i10b 1
+!s100 Uz[djGA`3M_B]cH=>e``S3
+I?B:6:Y@oAk3l@2E7dWTB]1
+R2
+R0
+w1556658990
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Interval_Timer.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Interval_Timer.v
+R21
+R5
+r1
+!s85 0
+31
+R81
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Interval_Timer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Interval_Timer.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@interval_@timer
+vComputer_System_irq_mapper
+R32
+R26
+!i10b 1
+!s100 >cNI4;ElcGG]Zmj6n;F8^3
+IXL22W7<ocA:;]BLGkQkkX0
+R2
+!s105 Computer_System_irq_mapper_sv_unit
+S1
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_irq_mapper.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_irq_mapper.sv
+Z84 L0 31
+R5
+r1
+!s85 0
+31
+R61
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_irq_mapper.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_irq_mapper.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_irq_mapper
+vComputer_System_JoyStick_ADC
+Z85 !s110 1556661356
+!i10b 1
+!s100 _>9Z5bLWgFjX33a1hU:0D3
+IRa8nBhM2fhCnVfI^;537P0
+R2
+R0
+Z86 w1556658994
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JoyStick_ADC.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JoyStick_ADC.v
+L0 9
+R5
+r1
+!s85 0
+31
+Z87 !s108 1556661356.000000
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JoyStick_ADC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JoyStick_ADC.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@joy@stick_@a@d@c
+vComputer_System_JTAG_to_FPGA_Bridge
+R12
+!i10b 1
+!s100 N90b>WclG0?P<OHOMXBeV0
+IW4B3@FAS7lLdZlK44Bloo2
+R2
+R0
+w1556658992
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge.v
+L0 9
+R5
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@j@t@a@g_to_@f@p@g@a_@bridge
+vComputer_System_JTAG_to_FPGA_Bridge_b2p_adapter
+R32
+R33
+!i10b 1
+!s100 Qi:Yg:k4C6Mz@mYm0Xgz73
+IB]TLYWa:C8Edf282_YJ7f3
+R2
+!s105 Computer_System_JTAG_to_FPGA_Bridge_b2p_adapter_sv_unit
+S1
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge_b2p_adapter.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge_b2p_adapter.sv
+Z88 L0 55
+R5
+r1
+!s85 0
+31
+Z89 !s108 1556661368.000000
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge_b2p_adapter.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge_b2p_adapter.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_@j@t@a@g_to_@f@p@g@a_@bridge_b2p_adapter
+vComputer_System_JTAG_to_FPGA_Bridge_p2b_adapter
+R32
+R33
+!i10b 1
+!s100 A2X[PaG6J4`_JIM^lP`:A0
+Ic>^eKL<?MkFDf0]0bmc570
+R2
+!s105 Computer_System_JTAG_to_FPGA_Bridge_p2b_adapter_sv_unit
+S1
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge_p2b_adapter.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge_p2b_adapter.sv
+R88
+R5
+r1
+!s85 0
+31
+R89
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge_p2b_adapter.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge_p2b_adapter.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_@j@t@a@g_to_@f@p@g@a_@bridge_p2b_adapter
+vComputer_System_JTAG_to_FPGA_Bridge_timing_adt
+R32
+R33
+!i10b 1
+!s100 6^@gTUFF7eAfCL?0QH:AS2
+I6eFIJecXD0Ojl8;f7H5o02
+R2
+!s105 Computer_System_JTAG_to_FPGA_Bridge_timing_adt_sv_unit
+S1
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge_timing_adt.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge_timing_adt.sv
+L0 60
+R5
+r1
+!s85 0
+31
+R89
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge_timing_adt.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge_timing_adt.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_@j@t@a@g_to_@f@p@g@a_@bridge_timing_adt
+vComputer_System_JTAG_UART
+R82
+!i10b 1
+!s100 KA2:_zVVSeUHQLiY>nRjB2
+I1b_6MFZY1:KfGK]Vg`^2z0
+R2
+R0
+Z90 w1556658991
+Z91 8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_UART.v
+Z92 FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_UART.v
+L0 331
+R5
+r1
+!s85 0
+31
+R81
+Z93 !s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_UART.v|
+Z94 !s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_UART.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@j@t@a@g_@u@a@r@t
+vComputer_System_JTAG_UART_scfifo_r
+R82
+!i10b 1
+!s100 Bm]nhmjlNPeLkeLWF37=Z0
+I2HnB=>g]90_MjMmEAj>]52
+R2
+R0
+R90
+R91
+R92
+L0 243
+R5
+r1
+!s85 0
+31
+R81
+R93
+R94
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@j@t@a@g_@u@a@r@t_scfifo_r
+vComputer_System_JTAG_UART_scfifo_w
+R82
+!i10b 1
+!s100 niS5NJkU4K]<kjiE53Y9g1
+IRBMB[W[;bL:S[HIPMI0Q22
+R2
+R0
+R90
+R91
+R92
+L0 78
+R5
+r1
+!s85 0
+31
+R81
+R93
+R94
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@j@t@a@g_@u@a@r@t_scfifo_w
+vComputer_System_JTAG_UART_sim_scfifo_r
+R82
+!i10b 1
+!s100 >?8LiVdl_VXjclRV_[n?;3
+I8ieU:1lIkKE[?H27ZB7fV2
+R2
+R0
+R90
+R91
+R92
+L0 164
+R5
+r1
+!s85 0
+31
+R81
+R93
+R94
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@j@t@a@g_@u@a@r@t_sim_scfifo_r
+vComputer_System_JTAG_UART_sim_scfifo_w
+R82
+!i10b 1
+!s100 7G618Ch=Sz1ol?DzA3LY@1
+I?B037GM5d`JTeLMhC2YQ62
+R2
+R0
+R90
+R91
+R92
+R21
+R5
+r1
+!s85 0
+31
+R81
+R93
+R94
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@j@t@a@g_@u@a@r@t_sim_scfifo_w
+vComputer_System_LEDs
+R85
+!i10b 1
+!s100 g1[dLi0YdJQ9:MD_Fc]R:0
+I>;]7g>fD:nA3_>8PN@feK3
+R2
+R0
+R86
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_LEDs.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_LEDs.v
+R21
+R5
+r1
+!s85 0
+31
+R87
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_LEDs.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_LEDs.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@l@e@ds
+vComputer_System_mm_interconnect_0
+R56
+!i10b 1
+!s100 2I19JgJ372ZgN?[JE5EKP3
+I9h9d0IIZg_Ri4Dd1BM]1X3
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+R57
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_mm_interconnect_0
+vComputer_System_mm_interconnect_0_avalon_st_adapter
+R1
+!i10b 1
+!s100 b[Ng<e^_JaF6UUcH_fQZC3
+Iae@3lXlQBMFJ_mLe:cjMj2
+R2
+R0
+w1556659039
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter.v
+L0 9
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_mm_interconnect_0_avalon_st_adapter
+vComputer_System_mm_interconnect_0_avalon_st_adapter_001
+R56
+!i10b 1
+!s100 3SJ8KDFh06AgZA_]UK:Ib0
+I9`ZNeC1m9GC0fOPK`Ah5R2
+R2
+R0
+Z95 w1556659040
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_001.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_001.v
+L0 9
+R5
+r1
+!s85 0
+31
+R57
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_001.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_001.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_mm_interconnect_0_avalon_st_adapter_001
+vComputer_System_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0
+R32
+R26
+!i10b 1
+!s100 D_3]ccOmPdaDi4;Tj<lZk3
+IV90]`Akh;XJmX30oi`XAO0
+R2
+!s105 Computer_System_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0_sv_unit
+S1
+R0
+R95
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0.sv
+Z96 L0 66
+R5
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0
+vComputer_System_mm_interconnect_0_avalon_st_adapter_006
+R56
+!i10b 1
+!s100 Ro[YkLSZTS3n1[@5lATJI3
+IF<fNHgD;Uk0dR^=C6V3nU0
+R2
+R0
+R95
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_006.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_006.v
+L0 9
+R5
+r1
+!s85 0
+31
+R57
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_006.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_006.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_mm_interconnect_0_avalon_st_adapter_006
+vComputer_System_mm_interconnect_0_avalon_st_adapter_006_error_adapter_0
+R32
+R26
+!i10b 1
+!s100 d7^J0P?TV6`4JHZ3S:f;V3
+I[^4Y=I92_aDm3ZeIaeKUd3
+R2
+!s105 Computer_System_mm_interconnect_0_avalon_st_adapter_006_error_adapter_0_sv_unit
+S1
+R0
+R95
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_006_error_adapter_0.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_006_error_adapter_0.sv
+R96
+R5
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_006_error_adapter_0.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_006_error_adapter_0.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_avalon_st_adapter_006_error_adapter_0
+vComputer_System_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+R32
+R26
+!i10b 1
+!s100 cDM1?lSW]eFQ9eE`1S1VK3
+IOCUMn5LEH^O=[^:L8OjTX2
+R2
+!s105 Computer_System_mm_interconnect_0_avalon_st_adapter_error_adapter_0_sv_unit
+S1
+R0
+R95
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+R96
+R5
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+vComputer_System_mm_interconnect_0_cmd_demux
+R32
+R48
+!i10b 1
+!s100 mYgYkB>;bl;S;foN_`[PM0
+I?[:;RgXK`HQoeW8@R?=<N2
+R2
+!s105 Computer_System_mm_interconnect_0_cmd_demux_sv_unit
+S1
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_demux.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_demux.sv
+Z97 L0 43
+R5
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_demux.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_demux.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_cmd_demux
+vComputer_System_mm_interconnect_0_cmd_demux_001
+R32
+R48
+!i10b 1
+!s100 P6Y`l4f^LIS<Ue=UmHHgh0
+I;WEic>LHP=ZW_DQ_R_>GY3
+R2
+!s105 Computer_System_mm_interconnect_0_cmd_demux_001_sv_unit
+S1
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_demux_001.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_demux_001.sv
+R97
+R5
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_demux_001.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_demux_001.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_cmd_demux_001
+vComputer_System_mm_interconnect_0_cmd_demux_002
+R32
+R48
+!i10b 1
+!s100 JSHgkW0_Eo2LgkHm_165<0
+ISeIQA;ZNkRZZ<jZ0Qd5j43
+R2
+!s105 Computer_System_mm_interconnect_0_cmd_demux_002_sv_unit
+S1
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_demux_002.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_demux_002.sv
+R97
+R5
+r1
+!s85 0
+31
+Z98 !s108 1556661364.000000
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_demux_002.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_demux_002.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_cmd_demux_002
+vComputer_System_mm_interconnect_0_cmd_mux
+R32
+Z99 !s110 1556661364
+!i10b 1
+!s100 k@_Tb5l5H]3NWhEJNED>c2
+Il>L3AQgdc5EBl4j0oaGTJ1
+R2
+!s105 Computer_System_mm_interconnect_0_cmd_mux_sv_unit
+S1
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_mux.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_mux.sv
+Z100 L0 51
+R5
+r1
+!s85 0
+31
+R98
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_mux.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_mux.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_cmd_mux
+vComputer_System_mm_interconnect_0_cmd_mux_006
+R32
+R99
+!i10b 1
+!s100 K?jTXZ855M`8_Yn]SS1e[0
+IQc<X2[Kgalj1MDXS=>HAO2
+R2
+!s105 Computer_System_mm_interconnect_0_cmd_mux_006_sv_unit
+S1
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_mux_006.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_mux_006.sv
+R100
+R5
+r1
+!s85 0
+31
+R98
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_mux_006.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_mux_006.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_cmd_mux_006
+vComputer_System_mm_interconnect_0_cmd_mux_022
+R32
+R99
+!i10b 1
+!s100 D2bcm4[ePM2jEfk^b5efI0
+I28=Z5A4`iN@Ci_4nO@`3J2
+R2
+!s105 Computer_System_mm_interconnect_0_cmd_mux_022_sv_unit
+S1
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_mux_022.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_mux_022.sv
+R100
+R5
+r1
+!s85 0
+31
+R98
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_mux_022.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_mux_022.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_cmd_mux_022
+vComputer_System_mm_interconnect_0_router
+R32
+R49
+!i10b 1
+!s100 ?6kIffJVZh?o=RMN9`58H1
+Il1C:_H1admKHgOCGDbHTP2
+R2
+Z101 !s105 Computer_System_mm_interconnect_0_router_sv_unit
+S1
+R0
+R28
+Z102 8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router.sv
+Z103 FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router.sv
+Z104 L0 84
+R5
+r1
+!s85 0
+31
+R34
+Z105 !s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router.sv|
+Z106 !s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_router
+vComputer_System_mm_interconnect_0_router_001
+R32
+R49
+!i10b 1
+!s100 =eD5GlWedC8h=faK4HURe1
+I0d^2XaYmP1U@iV1J<3iiE0
+R2
+Z107 !s105 Computer_System_mm_interconnect_0_router_001_sv_unit
+S1
+R0
+R28
+Z108 8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_001.sv
+Z109 FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_001.sv
+R104
+R5
+r1
+!s85 0
+31
+Z110 !s108 1556661366.000000
+Z111 !s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_001.sv|
+Z112 !s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_001.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_router_001
+vComputer_System_mm_interconnect_0_router_001_default_decode
+R32
+R49
+!i10b 1
+!s100 YaDlfX`ddg94P>I0BcEb12
+I0Mmg?:_bT]5BJzc:h5e4^2
+R2
+R107
+S1
+R0
+R28
+R108
+R109
+Z113 L0 45
+R5
+r1
+!s85 0
+31
+R110
+R111
+R112
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_router_001_default_decode
+vComputer_System_mm_interconnect_0_router_002
+R32
+R20
+!i10b 1
+!s100 2GY=T1=295iFZ4glM[3ez2
+IGn;dmGee`CH_?@S@]^]l@0
+R2
+Z114 !s105 Computer_System_mm_interconnect_0_router_002_sv_unit
+S1
+R0
+R28
+Z115 8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_002.sv
+Z116 FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_002.sv
+R104
+R5
+r1
+!s85 0
+31
+R110
+Z117 !s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_002.sv|
+Z118 !s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_002.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_router_002
+vComputer_System_mm_interconnect_0_router_002_default_decode
+R32
+R20
+!i10b 1
+!s100 ?AM2f4WY>ZNZW?ccBmF<e2
+I5gWQod:GQFH@neaGjIHgh0
+R2
+R114
+S1
+R0
+R28
+R115
+R116
+R113
+R5
+r1
+!s85 0
+31
+R110
+R117
+R118
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_router_002_default_decode
+vComputer_System_mm_interconnect_0_router_003
+R32
+R20
+!i10b 1
+!s100 cDK0^JGWdfI;^Si:zfe0d2
+IBm2VnanYV9A7J9`CdWe;V3
+R2
+Z119 !s105 Computer_System_mm_interconnect_0_router_003_sv_unit
+S1
+R0
+R28
+Z120 8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_003.sv
+Z121 FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_003.sv
+R104
+R5
+r1
+!s85 0
+31
+R110
+Z122 !s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_003.sv|
+Z123 !s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_003.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_router_003
+vComputer_System_mm_interconnect_0_router_003_default_decode
+R32
+R20
+!i10b 1
+!s100 BVSP7Wocz;hLUW<FmUHC52
+I0Wi:Fl@]HLh_bn1cIdIV:0
+R2
+R119
+S1
+R0
+R28
+R120
+R121
+R113
+R5
+r1
+!s85 0
+31
+R110
+R122
+R123
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_router_003_default_decode
+vComputer_System_mm_interconnect_0_router_004
+R32
+R20
+!i10b 1
+!s100 M8nO?Vj8oT=5ZH:Z0HQ>m1
+I_i9c]=LS383ZNHnba37C60
+R2
+Z124 !s105 Computer_System_mm_interconnect_0_router_004_sv_unit
+S1
+R0
+R28
+Z125 8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_004.sv
+Z126 FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_004.sv
+R104
+R5
+r1
+!s85 0
+31
+R110
+Z127 !s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_004.sv|
+Z128 !s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_004.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_router_004
+vComputer_System_mm_interconnect_0_router_004_default_decode
+R32
+R20
+!i10b 1
+!s100 :QLAVZl0RZ;aXmi5d>Y5?2
+IiNXQRK^5UjHU9JRLS3lRX3
+R2
+R124
+S1
+R0
+R28
+R125
+R126
+R113
+R5
+r1
+!s85 0
+31
+R110
+R127
+R128
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_router_004_default_decode
+vComputer_System_mm_interconnect_0_router_007
+R32
+R20
+!i10b 1
+!s100 ]^]0I6cB;m[Cc0CVTO;d11
+ISjbKcg?W;Uji8JaHYYaHJ2
+R2
+Z129 !s105 Computer_System_mm_interconnect_0_router_007_sv_unit
+S1
+R0
+R28
+Z130 8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_007.sv
+Z131 FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_007.sv
+R104
+R5
+r1
+!s85 0
+31
+R110
+Z132 !s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_007.sv|
+Z133 !s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_007.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_router_007
+vComputer_System_mm_interconnect_0_router_007_default_decode
+R32
+R20
+!i10b 1
+!s100 UdWJINM?dD8B4LCiQR>W22
+IQ:DHh0QidZWkXlD5<ZbGW2
+R2
+R129
+S1
+R0
+R28
+R130
+R131
+R113
+R5
+r1
+!s85 0
+31
+R110
+R132
+R133
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_router_007_default_decode
+vComputer_System_mm_interconnect_0_router_009
+R32
+R20
+!i10b 1
+!s100 ;TmzT29F7KEH^8dJR:afW0
+IKZ@eMkFUio:ZdEW1j133j3
+R2
+Z134 !s105 Computer_System_mm_interconnect_0_router_009_sv_unit
+S1
+R0
+R28
+Z135 8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_009.sv
+Z136 FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_009.sv
+R104
+R5
+r1
+!s85 0
+31
+R110
+Z137 !s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_009.sv|
+Z138 !s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_009.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_router_009
+vComputer_System_mm_interconnect_0_router_009_default_decode
+R32
+R20
+!i10b 1
+!s100 `<i`Z[:TEl]?nL4iDP9`;0
+ITk]lz?<DJ:cZmi=obEg>?0
+R2
+R134
+S1
+R0
+R28
+R135
+R136
+R113
+R5
+r1
+!s85 0
+31
+R110
+R137
+R138
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_router_009_default_decode
+vComputer_System_mm_interconnect_0_router_025
+R32
+R20
+!i10b 1
+!s100 A_aC[ZnbEV_;Q9Y[?GY>`2
+IH_KMLbAUVDVRFF77V7?gW3
+R2
+Z139 !s105 Computer_System_mm_interconnect_0_router_025_sv_unit
+S1
+R0
+R28
+Z140 8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_025.sv
+Z141 FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_025.sv
+R104
+R5
+r1
+!s85 0
+31
+R110
+Z142 !s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_025.sv|
+Z143 !s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_025.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_router_025
+vComputer_System_mm_interconnect_0_router_025_default_decode
+R32
+R20
+!i10b 1
+!s100 N<OL444DAB:PGH2DaXH3_1
+I=e;Mze5m=GCA[2c9klD9d2
+R2
+R139
+S1
+R0
+R28
+R140
+R141
+R113
+R5
+r1
+!s85 0
+31
+R110
+R142
+R143
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_router_025_default_decode
+vComputer_System_mm_interconnect_0_router_default_decode
+R32
+R49
+!i10b 1
+!s100 n??@Ve6]D5IY<J[f3Gf_41
+If1G178SEX5IQoG`lUZ^A?0
+R2
+R101
+S1
+R0
+R28
+R102
+R103
+R113
+R5
+r1
+!s85 0
+31
+R34
+R105
+R106
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_router_default_decode
+vComputer_System_mm_interconnect_0_rsp_demux
+R32
+R99
+!i10b 1
+!s100 kQCiin9E[_WdDID3WdIlN0
+Ij:Jf9YS=IY?YPdT24Hn6N2
+R2
+!s105 Computer_System_mm_interconnect_0_rsp_demux_sv_unit
+S1
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_demux.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_demux.sv
+R97
+R5
+r1
+!s85 0
+31
+R98
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_demux.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_demux.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_rsp_demux
+vComputer_System_mm_interconnect_0_rsp_demux_020
+R32
+R99
+!i10b 1
+!s100 `SAhY5hQd1bKUZkePKHz<3
+IB@NJ^n2MXFDIO8LCb[D5?1
+R2
+!s105 Computer_System_mm_interconnect_0_rsp_demux_020_sv_unit
+S1
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_demux_020.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_demux_020.sv
+R97
+R5
+r1
+!s85 0
+31
+R98
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_demux_020.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_demux_020.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_rsp_demux_020
+vComputer_System_mm_interconnect_0_rsp_demux_022
+R32
+R99
+!i10b 1
+!s100 YEa6BLQQKzVJ[UQnlJ`0I3
+I3iY9dHRB4B;_?eS5lC9::3
+R2
+!s105 Computer_System_mm_interconnect_0_rsp_demux_022_sv_unit
+S1
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_demux_022.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_demux_022.sv
+R97
+R5
+r1
+!s85 0
+31
+R98
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_demux_022.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_demux_022.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_rsp_demux_022
+vComputer_System_mm_interconnect_0_rsp_mux
+R32
+R41
+!i10b 1
+!s100 cWWc_cWOW6Egh1n^GaL2_0
+IMbbYePoPcaJh6bC0X9eLF0
+R2
+!s105 Computer_System_mm_interconnect_0_rsp_mux_sv_unit
+S1
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_mux.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_mux.sv
+R100
+R5
+r1
+!s85 0
+31
+R45
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_mux.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_mux.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_rsp_mux
+vComputer_System_mm_interconnect_0_rsp_mux_001
+R32
+R41
+!i10b 1
+!s100 ?7^eUGNVXnQURQ6>SXFh@0
+I;o:KlV_FaiiXg^_bcX0fS2
+R2
+!s105 Computer_System_mm_interconnect_0_rsp_mux_001_sv_unit
+S1
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_mux_001.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_mux_001.sv
+R100
+R5
+r1
+!s85 0
+31
+R45
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_mux_001.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_mux_001.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_rsp_mux_001
+vComputer_System_mm_interconnect_0_rsp_mux_002
+R32
+R41
+!i10b 1
+!s100 [1]P6c6PI_aG?695AzbhU2
+If9KJ0=CJVf[;<>iAjPgiQ0
+R2
+!s105 Computer_System_mm_interconnect_0_rsp_mux_002_sv_unit
+S1
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_mux_002.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_mux_002.sv
+R100
+R5
+r1
+!s85 0
+31
+R45
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_mux_002.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_mux_002.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_mm_interconnect_0_rsp_mux_002
+vComputer_System_Nios2
+Z144 !s110 1556661355
+!i10b 1
+!s100 Ve8coe9@jPjX2HdlG91k50
+IzTb=`^E]iV7m[e]TLNk=]3
+R2
+R0
+Z145 w1556658995
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2.v
+L0 9
+R5
+r1
+!s85 0
+31
+Z146 !s108 1556661355.000000
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2
+vComputer_System_Nios2_cpu
+R85
+!i10b 1
+!s100 X9d9YH^0TDbQDABW2P[i31
+IhQUTSA^RTVbPZZ=Rmzo?01
+R2
+R0
+R28
+Z147 8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu.v
+Z148 FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu.v
+L0 2834
+R5
+r1
+!s85 0
+31
+R146
+Z149 !s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu.v|
+Z150 !s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu
+vComputer_System_Nios2_cpu_debug_slave_sysclk
+R85
+!i10b 1
+!s100 L>?Fo0WznZNZKgd4HoJ9F2
+Ilgza7bAeFdLd[Tc5RV23b1
+R2
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_debug_slave_sysclk.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_debug_slave_sysclk.v
+R21
+R5
+r1
+!s85 0
+31
+R87
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_debug_slave_sysclk.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_debug_slave_sysclk.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_debug_slave_sysclk
+vComputer_System_Nios2_cpu_debug_slave_tck
+R85
+!i10b 1
+!s100 O>1;XzL]`jk?n[S=G>5811
+ISmcUzoQ<af:N9jjWL1GGI3
+R2
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_debug_slave_tck.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_debug_slave_tck.v
+R21
+R5
+r1
+!s85 0
+31
+R87
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_debug_slave_tck.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_debug_slave_tck.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_debug_slave_tck
+vComputer_System_Nios2_cpu_debug_slave_wrapper
+R85
+!i10b 1
+!s100 JaO^h_0PV:So=C_ifl6a[3
+IfLKKQYJHY@F_oCbJj^Ndo3
+R2
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_debug_slave_wrapper.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_debug_slave_wrapper.v
+R21
+R5
+r1
+!s85 0
+31
+R87
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_debug_slave_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_debug_slave_wrapper.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_debug_slave_wrapper
+vComputer_System_Nios2_cpu_nios2_avalon_reg
+R85
+!i10b 1
+!s100 HT:1AjD<mlk<1h`1]Q4i@1
+I4P3P`4FzM:9C:7alm4X=@3
+R2
+R0
+R28
+R147
+R148
+L0 2023
+R5
+r1
+!s85 0
+31
+R146
+R149
+R150
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_nios2_avalon_reg
+vComputer_System_Nios2_cpu_nios2_oci
+R85
+!i10b 1
+!s100 C>KVBC0RHFA?2h;^NJ>RC0
+IH_Q84JmkC662Q6BUNba_F0
+R2
+R0
+R28
+R147
+R148
+L0 2362
+R5
+r1
+!s85 0
+31
+R146
+R149
+R150
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_nios2_oci
+vComputer_System_Nios2_cpu_nios2_oci_break
+R144
+!i10b 1
+!s100 2VIRQ=j4D0nJ]9IC?eFJ;2
+I5D0`M6Bc<=ML@5zLS[m9a3
+R2
+R0
+R28
+R147
+R148
+L0 295
+R5
+r1
+!s85 0
+31
+R146
+R149
+R150
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_nios2_oci_break
+vComputer_System_Nios2_cpu_nios2_oci_compute_input_tm_cnt
+R85
+!i10b 1
+!s100 3>lVNG]_2o;JK<d:[Ab7X0
+I:^]Mf1SF<cA:@z3Dz9kj03
+R2
+R0
+R28
+R147
+R148
+L0 1265
+R5
+r1
+!s85 0
+31
+R146
+R149
+R150
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_nios2_oci_compute_input_tm_cnt
+vComputer_System_Nios2_cpu_nios2_oci_dbrk
+R144
+!i10b 1
+!s100 ]]ffDoMaozdc6GNWoo:F;3
+I;b_Ihniz4lb4@Qg:5zTR82
+R2
+R0
+R28
+R147
+R148
+L0 795
+R5
+r1
+!s85 0
+31
+R146
+R149
+R150
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_nios2_oci_dbrk
+vComputer_System_Nios2_cpu_nios2_oci_debug
+R144
+!i10b 1
+!s100 V]Xg3BH9k4CPQhE=1eQK21
+ID1ADE=C[ha;MjiJCmMT;^3
+R2
+R0
+R28
+R147
+R148
+L0 153
+R5
+r1
+!s85 0
+31
+R146
+R149
+R150
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_nios2_oci_debug
+vComputer_System_Nios2_cpu_nios2_oci_dtrace
+R144
+!i10b 1
+!s100 FUignYNmm<d:AcEG[ia8X0
+IRD7eQYcn5Gln_nb02`YG`0
+R2
+R0
+R28
+R147
+R148
+L0 1183
+R5
+r1
+!s85 0
+31
+R146
+R149
+R150
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_nios2_oci_dtrace
+vComputer_System_Nios2_cpu_nios2_oci_fifo
+R85
+!i10b 1
+!s100 DilU77cjlzX8hnaQ@CE032
+I5?dD>65RMnUXWV3jlc1Jd0
+R2
+R0
+R28
+R147
+R148
+L0 1427
+R5
+r1
+!s85 0
+31
+R146
+R149
+R150
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_nios2_oci_fifo
+vComputer_System_Nios2_cpu_nios2_oci_fifo_cnt_inc
+R85
+!i10b 1
+!s100 e1nN>ZTYB8mfkkUiQCK632
+II9Dk=gKNnhSgW5EPKWcG:0
+R2
+R0
+R28
+R147
+R148
+L0 1380
+R5
+r1
+!s85 0
+31
+R146
+R149
+R150
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_nios2_oci_fifo_cnt_inc
+vComputer_System_Nios2_cpu_nios2_oci_fifo_wrptr_inc
+R85
+!i10b 1
+!s100 Tj]mn@;e98l;LB:ZV2E6^3
+Id77[DaCUn>MmB5Deb>ZRd2
+R2
+R0
+R28
+R147
+R148
+L0 1337
+R5
+r1
+!s85 0
+31
+R146
+R149
+R150
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_nios2_oci_fifo_wrptr_inc
+vComputer_System_Nios2_cpu_nios2_oci_im
+R85
+!i10b 1
+!s100 VZ6RcYW@iOz>n7lOTDaoZ3
+IncBAiTW;cVFIEToW3:Q:12
+R2
+R0
+R28
+R147
+R148
+L0 1936
+R5
+r1
+!s85 0
+31
+R146
+R149
+R150
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_nios2_oci_im
+vComputer_System_Nios2_cpu_nios2_oci_itrace
+R144
+!i10b 1
+!s100 Odj]0Zbj@KQ]_V37FNFQe3
+IM:0Tg[ic@>GHhM]zJal^z1
+R2
+R0
+R28
+R147
+R148
+L0 982
+R5
+r1
+!s85 0
+31
+R146
+R149
+R150
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_nios2_oci_itrace
+vComputer_System_Nios2_cpu_nios2_oci_pib
+R85
+!i10b 1
+!s100 Fdea]S@KP]b]4ToI^K7li1
+IHUWYVY?O0PJRcjHKJISV81
+R2
+R0
+R28
+R147
+R148
+L0 1913
+R5
+r1
+!s85 0
+31
+R146
+R149
+R150
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_nios2_oci_pib
+vComputer_System_Nios2_cpu_nios2_oci_td_mode
+R144
+!i10b 1
+!s100 Kh]6BGn<TEZ24igSJkcmL1
+IWJJ5ScO?k:4Y]f?ADXgXC2
+R2
+R0
+R28
+R147
+R148
+L0 1115
+R5
+r1
+!s85 0
+31
+R146
+R149
+R150
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_nios2_oci_td_mode
+vComputer_System_Nios2_cpu_nios2_oci_xbrk
+R144
+!i10b 1
+!s100 dNZeV^PAFSizModIjGF>W0
+IjDWHaT]H`aGOHMMWUkhVe2
+R2
+R0
+R28
+R147
+R148
+L0 588
+R5
+r1
+!s85 0
+31
+R146
+R149
+R150
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_nios2_oci_xbrk
+vComputer_System_Nios2_cpu_nios2_ocimem
+R85
+!i10b 1
+!s100 45EZHeU>_GIRR^o9IlK180
+Ikde8czU98oE2VdgWnA^@O1
+R2
+R0
+R28
+R147
+R148
+L0 2181
+R5
+r1
+!s85 0
+31
+R146
+R149
+R150
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_nios2_ocimem
+vComputer_System_Nios2_cpu_nios2_performance_monitors
+R85
+!i10b 1
+!s100 ?z:F3CXzSol[^YFz;J3Ro3
+I]aa^hOaIk:9JP<n`E1OGk1
+R2
+R0
+R28
+R147
+R148
+L0 2006
+R5
+r1
+!s85 0
+31
+R146
+R149
+R150
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_nios2_performance_monitors
+vComputer_System_Nios2_cpu_ociram_sp_ram_module
+R85
+!i10b 1
+!s100 gBl@8DX>Zj_JbG5DdOdJN2
+Inz<M7CoaShJ20B]3m=TBg1
+R2
+R0
+R28
+R147
+R148
+L0 2116
+R5
+r1
+!s85 0
+31
+R146
+R149
+R150
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_ociram_sp_ram_module
+vComputer_System_Nios2_cpu_register_bank_a_module
+R144
+!i10b 1
+!s100 @YLAIlII_IN^Chjl<bO^A3
+IY`8T2Db2m_iThFSZXD@JX2
+R2
+R0
+R28
+R147
+R148
+R21
+R5
+r1
+!s85 0
+31
+R146
+R149
+R150
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_register_bank_a_module
+vComputer_System_Nios2_cpu_register_bank_b_module
+R144
+!i10b 1
+!s100 :kDGA@em9N2HgKHgFgNXQ1
+Il?_NzE<PC5BV>?@n[Cn3j0
+R2
+R0
+R28
+R147
+R148
+L0 87
+R5
+r1
+!s85 0
+31
+R146
+R149
+R150
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_register_bank_b_module
+vComputer_System_Nios2_cpu_test_bench
+R85
+!i10b 1
+!s100 6`lVdhoThR92QiM_CKd@C3
+IH^RaGT6ZLRAM=@3[a;=hN3
+R2
+R0
+R28
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_test_bench.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_test_bench.v
+R21
+R5
+r1
+!s85 0
+31
+R87
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_test_bench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_test_bench.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@nios2_cpu_test_bench
+vComputer_System_Nios2_custom_instruction_master_multi_xconnect
+R32
+R33
+!i10b 1
+!s100 1a<Jd>W:n=Y4_8edz2FG63
+IUR5bWzZ3bT`f;VTbMgf@C0
+R2
+!s105 Computer_System_Nios2_custom_instruction_master_multi_xconnect_sv_unit
+S1
+R0
+R30
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_custom_instruction_master_multi_xconnect.sv
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_custom_instruction_master_multi_xconnect.sv
+L0 27
+R5
+r1
+!s85 0
+31
+R89
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_custom_instruction_master_multi_xconnect.sv|
+!s90 -reportprogress|300|-sv|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_custom_instruction_master_multi_xconnect.sv|
+!i113 1
+R35
+R36
+R9
+n@computer_@system_@nios2_custom_instruction_master_multi_xconnect
+vComputer_System_Onchip_SRAM
+R144
+!i10b 1
+!s100 ff9NT3cF6a4F:Ga5TUi[M1
+IiWocb@agV1A:[d0C36G9D0
+R2
+R0
+Z151 w1556658997
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Onchip_SRAM.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Onchip_SRAM.v
+R21
+R5
+r1
+!s85 0
+31
+R146
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Onchip_SRAM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Onchip_SRAM.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@onchip_@s@r@a@m
+vComputer_System_Pushbuttons
+R62
+!i10b 1
+!s100 Sa96cVljYJS[1K^aj^JV>2
+IdTJoJcF1ocRiOe[2n^@lW2
+R2
+R0
+R151
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Pushbuttons.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Pushbuttons.v
+R21
+R5
+r1
+!s85 0
+31
+R63
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Pushbuttons.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Pushbuttons.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@pushbuttons
+Ecomputer_system_rst_controller
+R64
+R65
+R66
+R67
+R0
+Z152 8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/computer_system_rst_controller.vhd
+Z153 FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/computer_system_rst_controller.vhd
+l0
+L9
+VX>FDNObT^WPaGkcD22Y8]2
+!s100 kOjOmS]iA5<^ZQ79=4SB93
+R70
+31
+R71
+!i10b 1
+R72
+Z154 !s90 -reportprogress|300|-93|-work|Computer_System|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/computer_system_rst_controller.vhd|
+Z155 !s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/computer_system_rst_controller.vhd|
+!i113 1
+R75
+R76
+Artl
+R65
+R66
+R67
+DEx4 work 30 computer_system_rst_controller 0 22 X>FDNObT^WPaGkcD22Y8]2
+l142
+L75
+V4E]hS03dLg]aTl:Z6oj4R3
+!s100 ?W;X@W0J^RR]]onm`odAk3
+R70
+31
+R71
+!i10b 1
+R72
+R154
+R155
+!i113 1
+R75
+R76
+Ecomputer_system_rst_controller_001
+R64
+R65
+R66
+R67
+R0
+Z156 8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/computer_system_rst_controller_001.vhd
+Z157 FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/computer_system_rst_controller_001.vhd
+l0
+L9
+VJ0<DD?OCRU8L1F58^khS03
+!s100 aLemmQcl9SDHQcmSmI5gB2
+R70
+31
+R71
+!i10b 1
+R72
+Z158 !s90 -reportprogress|300|-93|-work|Computer_System|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/computer_system_rst_controller_001.vhd|
+Z159 !s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/computer_system_rst_controller_001.vhd|
+!i113 1
+R75
+R76
+Artl
+R65
+R66
+R67
+DEx4 work 34 computer_system_rst_controller_001 0 22 J0<DD?OCRU8L1F58^khS03
+l142
+L75
+V1hZNT5=WaO4T9E0VB<m@z3
+!s100 @7VGmY>;njQH=jfij<33C3
+R70
+31
+R71
+!i10b 1
+R72
+R158
+R159
+!i113 1
+R75
+R76
+Ecomputer_system_rst_controller_002
+R64
+R65
+R66
+R67
+R0
+Z160 8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/computer_system_rst_controller_002.vhd
+Z161 FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/computer_system_rst_controller_002.vhd
+l0
+L9
+VT7F77FFCIiXf2i[;V2DA?2
+!s100 Bdf8E8Wj@b:RgB`D4O7LK0
+R70
+31
+R71
+!i10b 1
+R72
+Z162 !s90 -reportprogress|300|-93|-work|Computer_System|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/computer_system_rst_controller_002.vhd|
+Z163 !s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/computer_system_rst_controller_002.vhd|
+!i113 1
+R75
+R76
+Artl
+R65
+R66
+R67
+DEx4 work 34 computer_system_rst_controller_002 0 22 T7F77FFCIiXf2i[;V2DA?2
+l142
+L75
+VXaSHd^h8^WJQU2C:]G<OS1
+!s100 JVnK43O=Y1`5?MMQDaEGi2
+R70
+31
+R71
+!i10b 1
+R72
+R162
+R163
+!i113 1
+R75
+R76
+vComputer_System_SDRAM
+R62
+!i10b 1
+!s100 ;9J2]KbJ>hZ;WJW;O4VGH2
+IKnoc5]E:Qm4bbG<C<Sh^72
+R2
+R0
+Z164 w1556658998
+Z165 8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_SDRAM.v
+Z166 FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_SDRAM.v
+L0 159
+R5
+r1
+!s85 0
+31
+R63
+Z167 !s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_SDRAM.v|
+Z168 !s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_SDRAM.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@s@d@r@a@m
+vComputer_System_SDRAM_input_efifo_module
+R62
+!i10b 1
+!s100 ]A[G?aAJMP8[kG>Vi;[MB1
+I;d6z0]bWzzFGgiHO>F42G2
+R2
+R0
+R164
+R165
+R166
+R21
+R5
+r1
+!s85 0
+31
+R63
+R167
+R168
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@s@d@r@a@m_input_efifo_module
+vComputer_System_servo_1
+R1
+!i10b 1
+!s100 MRJbFQBR[1TK^FYmQKMbo2
+ImE_[6SO[QnO8S0e_nICHQ3
+R2
+R0
+R30
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_servo_1.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_servo_1.v
+R21
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_servo_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_servo_1.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_servo_1
+vComputer_System_Slider_Switches
+R62
+!i10b 1
+!s100 jLGa5=;BhfcfLWjdbC=1Y2
+IY>k_XKE2]:G;[XLEDJkl13
+R2
+R0
+Z169 w1556658999
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Slider_Switches.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Slider_Switches.v
+R21
+R5
+r1
+!s85 0
+31
+R63
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Slider_Switches.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Slider_Switches.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@slider_@switches
+vComputer_System_SysID
+R62
+!i10b 1
+!s100 gZ61g:J__>VF_2^LoMd_e2
+IDl8IacE<9YnKHDlThA6cl2
+R2
+R0
+R169
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_SysID.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_SysID.v
+R52
+R5
+r1
+!s85 0
+31
+R63
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_SysID.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_SysID.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@sys@i@d
+vComputer_System_System_PLL
+R62
+!i10b 1
+!s100 T:kCl@VZ1KVNZ9i5S255g2
+I1G8c0e=lIjc9?KmmzV[MQ2
+R2
+R0
+R3
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_System_PLL.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_System_PLL.v
+L0 9
+R5
+r1
+!s85 0
+31
+R63
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_System_PLL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_System_PLL.v|
+!i113 1
+R7
+R8
+R9
+n@computer_@system_@system_@p@l@l
+vfifo_buffer
+R12
+!i10b 1
+!s100 DMV9zRnPjWDbzTRVo^2TT0
+I0az9NJz3?D9RH`h@4T^Y11
+R2
+R0
+R13
+R14
+R15
+L0 627
+R5
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R7
+R8
+R9
+vfifo_buffer_scfifo_with_controls
+R12
+!i10b 1
+!s100 zmOh<:bil5=WKFX;=j_Af2
+IKZ34RN;U2RPj`F<7MPc8P1
+R2
+R0
+R13
+R14
+R15
+L0 573
+R5
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R7
+R8
+R9
+vfifo_buffer_single_clock_fifo
+R12
+!i10b 1
+!s100 l?APnUI8_=1IUOC<`QGGJ3
+IeD]WSBlIIN]YQe`Oh3YdJ2
+R2
+R0
+R13
+R14
+R15
+L0 512
+R5
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R7
+R8
+R9
+vfifo_to_packet
+R12
+!i10b 1
+!s100 TbDMFiLf3D=`0Ekh08_[C1
+IE47Z6bz2fzXP1g0CfMgj41
+R2
+R0
+R13
+R14
+R15
+L0 697
+R5
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R7
+R8
+R9
+vfiftyfivenm_adcblock_primitive_wrapper
+R12
+!i10b 1
+!s100 I^:JcO9X^D`ME7KKfVOc83
+Ik:3c<j56QPbCQa3F_^T]O1
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fiftyfivenm_adcblock_primitive_wrapper.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fiftyfivenm_adcblock_primitive_wrapper.v
+L0 37
+R5
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fiftyfivenm_adcblock_primitive_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fiftyfivenm_adcblock_primitive_wrapper.v|
+!i113 1
+R7
+R8
+R9
+vfiftyfivenm_adcblock_top_wrapper
+R12
+!i10b 1
+!s100 l9iJ=>VBIF0BGn4;C1LCF0
+IfQ:;j784a[HZ><i?3aMh32
+R2
+R0
+R13
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fiftyfivenm_adcblock_top_wrapper.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fiftyfivenm_adcblock_top_wrapper.v
+R84
+R5
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fiftyfivenm_adcblock_top_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fiftyfivenm_adcblock_top_wrapper.v|
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys
+R144
+!i10b 1
+!s100 `PVLXmC=<:f4Y2aH4aVnh2
+I<8MR?OMI8SZl<zjiU_Bfm1
+R2
+R0
+R145
+Z170 8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fpoint_hw_qsys.v
+Z171 FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fpoint_hw_qsys.v
+L0 7345
+R5
+r1
+!s85 0
+31
+R146
+Z172 !s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fpoint_hw_qsys.v|
+Z173 !s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fpoint_hw_qsys.v|
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_addsub_single
+R144
+!i10b 1
+!s100 [`9_I<G=7BHCcQe18ID_03
+IVidmid<9:V7jBoQ>_2m0k3
+R2
+R0
+R145
+R170
+R171
+L0 1422
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_addsub_single_altbarrel_shift_44e
+R144
+!i10b 1
+!s100 AT3_CIFaf?A6G1;C<IV?T1
+IM<_ZbVXD[`joN]Z2=iN]L2
+R2
+R0
+R145
+R170
+R171
+L0 828
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_addsub_single_altbarrel_shift_fjg
+R144
+!i10b 1
+!s100 ]R]l3HH7_I^]]JG?ceUKJ2
+IIHBNT^zO?Qz>fC:SETR2>1
+R2
+R0
+R145
+R170
+R171
+L0 763
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_addsub_single_altpriority_encoder_64b
+R144
+!i10b 1
+!s100 8=XS8<bKUh37ic9k8ERci0
+IP;AOX87LT1ceC15dg:_CY2
+R2
+R0
+R145
+R170
+R171
+L0 1160
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_addsub_single_altpriority_encoder_6la
+R144
+!i10b 1
+!s100 aMDQ>2U0cbh9VfPk>Y9[[2
+ID73J4LQn[m5eoodThUO_32
+R2
+R0
+R145
+R170
+R171
+L0 1294
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_addsub_single_altpriority_encoder_94b
+R144
+!i10b 1
+!s100 E7Ej02Blm0D0@ehKTJ7U:0
+IM1?`hGEAX[k]TlSC20]eJ2
+R2
+R0
+R145
+R170
+R171
+L0 1179
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_addsub_single_altpriority_encoder_9la
+R144
+!i10b 1
+!s100 F>55QKNRnd>lOhRiZXQ?[3
+ILezhn;Lf:LTG0=6keYD3P2
+R2
+R0
+R145
+R170
+R171
+L0 1310
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_addsub_single_altpriority_encoder_9u8
+R144
+!i10b 1
+!s100 E2<C3gge8^`YN=gCjUL2B2
+I?;jT]jNG@34?<^[ogIZgA3
+R2
+R0
+R145
+R170
+R171
+L0 1112
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_addsub_single_altpriority_encoder_a2b
+R144
+!i10b 1
+!s100 ^0bFcZKASN]nWXP^`Om9Q1
+IHZ`_77Y:bgQGM31ZYfJYG0
+R2
+R0
+R145
+R170
+R171
+L0 1079
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_addsub_single_altpriority_encoder_aja
+R144
+!i10b 1
+!s100 ]U6CLj_@NfnVfn2U1nQ8j3
+IYHmFAMOE>KiS<D;=Z?<243
+R2
+R0
+R145
+R170
+R171
+L0 1047
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_addsub_single_altpriority_encoder_e4b
+R144
+!i10b 1
+!s100 I>::hJz1[DE^d8=95`Ei^3
+ICfNYL[3njB_Uli`OCLEV13
+R2
+R0
+R145
+R170
+R171
+L0 1212
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_addsub_single_altpriority_encoder_ela
+R144
+!i10b 1
+!s100 DNIhF[dcDl9c7Ucjnd8kY2
+I3m;]VN0=ic[P@RTKf:dFm3
+R2
+R0
+R145
+R170
+R171
+L0 1338
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_addsub_single_altpriority_encoder_i0b
+R144
+!i10b 1
+!s100 eO4S2m=hFJPhV69l4K>lJ1
+I_SMDoKi5jAazKZO_e<PPX2
+R2
+R0
+R145
+R170
+R171
+L0 878
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_addsub_single_altpriority_encoder_iha
+R144
+!i10b 1
+!s100 d_^LdXYTUaTmi0LFk@4140
+INzSz<XlJhDQ=C5D=NK94X3
+R2
+R0
+R145
+R170
+R171
+L0 975
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_addsub_single_altpriority_encoder_l0b
+R144
+!i10b 1
+!s100 ??QXnm@cABz]aQ0FAe0JD2
+IeK9TS:H7Lc0S6V0@kiJ:52
+R2
+R0
+R145
+R170
+R171
+L0 897
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_addsub_single_altpriority_encoder_lha
+R144
+!i10b 1
+!s100 5cGb0RV>;22[KIo8deGG]3
+IU:F?Meo2_No7;enek:g3J2
+R2
+R0
+R145
+R170
+R171
+L0 991
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_addsub_single_altpriority_encoder_q0b
+R144
+!i10b 1
+!s100 78LKdo86fC57;338]nDcM0
+IoBFCa;a>P8;Q98=8jmJ1H2
+R2
+R0
+R145
+R170
+R171
+L0 930
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_addsub_single_altpriority_encoder_qha
+R144
+!i10b 1
+!s100 ==cgRo:WAe8>j]AMLU=?53
+InZaWzz=Q5_H22DI_Gooko2
+R2
+R0
+R145
+R170
+R171
+L0 1019
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_addsub_single_altpriority_encoder_tma
+R144
+!i10b 1
+!s100 XLnUhlXnK2_:0Xk;DDJ3=2
+IXiK4Yek9G_<Roij72>TZQ0
+R2
+R0
+R145
+R170
+R171
+L0 1394
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_addsub_single_altpriority_encoder_u5b
+R144
+!i10b 1
+!s100 PXGTki]F93ihz@LJG3LgR0
+IT9S@:;K7S]]I0VGGS9h6i1
+R2
+R0
+R145
+R170
+R171
+L0 1245
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_addsub_single_altpriority_encoder_uma
+R144
+!i10b 1
+!s100 O`712:j:U>YCXIUBfBECi0
+I3;:4Hbg2[@_fjl1B`9zAY1
+R2
+R0
+R145
+R170
+R171
+L0 1366
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_div_single
+R144
+!i10b 1
+!s100 WWJ<GEIHh?Kki642PV2[I0
+I031oh__1^h=6T`U5KlA:W2
+R2
+R0
+R145
+R170
+R171
+L0 5718
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_div_single_altfp_div_csa_2jh
+R144
+!i10b 1
+!s100 ;iXSJa_Rgg^Z;aHQI]iWn1
+IJ^MNTaaf]f6PR0lO[ZekP2
+R2
+R0
+R145
+R170
+R171
+L0 3699
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_div_single_altfp_div_csa_mke
+R144
+!i10b 1
+!s100 <E@b`khLEOAZlTzGMQO`=3
+IM5ZbHN[cYzY2D0cH8f_A41
+R2
+R0
+R145
+R170
+R171
+L0 3588
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_div_single_altfp_div_csa_pke
+R144
+!i10b 1
+!s100 2LWeLX4S]MXN3a7[k9_EY3
+IKBhP@j4m7Yld02DCLTloU3
+R2
+R0
+R145
+R170
+R171
+L0 3937
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_div_single_altfp_div_csa_qle
+R144
+!i10b 1
+!s100 P=LK4LNWX8on6QBK;hR]_3
+IMYGh[G`NPRHk<Je35kckZ1
+R2
+R0
+R145
+R170
+R171
+L0 4048
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_div_single_altfp_div_csa_rle
+R144
+!i10b 1
+!s100 S_B3mM8nDlA5S0n?JUG7A0
+IV30I]obbc:F_2NMDR4]Ai0
+R2
+R0
+R145
+R170
+R171
+L0 3822
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_div_single_altfp_div_csa_vhf
+R144
+!i10b 1
+!s100 <ZEDM=??cJImH@GM@<4lR1
+I^_Mkb1KN]?JlCf:V^eGg`3
+R2
+R0
+R145
+R170
+R171
+L0 3488
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_div_single_altfp_div_srt_ext_5mh
+R144
+!i10b 1
+!s100 ^Tamj_goUR9d983jk>Lbe3
+I7PaVX1`1mdJiW`OKGKVCR1
+R2
+R0
+R145
+R170
+R171
+L0 5152
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_div_single_qds_block_ls9
+R144
+!i10b 1
+!s100 g;XB7z]kI6^Nf_>>5?SnM0
+INgA5TUNi?b>nUjV9n]`_b1
+R2
+R0
+R145
+R170
+R171
+L0 4565
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_div_single_qds_block_mab
+R144
+!i10b 1
+!s100 NDcEgJ05SCT:ffkR^43^=1
+IkL8WQNT1oi>hHEA7[<DKC0
+R2
+R0
+R145
+R170
+R171
+L0 4159
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_div_single_srt_block_int_02n
+R144
+!i10b 1
+!s100 J@TiEMaaeIn=HVPUn=^1Z2
+I>:4NXb@>bL9PT6IZ^_Oh43
+R2
+R0
+R145
+R170
+R171
+L0 4348
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_div_single_srt_block_int_84n
+R144
+!i10b 1
+!s100 3DWoWThGN8XDNod:?fMV`1
+I07:JneJDbLXfc@aFSVKAb0
+R2
+R0
+R145
+R170
+R171
+L0 4754
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_div_single_srt_block_int_fum
+R144
+!i10b 1
+!s100 ARXjz[[ZVKb1EPYZ]543d2
+I[E`X<lG1Z]nWMeW4Wa1ZR3
+R2
+R0
+R145
+R170
+R171
+L0 4967
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_hw_qsys_mult_single
+R144
+!i10b 1
+!s100 a<`1HIEcAb]lYJdNj>g`g0
+IFPeRfbVGU3BlTCo^D=nVH2
+R2
+R0
+R145
+R170
+R171
+R52
+R5
+r1
+!s85 0
+31
+R146
+R172
+R173
+!i113 1
+R7
+R8
+R9
+vfpoint_wrapper
+R144
+!i10b 1
+!s100 Mnm9J@kTzfM6NzMON;QNC3
+Ij>@d0NPQRF`60;Yh[j6>f3
+R2
+R0
+R145
+8C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fpoint_wrapper.v
+FC:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fpoint_wrapper.v
+R4
+R5
+r1
+!s85 0
+31
+R146
+!s107 C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fpoint_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|Computer_System|+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules|C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fpoint_wrapper.v|
+!i113 1
+R7
+R8
+R9
+vpackets_to_fifo
+R12
+!i10b 1
+!s100 ]MF>U8bo@HjJhzaW6aNB[2
+IB4oS:z<iA0EPLaNNWBDOR0
+R2
+R0
+R13
+R14
+R15
+L0 142
+R5
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R7
+R8
+R9
+vpackets_to_master
+R12
+!i10b 1
+!s100 m[YiF06PnnS]oE=1iCkXI1
+I_m3CW5jjzaTXa@FPCf`zA0
+R2
+R0
+R13
+R14
+R15
+L0 851
+R5
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R7
+R8
+R9

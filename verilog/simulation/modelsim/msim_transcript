@@ -1,0 +1,1382 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do DE10_Lite_Computer_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlib Computer_System
+# vmap Computer_System Computer_System
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap Computer_System Computer_System 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_reset_controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:50 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_reset_controller.v 
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# End time: 16:55:51 on Apr 30,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_reset_synchronizer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:51 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_reset_synchronizer.v 
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# End time: 16:55:51 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:51 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0.v 
+# -- Compiling module Computer_System_mm_interconnect_0
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0
+# End time: 16:55:51 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_006.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:51 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_006.v 
+# -- Compiling module Computer_System_mm_interconnect_0_avalon_st_adapter_006
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_avalon_st_adapter_006
+# End time: 16:55:51 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_001.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:51 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_001.v 
+# -- Compiling module Computer_System_mm_interconnect_0_avalon_st_adapter_001
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_avalon_st_adapter_001
+# End time: 16:55:51 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:52 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter.v 
+# -- Compiling module Computer_System_mm_interconnect_0_avalon_st_adapter
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_avalon_st_adapter
+# End time: 16:55:52 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_customins_master_translator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:52 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_customins_master_translator.v 
+# -- Compiling module altera_customins_master_translator
+# 
+# Top level modules:
+# 	altera_customins_master_translator
+# End time: 16:55:52 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_servo_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:52 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_servo_1.v 
+# -- Compiling module Computer_System_servo_1
+# 
+# Top level modules:
+# 	Computer_System_servo_1
+# End time: 16:55:52 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:52 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c.v 
+# -- Compiling module altera_avalon_i2c
+# 
+# Top level modules:
+# 	altera_avalon_i2c
+# End time: 16:55:52 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_csr.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:52 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_csr.v 
+# -- Compiling module altera_avalon_i2c_csr
+# 
+# Top level modules:
+# 	altera_avalon_i2c_csr
+# End time: 16:55:52 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_clk_cnt.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:52 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_clk_cnt.v 
+# -- Compiling module altera_avalon_i2c_clk_cnt
+# 
+# Top level modules:
+# 	altera_avalon_i2c_clk_cnt
+# End time: 16:55:52 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_condt_det.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:52 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_condt_det.v 
+# -- Compiling module altera_avalon_i2c_condt_det
+# 
+# Top level modules:
+# 	altera_avalon_i2c_condt_det
+# End time: 16:55:53 on Apr 30,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_condt_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:53 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_condt_gen.v 
+# -- Compiling module altera_avalon_i2c_condt_gen
+# 
+# Top level modules:
+# 	altera_avalon_i2c_condt_gen
+# End time: 16:55:53 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_fifo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:53 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_fifo.v 
+# -- Compiling module altera_avalon_i2c_fifo
+# 
+# Top level modules:
+# 	altera_avalon_i2c_fifo
+# End time: 16:55:53 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_mstfsm.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:53 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_mstfsm.v 
+# -- Compiling module altera_avalon_i2c_mstfsm
+# 
+# Top level modules:
+# 	altera_avalon_i2c_mstfsm
+# End time: 16:55:53 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_rxshifter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:53 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_rxshifter.v 
+# -- Compiling module altera_avalon_i2c_rxshifter
+# 
+# Top level modules:
+# 	altera_avalon_i2c_rxshifter
+# End time: 16:55:53 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_txshifter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:53 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_txshifter.v 
+# -- Compiling module altera_avalon_i2c_txshifter
+# 
+# Top level modules:
+# 	altera_avalon_i2c_txshifter
+# End time: 16:55:53 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_spksupp.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:53 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_spksupp.v 
+# -- Compiling module altera_avalon_i2c_spksupp
+# 
+# Top level modules:
+# 	altera_avalon_i2c_spksupp
+# End time: 16:55:53 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_txout.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:53 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_i2c_txout.v 
+# -- Compiling module altera_avalon_i2c_txout
+# 
+# Top level modules:
+# 	altera_avalon_i2c_txout
+# End time: 16:55:53 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_System_PLL.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:54 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_System_PLL.v 
+# -- Compiling module Computer_System_System_PLL
+# 
+# Top level modules:
+# 	Computer_System_System_PLL
+# End time: 16:55:54 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_avalon_reset_from_locked_signal.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:54 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_avalon_reset_from_locked_signal.v 
+# -- Compiling module altera_up_avalon_reset_from_locked_signal
+# 
+# Top level modules:
+# 	altera_up_avalon_reset_from_locked_signal
+# End time: 16:55:54 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_altpll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:54 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_altpll.v 
+# -- Compiling module altera_up_altpll
+# 
+# Top level modules:
+# 	altera_up_altpll
+# End time: 16:55:54 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_SysID.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:54 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_SysID.v 
+# -- Compiling module Computer_System_SysID
+# 
+# Top level modules:
+# 	Computer_System_SysID
+# End time: 16:55:54 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Slider_Switches.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:54 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Slider_Switches.v 
+# -- Compiling module Computer_System_Slider_Switches
+# 
+# Top level modules:
+# 	Computer_System_Slider_Switches
+# End time: 16:55:54 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_SDRAM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:54 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_SDRAM.v 
+# -- Compiling module Computer_System_SDRAM_input_efifo_module
+# -- Compiling module Computer_System_SDRAM
+# 
+# Top level modules:
+# 	Computer_System_SDRAM
+# End time: 16:55:54 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Pushbuttons.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:54 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Pushbuttons.v 
+# -- Compiling module Computer_System_Pushbuttons
+# 
+# Top level modules:
+# 	Computer_System_Pushbuttons
+# End time: 16:55:54 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Onchip_SRAM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:55 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Onchip_SRAM.v 
+# -- Compiling module Computer_System_Onchip_SRAM
+# 
+# Top level modules:
+# 	Computer_System_Onchip_SRAM
+# End time: 16:55:55 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fpoint_wrapper.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:55 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fpoint_wrapper.v 
+# -- Compiling module fpoint_wrapper
+# 
+# Top level modules:
+# 	fpoint_wrapper
+# End time: 16:55:55 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fpoint_hw_qsys.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:55 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fpoint_hw_qsys.v 
+# -- Compiling module fpoint_hw_qsys_mult_single
+# -- Compiling module fpoint_hw_qsys_addsub_single_altbarrel_shift_fjg
+# -- Compiling module fpoint_hw_qsys_addsub_single_altbarrel_shift_44e
+# -- Compiling module fpoint_hw_qsys_addsub_single_altpriority_encoder_i0b
+# -- Compiling module fpoint_hw_qsys_addsub_single_altpriority_encoder_l0b
+# -- Compiling module fpoint_hw_qsys_addsub_single_altpriority_encoder_q0b
+# -- Compiling module fpoint_hw_qsys_addsub_single_altpriority_encoder_iha
+# -- Compiling module fpoint_hw_qsys_addsub_single_altpriority_encoder_lha
+# -- Compiling module fpoint_hw_qsys_addsub_single_altpriority_encoder_qha
+# -- Compiling module fpoint_hw_qsys_addsub_single_altpriority_encoder_aja
+# -- Compiling module fpoint_hw_qsys_addsub_single_altpriority_encoder_a2b
+# -- Compiling module fpoint_hw_qsys_addsub_single_altpriority_encoder_9u8
+# -- Compiling module fpoint_hw_qsys_addsub_single_altpriority_encoder_64b
+# -- Compiling module fpoint_hw_qsys_addsub_single_altpriority_encoder_94b
+# -- Compiling module fpoint_hw_qsys_addsub_single_altpriority_encoder_e4b
+# -- Compiling module fpoint_hw_qsys_addsub_single_altpriority_encoder_u5b
+# -- Compiling module fpoint_hw_qsys_addsub_single_altpriority_encoder_6la
+# -- Compiling module fpoint_hw_qsys_addsub_single_altpriority_encoder_9la
+# -- Compiling module fpoint_hw_qsys_addsub_single_altpriority_encoder_ela
+# -- Compiling module fpoint_hw_qsys_addsub_single_altpriority_encoder_uma
+# -- Compiling module fpoint_hw_qsys_addsub_single_altpriority_encoder_tma
+# -- Compiling module fpoint_hw_qsys_addsub_single
+# -- Compiling module fpoint_hw_qsys_div_single_altfp_div_csa_vhf
+# -- Compiling module fpoint_hw_qsys_div_single_altfp_div_csa_mke
+# -- Compiling module fpoint_hw_qsys_div_single_altfp_div_csa_2jh
+# -- Compiling module fpoint_hw_qsys_div_single_altfp_div_csa_rle
+# -- Compiling module fpoint_hw_qsys_div_single_altfp_div_csa_pke
+# -- Compiling module fpoint_hw_qsys_div_single_altfp_div_csa_qle
+# -- Compiling module fpoint_hw_qsys_div_single_qds_block_mab
+# -- Compiling module fpoint_hw_qsys_div_single_srt_block_int_02n
+# -- Compiling module fpoint_hw_qsys_div_single_qds_block_ls9
+# -- Compiling module fpoint_hw_qsys_div_single_srt_block_int_84n
+# -- Compiling module fpoint_hw_qsys_div_single_srt_block_int_fum
+# -- Compiling module fpoint_hw_qsys_div_single_altfp_div_srt_ext_5mh
+# -- Compiling module fpoint_hw_qsys_div_single
+# -- Compiling module fpoint_hw_qsys
+# 
+# Top level modules:
+# 	fpoint_hw_qsys
+# End time: 16:55:55 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:55 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2.v 
+# -- Compiling module Computer_System_Nios2
+# 
+# Top level modules:
+# 	Computer_System_Nios2
+# End time: 16:55:55 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:55 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu.v 
+# -- Compiling module Computer_System_Nios2_cpu_register_bank_a_module
+# -- Compiling module Computer_System_Nios2_cpu_register_bank_b_module
+# -- Compiling module Computer_System_Nios2_cpu_nios2_oci_debug
+# -- Compiling module Computer_System_Nios2_cpu_nios2_oci_break
+# -- Compiling module Computer_System_Nios2_cpu_nios2_oci_xbrk
+# -- Compiling module Computer_System_Nios2_cpu_nios2_oci_dbrk
+# -- Compiling module Computer_System_Nios2_cpu_nios2_oci_itrace
+# -- Compiling module Computer_System_Nios2_cpu_nios2_oci_td_mode
+# -- Compiling module Computer_System_Nios2_cpu_nios2_oci_dtrace
+# -- Compiling module Computer_System_Nios2_cpu_nios2_oci_compute_input_tm_cnt
+# -- Compiling module Computer_System_Nios2_cpu_nios2_oci_fifo_wrptr_inc
+# -- Compiling module Computer_System_Nios2_cpu_nios2_oci_fifo_cnt_inc
+# -- Compiling module Computer_System_Nios2_cpu_nios2_oci_fifo
+# -- Compiling module Computer_System_Nios2_cpu_nios2_oci_pib
+# -- Compiling module Computer_System_Nios2_cpu_nios2_oci_im
+# -- Compiling module Computer_System_Nios2_cpu_nios2_performance_monitors
+# -- Compiling module Computer_System_Nios2_cpu_nios2_avalon_reg
+# -- Compiling module Computer_System_Nios2_cpu_ociram_sp_ram_module
+# -- Compiling module Computer_System_Nios2_cpu_nios2_ocimem
+# -- Compiling module Computer_System_Nios2_cpu_nios2_oci
+# -- Compiling module Computer_System_Nios2_cpu
+# 
+# Top level modules:
+# 	Computer_System_Nios2_cpu_nios2_performance_monitors
+# 	Computer_System_Nios2_cpu
+# End time: 16:55:56 on Apr 30,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_debug_slave_sysclk.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:56 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_debug_slave_sysclk.v 
+# -- Compiling module Computer_System_Nios2_cpu_debug_slave_sysclk
+# 
+# Top level modules:
+# 	Computer_System_Nios2_cpu_debug_slave_sysclk
+# End time: 16:55:56 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_debug_slave_tck.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:56 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_debug_slave_tck.v 
+# -- Compiling module Computer_System_Nios2_cpu_debug_slave_tck
+# 
+# Top level modules:
+# 	Computer_System_Nios2_cpu_debug_slave_tck
+# End time: 16:55:56 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_debug_slave_wrapper.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:56 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_debug_slave_wrapper.v 
+# -- Compiling module Computer_System_Nios2_cpu_debug_slave_wrapper
+# 
+# Top level modules:
+# 	Computer_System_Nios2_cpu_debug_slave_wrapper
+# End time: 16:55:56 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_test_bench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:56 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_cpu_test_bench.v 
+# -- Compiling module Computer_System_Nios2_cpu_test_bench
+# 
+# Top level modules:
+# 	Computer_System_Nios2_cpu_test_bench
+# End time: 16:55:56 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_LEDs.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:56 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_LEDs.v 
+# -- Compiling module Computer_System_LEDs
+# 
+# Top level modules:
+# 	Computer_System_LEDs
+# End time: 16:55:56 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JoyStick_ADC.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:56 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JoyStick_ADC.v 
+# -- Compiling module Computer_System_JoyStick_ADC
+# 
+# Top level modules:
+# 	Computer_System_JoyStick_ADC
+# End time: 16:55:56 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sample_store.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:57 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sample_store.v 
+# -- Compiling module altera_modular_adc_sample_store
+# 
+# Top level modules:
+# 	altera_modular_adc_sample_store
+# End time: 16:55:57 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sample_store_ram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:57 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sample_store_ram.v 
+# -- Compiling module altera_modular_adc_sample_store_ram
+# 
+# Top level modules:
+# 	altera_modular_adc_sample_store_ram
+# End time: 16:55:57 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sequencer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:57 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sequencer.v 
+# -- Compiling module altera_modular_adc_sequencer
+# 
+# Top level modules:
+# 	altera_modular_adc_sequencer
+# End time: 16:55:57 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sequencer_csr.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:57 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sequencer_csr.v 
+# -- Compiling module altera_modular_adc_sequencer_csr
+# 
+# Top level modules:
+# 	altera_modular_adc_sequencer_csr
+# End time: 16:55:57 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sequencer_ctrl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:57 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_sequencer_ctrl.v 
+# -- Compiling module altera_modular_adc_sequencer_ctrl
+# 
+# Top level modules:
+# 	altera_modular_adc_sequencer_ctrl
+# End time: 16:55:57 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_control.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:57 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_control.v 
+# -- Compiling module altera_modular_adc_control
+# 
+# Top level modules:
+# 	altera_modular_adc_control
+# End time: 16:55:57 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_control_avrg_fifo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:57 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_control_avrg_fifo.v 
+# -- Compiling module altera_modular_adc_control_avrg_fifo
+# 
+# Top level modules:
+# 	altera_modular_adc_control_avrg_fifo
+# End time: 16:55:57 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_control_fsm.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:58 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_modular_adc_control_fsm.v 
+# -- Compiling module altera_modular_adc_control_fsm
+# 
+# Top level modules:
+# 	altera_modular_adc_control_fsm
+# End time: 16:55:58 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/chsel_code_converter_sw_to_hw.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:58 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/chsel_code_converter_sw_to_hw.v 
+# -- Compiling module chsel_code_converter_sw_to_hw
+# 
+# Top level modules:
+# 	chsel_code_converter_sw_to_hw
+# End time: 16:55:58 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fiftyfivenm_adcblock_primitive_wrapper.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:58 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fiftyfivenm_adcblock_primitive_wrapper.v 
+# -- Compiling module fiftyfivenm_adcblock_primitive_wrapper
+# 
+# Top level modules:
+# 	fiftyfivenm_adcblock_primitive_wrapper
+# End time: 16:55:58 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fiftyfivenm_adcblock_top_wrapper.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:58 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fiftyfivenm_adcblock_top_wrapper.v 
+# ** Warning: (vlog-2083) C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/fiftyfivenm_adcblock_top_wrapper.v(24): Carriage return (0x0D) is not followed by a newline (0x0A).
+# -- Compiling module fiftyfivenm_adcblock_top_wrapper
+# 
+# Top level modules:
+# 	fiftyfivenm_adcblock_top_wrapper
+# End time: 16:55:58 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:58 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge.v 
+# -- Compiling module Computer_System_JTAG_to_FPGA_Bridge
+# 
+# Top level modules:
+# 	Computer_System_JTAG_to_FPGA_Bridge
+# End time: 16:55:58 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_packets_to_master.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:58 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_packets_to_master.v 
+# -- Compiling module altera_avalon_packets_to_master
+# -- Compiling module packets_to_fifo
+# -- Compiling module fifo_buffer_single_clock_fifo
+# -- Compiling module fifo_buffer_scfifo_with_controls
+# -- Compiling module fifo_buffer
+# -- Compiling module fifo_to_packet
+# -- Compiling module packets_to_master
+# 
+# Top level modules:
+# 	altera_avalon_packets_to_master
+# End time: 16:55:58 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_packets_to_bytes.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:58 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_packets_to_bytes.v 
+# -- Compiling module altera_avalon_st_packets_to_bytes
+# 
+# Top level modules:
+# 	altera_avalon_st_packets_to_bytes
+# End time: 16:55:58 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_bytes_to_packets.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:59 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_bytes_to_packets.v 
+# -- Compiling module altera_avalon_st_bytes_to_packets
+# 
+# Top level modules:
+# 	altera_avalon_st_bytes_to_packets
+# End time: 16:55:59 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_jtag_interface.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:59 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_jtag_interface.v 
+# -- Compiling module altera_avalon_st_jtag_interface
+# 
+# Top level modules:
+# 	altera_avalon_st_jtag_interface
+# End time: 16:55:59 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_jtag_dc_streaming.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:59 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_jtag_dc_streaming.v 
+# -- Compiling module altera_jtag_control_signal_crosser
+# -- Compiling module altera_jtag_src_crosser
+# -- Compiling module altera_jtag_dc_streaming
+# 
+# Top level modules:
+# 	altera_jtag_dc_streaming
+# End time: 16:55:59 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_jtag_sld_node.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:59 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_jtag_sld_node.v 
+# -- Compiling module altera_jtag_sld_node
+# 
+# Top level modules:
+# 	altera_jtag_sld_node
+# End time: 16:55:59 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_jtag_streaming.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:59 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_jtag_streaming.v 
+# -- Compiling module altera_jtag_streaming
+# 
+# Top level modules:
+# 	altera_jtag_streaming
+# End time: 16:55:59 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_idle_remover.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:59 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_idle_remover.v 
+# -- Compiling module altera_avalon_st_idle_remover
+# 
+# Top level modules:
+# 	altera_avalon_st_idle_remover
+# End time: 16:55:59 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_idle_inserter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:55:59 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_idle_inserter.v 
+# -- Compiling module altera_avalon_st_idle_inserter
+# 
+# Top level modules:
+# 	altera_avalon_st_idle_inserter
+# End time: 16:55:59 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_UART.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:00 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_UART.v 
+# -- Compiling module Computer_System_JTAG_UART_sim_scfifo_w
+# -- Compiling module Computer_System_JTAG_UART_scfifo_w
+# -- Compiling module Computer_System_JTAG_UART_sim_scfifo_r
+# -- Compiling module Computer_System_JTAG_UART_scfifo_r
+# -- Compiling module Computer_System_JTAG_UART
+# 
+# Top level modules:
+# 	Computer_System_JTAG_UART
+# End time: 16:56:00 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Interval_Timer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:00 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Interval_Timer.v 
+# -- Compiling module Computer_System_Interval_Timer
+# 
+# Top level modules:
+# 	Computer_System_Interval_Timer
+# End time: 16:56:00 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_HEX5_HEX4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:00 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_HEX5_HEX4.v 
+# -- Compiling module Computer_System_HEX5_HEX4
+# 
+# Top level modules:
+# 	Computer_System_HEX5_HEX4
+# End time: 16:56:00 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_HEX3_HEX0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:00 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_HEX3_HEX0.v 
+# -- Compiling module Computer_System_HEX3_HEX0
+# 
+# Top level modules:
+# 	Computer_System_HEX3_HEX0
+# End time: 16:56:00 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Expansion_JP1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:00 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Expansion_JP1.v 
+# -- Compiling module Computer_System_Expansion_JP1
+# 
+# Top level modules:
+# 	Computer_System_Expansion_JP1
+# End time: 16:56:00 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Arduino_Reset_N.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:00 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Arduino_Reset_N.v 
+# -- Compiling module Computer_System_Arduino_Reset_N
+# 
+# Top level modules:
+# 	Computer_System_Arduino_Reset_N
+# End time: 16:56:00 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Arduino_GPIO.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:00 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Arduino_GPIO.v 
+# -- Compiling module Computer_System_Arduino_GPIO
+# 
+# Top level modules:
+# 	Computer_System_Arduino_GPIO
+# End time: 16:56:01 on Apr 30,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_serial_bus_controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:01 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_serial_bus_controller.v 
+# -- Compiling module altera_up_accelerometer_spi_serial_bus_controller
+# 
+# Top level modules:
+# 	altera_up_accelerometer_spi_serial_bus_controller
+# End time: 16:56:01 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_slow_clock_generator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:01 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_slow_clock_generator.v 
+# -- Compiling module altera_up_accelerometer_spi_slow_clock_generator
+# 
+# Top level modules:
+# 	altera_up_accelerometer_spi_slow_clock_generator
+# End time: 16:56:01 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_auto_init.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:01 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_auto_init.v 
+# -- Compiling module altera_up_accelerometer_spi_auto_init
+# 
+# Top level modules:
+# 	altera_up_accelerometer_spi_auto_init
+# End time: 16:56:01 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_auto_init_ctrl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:01 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_up_accelerometer_spi_auto_init_ctrl.v 
+# -- Compiling module altera_up_accelerometer_spi_auto_init_ctrl
+# 
+# Top level modules:
+# 	altera_up_accelerometer_spi_auto_init_ctrl
+# End time: 16:56:01 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Accelerometer_SPI.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:01 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Accelerometer_SPI.v 
+# -- Compiling module Computer_System_Accelerometer_SPI
+# 
+# Top level modules:
+# 	Computer_System_Accelerometer_SPI
+# End time: 16:56:01 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_ADC_PLL.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:01 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_ADC_PLL.v 
+# -- Compiling module Computer_System_ADC_PLL_dffpipe_l2c
+# -- Compiling module Computer_System_ADC_PLL_stdsync_sv6
+# -- Compiling module Computer_System_ADC_PLL_altpll_gr22
+# -- Compiling module Computer_System_ADC_PLL
+# 
+# Top level modules:
+# 	Computer_System_ADC_PLL
+# End time: 16:56:01 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_irq_mapper.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:01 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_irq_mapper.sv 
+# -- Compiling module Computer_System_irq_mapper
+# 
+# Top level modules:
+# 	Computer_System_irq_mapper
+# End time: 16:56:02 on Apr 30,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_006_error_adapter_0.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:02 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_006_error_adapter_0.sv 
+# -- Compiling module Computer_System_mm_interconnect_0_avalon_st_adapter_006_error_adapter_0
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_avalon_st_adapter_006_error_adapter_0
+# End time: 16:56:02 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:02 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0.sv 
+# -- Compiling module Computer_System_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0
+# End time: 16:56:02 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:02 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv 
+# -- Compiling module Computer_System_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# End time: 16:56:02 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:02 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v 
+# -- Compiling module altera_avalon_st_handshake_clock_crosser
+# 
+# Top level modules:
+# 	altera_avalon_st_handshake_clock_crosser
+# End time: 16:56:02 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_clock_crosser.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:02 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_clock_crosser.v 
+# -- Compiling module altera_avalon_st_clock_crosser
+# 
+# Top level modules:
+# 	altera_avalon_st_clock_crosser
+# End time: 16:56:02 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_pipeline_base.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:02 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_st_pipeline_base.v 
+# -- Compiling module altera_avalon_st_pipeline_base
+# 
+# Top level modules:
+# 	altera_avalon_st_pipeline_base
+# End time: 16:56:02 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_std_synchronizer_nocut.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:02 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_std_synchronizer_nocut.v 
+# -- Compiling module altera_std_synchronizer_nocut
+# 
+# Top level modules:
+# 	altera_std_synchronizer_nocut
+# End time: 16:56:03 on Apr 30,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_width_adapter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:03 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_width_adapter.sv 
+# -- Compiling module altera_merlin_width_adapter
+# 
+# Top level modules:
+# 	altera_merlin_width_adapter
+# End time: 16:56:03 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_burst_uncompressor.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:03 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_burst_uncompressor.sv 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 16:56:03 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_mux_002.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:03 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_mux_002.sv 
+# -- Compiling module Computer_System_mm_interconnect_0_rsp_mux_002
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_rsp_mux_002
+# End time: 16:56:03 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_arbitrator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:03 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_arbitrator.sv 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 16:56:03 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_mux_001.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:03 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_mux_001.sv 
+# -- Compiling module Computer_System_mm_interconnect_0_rsp_mux_001
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_rsp_mux_001
+# End time: 16:56:03 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_mux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:03 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_mux.sv 
+# -- Compiling module Computer_System_mm_interconnect_0_rsp_mux
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_rsp_mux
+# End time: 16:56:03 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_demux_022.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:04 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_demux_022.sv 
+# -- Compiling module Computer_System_mm_interconnect_0_rsp_demux_022
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_rsp_demux_022
+# End time: 16:56:04 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_demux_020.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:04 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_demux_020.sv 
+# -- Compiling module Computer_System_mm_interconnect_0_rsp_demux_020
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_rsp_demux_020
+# End time: 16:56:04 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_demux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:04 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_rsp_demux.sv 
+# -- Compiling module Computer_System_mm_interconnect_0_rsp_demux
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_rsp_demux
+# End time: 16:56:04 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_mux_022.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:04 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_mux_022.sv 
+# -- Compiling module Computer_System_mm_interconnect_0_cmd_mux_022
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_cmd_mux_022
+# End time: 16:56:04 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_mux_006.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:04 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_mux_006.sv 
+# -- Compiling module Computer_System_mm_interconnect_0_cmd_mux_006
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_cmd_mux_006
+# End time: 16:56:04 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_mux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:04 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_mux.sv 
+# -- Compiling module Computer_System_mm_interconnect_0_cmd_mux
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_cmd_mux
+# End time: 16:56:04 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_demux_002.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:04 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_demux_002.sv 
+# -- Compiling module Computer_System_mm_interconnect_0_cmd_demux_002
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_cmd_demux_002
+# End time: 16:56:05 on Apr 30,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_demux_001.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:05 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_demux_001.sv 
+# -- Compiling module Computer_System_mm_interconnect_0_cmd_demux_001
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_cmd_demux_001
+# End time: 16:56:05 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_demux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:05 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_cmd_demux.sv 
+# -- Compiling module Computer_System_mm_interconnect_0_cmd_demux
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_cmd_demux
+# End time: 16:56:05 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_burst_adapter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:05 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_burst_adapter.sv 
+# -- Compiling module altera_merlin_burst_adapter
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter
+# End time: 16:56:05 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:05 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv 
+# -- Compiling module altera_merlin_burst_adapter_uncompressed_only
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter_uncompressed_only
+# End time: 16:56:05 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:05 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv 
+# -- Compiling module altera_merlin_traffic_limiter
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv(531): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv(602): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv(603): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv(604): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv(605): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv(606): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv(607): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv(612): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv(614): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv(617): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv(618): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv(644): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv(646): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv(647): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv(648): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv(649): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv(650): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv(655): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv(657): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv(660): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_traffic_limiter.sv(661): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	altera_merlin_traffic_limiter
+# End time: 16:56:05 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 21
+# vlog -vlog01compat -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_sc_fifo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:05 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_avalon_sc_fifo.v 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 16:56:06 on Apr 30,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_025.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:06 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_025.sv 
+# -- Compiling module Computer_System_mm_interconnect_0_router_025_default_decode
+# -- Compiling module Computer_System_mm_interconnect_0_router_025
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_router_025
+# End time: 16:56:06 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_009.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:06 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_009.sv 
+# -- Compiling module Computer_System_mm_interconnect_0_router_009_default_decode
+# -- Compiling module Computer_System_mm_interconnect_0_router_009
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_router_009
+# End time: 16:56:06 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_007.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:06 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_007.sv 
+# -- Compiling module Computer_System_mm_interconnect_0_router_007_default_decode
+# -- Compiling module Computer_System_mm_interconnect_0_router_007
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_router_007
+# End time: 16:56:06 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_004.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:06 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_004.sv 
+# -- Compiling module Computer_System_mm_interconnect_0_router_004_default_decode
+# -- Compiling module Computer_System_mm_interconnect_0_router_004
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_router_004
+# End time: 16:56:06 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_003.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:06 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_003.sv 
+# -- Compiling module Computer_System_mm_interconnect_0_router_003_default_decode
+# -- Compiling module Computer_System_mm_interconnect_0_router_003
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_router_003
+# End time: 16:56:06 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_002.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:06 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_002.sv 
+# -- Compiling module Computer_System_mm_interconnect_0_router_002_default_decode
+# -- Compiling module Computer_System_mm_interconnect_0_router_002
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_router_002
+# End time: 16:56:06 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_001.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:06 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router_001.sv 
+# -- Compiling module Computer_System_mm_interconnect_0_router_001_default_decode
+# -- Compiling module Computer_System_mm_interconnect_0_router_001
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_router_001
+# End time: 16:56:07 on Apr 30,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:07 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_mm_interconnect_0_router.sv 
+# -- Compiling module Computer_System_mm_interconnect_0_router_default_decode
+# -- Compiling module Computer_System_mm_interconnect_0_router
+# 
+# Top level modules:
+# 	Computer_System_mm_interconnect_0_router
+# End time: 16:56:07 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_slave_agent.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:07 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_slave_agent.sv 
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# End time: 16:56:07 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_master_agent.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:07 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_master_agent.sv 
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# End time: 16:56:07 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_slave_translator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:07 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_slave_translator.sv 
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# End time: 16:56:07 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_master_translator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:07 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_merlin_master_translator.sv 
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# End time: 16:56:07 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_customins_slave_translator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:07 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/altera_customins_slave_translator.sv 
+# -- Compiling module altera_customins_slave_translator
+# 
+# Top level modules:
+# 	altera_customins_slave_translator
+# End time: 16:56:08 on Apr 30,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_custom_instruction_master_multi_xconnect.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:08 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_Nios2_custom_instruction_master_multi_xconnect.sv 
+# -- Compiling module Computer_System_Nios2_custom_instruction_master_multi_xconnect
+# 
+# Top level modules:
+# 	Computer_System_Nios2_custom_instruction_master_multi_xconnect
+# End time: 16:56:08 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge_p2b_adapter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:08 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge_p2b_adapter.sv 
+# -- Compiling module Computer_System_JTAG_to_FPGA_Bridge_p2b_adapter
+# 
+# Top level modules:
+# 	Computer_System_JTAG_to_FPGA_Bridge_p2b_adapter
+# End time: 16:56:08 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge_b2p_adapter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:08 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge_b2p_adapter.sv 
+# -- Compiling module Computer_System_JTAG_to_FPGA_Bridge_b2p_adapter
+# 
+# Top level modules:
+# 	Computer_System_JTAG_to_FPGA_Bridge_b2p_adapter
+# End time: 16:56:08 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work Computer_System +incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge_timing_adt.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:08 on Apr 30,2019
+# vlog -reportprogress 300 -sv -work Computer_System "+incdir+C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules" C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/submodules/Computer_System_JTAG_to_FPGA_Bridge_timing_adt.sv 
+# -- Compiling module Computer_System_JTAG_to_FPGA_Bridge_timing_adt
+# 
+# Top level modules:
+# 	Computer_System_JTAG_to_FPGA_Bridge_timing_adt
+# End time: 16:56:08 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Servo.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:08 on Apr 30,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Servo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Servo
+# -- Compiling architecture BEHAV of Servo
+# End time: 16:56:09 on Apr 30,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work Computer_System {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/Computer_System.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:09 on Apr 30,2019
+# vcom -reportprogress 300 -93 -work Computer_System C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/Computer_System.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Computer_System
+# -- Compiling architecture rtl of Computer_System
+# End time: 16:56:09 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work Computer_System {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/computer_system_rst_controller.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:09 on Apr 30,2019
+# vcom -reportprogress 300 -93 -work Computer_System C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/computer_system_rst_controller.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity computer_system_rst_controller
+# -- Compiling architecture rtl of computer_system_rst_controller
+# End time: 16:56:09 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work Computer_System {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/computer_system_rst_controller_001.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:09 on Apr 30,2019
+# vcom -reportprogress 300 -93 -work Computer_System C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/computer_system_rst_controller_001.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity computer_system_rst_controller_001
+# -- Compiling architecture rtl of computer_system_rst_controller_001
+# End time: 16:56:09 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work Computer_System {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/computer_system_rst_controller_002.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:09 on Apr 30,2019
+# vcom -reportprogress 300 -93 -work Computer_System C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/Computer_System/synthesis/computer_system_rst_controller_002.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity computer_system_rst_controller_002
+# -- Compiling architecture rtl of computer_system_rst_controller_002
+# End time: 16:56:09 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/DE10_Lite_Computer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:09 on Apr 30,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/DE10_Lite_Computer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity DE10_Lite_Computer
+# -- Compiling architecture Structural of DE10_Lite_Computer
+# End time: 16:56:09 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/CAMERA_CLK_PSC.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:09 on Apr 30,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/CAMERA_CLK_PSC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity CAMERA_CLK_PSC
+# -- Compiling architecture BEHAV of CAMERA_CLK_PSC
+# End time: 16:56:10 on Apr 30,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/CAMERA_CLK_TB.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:10 on Apr 30,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/CAMERA_CLK_TB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CAMERA_CLK_TB
+# -- Compiling architecture TESTBENCH of CNT8BIT_TB
+# ** Error: (vcom-11) Could not find work.cnt8bit_tb.
+# ** Error: C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/CAMERA_CLK_TB.vhd(7): VHDL Compiler exiting
+# End time: 16:56:10 on Apr 30,2019, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./DE10_Lite_Computer_run_msim_rtl_vhdl.do line 133
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {C:/Users/schillingdl/Documents/GitHub/DE10-CE2820-SoC/verilog/CAMERA_CLK_TB.vhd}"

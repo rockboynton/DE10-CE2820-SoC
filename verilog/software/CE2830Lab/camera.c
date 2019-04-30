@@ -32,48 +32,48 @@ alt_u32 cam_getReg() {
 
 void cam_write_data(int addr, int data){
 	//assert start bit
-	camera->TFR_CMD |= 1<<9;
+	//camera->TFR_CMD |= 1<<9;
 	//wait for transmit ready
 	while(!(camera->ISR&0b1 == 1)){};
-	//assert write ID
-	camera->TFR_CMD = 42;
+	//assert write ID and start bit
+	camera->TFR_CMD = (0x42) | (1<<9);
 	//wait for transmit ready
 	while(!(camera->ISR&0b1 == 1)){};
 	//specify address (shift for write bit)
 	camera->TFR_CMD = addr<<1;
 	//wait for transmit ready
 	while(!(camera->ISR&0b1 == 1)){};
-	//actually write data (shift for write bit)
-	camera->TFR_CMD = data<<1;
+	//actually write data (shift for write bit) and asset stop bit
+	camera->TFR_CMD = (data<<1) | (1<<8);
 	//stop transmit
-	camera->TFR_CMD |= 1<<8;
+	//camera->TFR_CMD |= 1<<8;
 
 
 }
 
 alt_u8 cam_read_data(int addr){
 	//assert start bit
-	camera->TFR_CMD |= 1<<9;
+	//camera->TFR_CMD |= 1<<9;
 	//wait for transmit ready
 	while(!(camera->ISR&0b1 == 1)){};
-	//assert write ID
-	camera->TFR_CMD = 42;
+	//assert write ID and start bit
+	camera->TFR_CMD = (0x42) | (1<<9);
 	//wait for transmit ready
 	while(!(camera->ISR&0b1 == 1)){};
-	//specify address (shift for write bit)
-	camera->TFR_CMD = addr<<1;
+	//specify address (shift for write bit) and assert repeated start
+	camera->TFR_CMD = (addr<<1) | (1<<9);
 	//stop transmit
 	//camera->TFR_CMD |= 1<<8;
 	//do i need to restart transmit here? doc's just stay stop
-	camera->TFR_CMD |= 1<<9;
+	//camera->TFR_CMD |= 1<<9;
 	//wait for transmit ready
 	while(!(camera->ISR&0b1 == 1)){};
 	//assert read ID
-	camera->TFR_CMD = 43;
+	camera->TFR_CMD = 0x43;
 	//wait for receive ready
 	while(!(camera->ISR&2 == 2)){};
 	//read and return
-	alt_u8 ret = camera->RX_DATA&0xFF;
+	alt_u8 ret = (camera->RX_DATA&0xFF);
 	//stop transmit
 	camera->TFR_CMD |= 1<<8;
 	return ret;
