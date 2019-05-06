@@ -21,16 +21,15 @@
  */
 #define DEBUG 2
 
-/*
+
 int main(){
   printf("Welcome to the test display!\n");
   //clear on boot up
   clearSevenSegs();
   //initalize ADC
   adc_init();
-  cam_init();
-  cam_write_data(0x01,0x40);
-
+  interactCamera();
+  /*
   //main loop
   while(1){
 
@@ -54,8 +53,8 @@ int main(){
 		delay_1ms(200);
 	}
   }
+  */
   return 0;
 }
 
-*/
 

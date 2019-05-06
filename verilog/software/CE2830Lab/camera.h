@@ -9,6 +9,7 @@
 #define CAMERA_H_
 
 #include "alt_types.h"
+#include <stdint.h>
 
 #define CAM_BASE 0xFF2000C0
 
@@ -32,7 +33,7 @@ typedef struct {
 /**
  * Configure and enable peripheral
  */
-//void cam_init();
+int cam_init();
 
 /**
  * Sets a camera register to the provided value
@@ -47,14 +48,23 @@ typedef struct {
 /**
  * Writes data to the camera address though i2c.
  */
-//void cam_write_data(int addr, int data);
+int cam_write(uint8_t reg, uint8_t data);
 
 /**
  * Reads data from the camera at the supplied address
  * through the i2c.
  */
-//alt_u8 cam_read_data(int addr);
+int cam_read(uint8_t reg, uint8_t* data);
 
+/*
+ * Dumps errors communicating with the camera through i2c to the console
+ */
+int cam_dump();
 
+/*
+ * Dr. Rothe's edited main program for reading and writing register to the camera
+ * through command prompt.
+ */
+void interactCamera();
 
 #endif /* CAMERA_H_ */

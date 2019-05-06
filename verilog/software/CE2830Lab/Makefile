@@ -149,7 +149,6 @@ C_SRCS += main.c
 C_SRCS += adc.c
 C_SRCS += accelerometer.c
 C_SRCS += camera.c
-C_SRCS += hello_world.c
 CXX_SRCS :=
 ASM_SRCS :=
 
