@@ -6,7 +6,7 @@
  */
 
 #include "camera.h"
-
+/*
 static volatile CAMERA* camera = (alt_u32*) CAM_BASE;
 
 void cam_init() {
@@ -79,3 +79,4 @@ alt_u8 cam_read_data(int addr){
 	return ret;
 
 }
+*/

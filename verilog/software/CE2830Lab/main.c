@@ -21,7 +21,7 @@
  */
 #define DEBUG 2
 
-
+/*
 int main(){
   printf("Welcome to the test display!\n");
   //clear on boot up
@@ -57,4 +57,5 @@ int main(){
   return 0;
 }
 
+*/
 
