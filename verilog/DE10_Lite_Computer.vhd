@@ -101,7 +101,16 @@ architecture Structural of DE10_Lite_Computer is
             camera_control_sda_in              : in    std_logic                     := 'X';             -- sda_in
             camera_control_scl_in              : in    std_logic                     := 'X';             -- scl_in
             camera_control_sda_oe              : out   std_logic;                                        -- sda_oe
-            camera_control_scl_oe              : out   std_logic                                         -- scl_oe
+            camera_control_scl_oe              : out   std_logic;                                         -- scl_oe
+				
+				vga_stream_CLK                     : out   std_logic;                                        -- CLK
+            vga_stream_HS                      : out   std_logic;                                        -- HS
+            vga_stream_VS                      : out   std_logic;                                        -- VS
+            vga_stream_BLANK                   : out   std_logic;                                        -- BLANK
+            vga_stream_SYNC                    : out   std_logic;                                        -- SYNC
+            vga_stream_R                       : out   std_logic_vector(7 downto 0);                     -- R
+            vga_stream_G                       : out   std_logic_vector(7 downto 0);                     -- G
+            vga_stream_B                       : out   std_logic_vector(7 downto 0)                      -- B
 				
         );
     end component Computer_System;
@@ -169,7 +178,16 @@ begin
 				camera_control_sda_in              => sda_in,              --       camera_control.sda_in
             camera_control_scl_in              => scl_in,              --                     .scl_in
             camera_control_sda_oe              => sda_oe,              --                     .sda_oe
-            camera_control_scl_oe              => scl_oe               --                     .scl_oe
+            camera_control_scl_oe              => scl_oe,               --                     .scl_oe
+				
+				vga_stream_CLK                     => open,                     --           vga_stream.CLK
+            vga_stream_HS                      => VGA_HS,                      --                     .HS
+            vga_stream_VS                      => VGA_VS,                      --                     .VS
+            vga_stream_BLANK                   => open,                   --                     .BLANK
+            vga_stream_SYNC                    => open,                    --                     .SYNC
+            vga_stream_R                       => VGA_R,
+            vga_stream_G                       => VGA_G,                       --                     .G
+            vga_stream_B                       => VGA_B                       --                     .B
         );
 		  
 		  halfclk : component CAMERA_CLK_PSC

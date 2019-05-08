@@ -326,6 +326,14 @@
          type = "int";
       }
    }
+   element VGA_clk
+   {
+      datum _sortIndex
+      {
+         value = "26";
+         type = "int";
+      }
+   }
    element camera_i2c
    {
       datum _sortIndex
@@ -347,6 +355,30 @@
       datum _sortIndex
       {
          value = "21";
+         type = "int";
+      }
+   }
+   element video_pixel_buffer_dma_0
+   {
+      datum _sortIndex
+      {
+         value = "27";
+         type = "int";
+      }
+   }
+   element video_rgb_resampler_0
+   {
+      datum _sortIndex
+      {
+         value = "28";
+         type = "int";
+      }
+   }
+   element video_vga_controller_0
+   {
+      datum _sortIndex
+      {
+         value = "29";
          type = "int";
       }
    }
@@ -448,6 +480,11 @@
    name="system_pll_ref_reset"
    internal="System_PLL.ref_reset"
    type="reset"
+   dir="end" />
+ <interface
+   name="vga_stream"
+   internal="video_vga_controller_0.external_interface"
+   type="conduit"
    dir="end" />
  <module name="ADC_PLL" kind="altpll" version="17.0" enabled="1">
   <parameter name="AUTO_DEVICE_FAMILY" value="MAX 10" />
@@ -1321,6 +1358,22 @@
   <parameter name="gui_refclk" value="50.0" />
   <parameter name="other_boards" value="None" />
  </module>
+ <module
+   name="VGA_clk"
+   kind="altera_up_avalon_video_pll"
+   version="17.0"
+   enabled="1">
+  <parameter name="AUTO_DEVICE" value="10M50DAF484C6GES" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="6" />
+  <parameter name="camera">5MP Digital Camera (THDB_D5M)</parameter>
+  <parameter name="device_family" value="MAX 10" />
+  <parameter name="gui_refclk" value="50.0" />
+  <parameter name="gui_resolution" value="VGA 640x480" />
+  <parameter name="lcd">7" LCD on VEEK-MT and MTL/MTL2 Modules</parameter>
+  <parameter name="lcd_clk_en" value="false" />
+  <parameter name="vga_clk_en" value="true" />
+  <parameter name="video_in_clk_en" value="false" />
+ </module>
  <module name="camera_i2c" kind="altera_avalon_i2c" version="17.0" enabled="1">
   <parameter name="FIFO_DEPTH" value="8" />
   <parameter name="USE_AV_ST" value="0" />
@@ -1354,6 +1407,52 @@
   <parameter name="simDrivenValue" value="0" />
   <parameter name="width" value="8" />
  </module>
+ <module
+   name="video_pixel_buffer_dma_0"
+   kind="altera_up_avalon_video_pixel_buffer_dma"
+   version="17.0"
+   enabled="1">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="25000000" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="MAX 10" />
+  <parameter name="addr_mode" value="X-Y" />
+  <parameter name="back_start_address" value="0" />
+  <parameter name="color_space" value="24-bit RGB" />
+  <parameter name="image_height" value="480" />
+  <parameter name="image_width" value="640" />
+  <parameter name="start_address" value="0" />
+ </module>
+ <module
+   name="video_rgb_resampler_0"
+   kind="altera_up_avalon_video_rgb_resampler"
+   version="17.0"
+   enabled="1">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="25000000" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="MAX 10" />
+  <parameter name="alpha" value="1023" />
+  <parameter name="input_type" value="24-bit RGB" />
+  <parameter name="output_type" value="30-bit RGB" />
+ </module>
+ <module
+   name="video_vga_controller_0"
+   kind="altera_up_avalon_video_vga_controller"
+   version="17.0"
+   enabled="1">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="25000000" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="MAX 10" />
+  <parameter name="board" value="DE10-Standard" />
+  <parameter name="device" value="VGA Connector" />
+  <parameter name="resolution" value="VGA 640x480" />
+  <parameter name="underflow_flag" value="false" />
+ </module>
+ <connection
+   kind="avalon"
+   version="17.0"
+   start="video_pixel_buffer_dma_0.avalon_pixel_dma_master"
+   end="video_rgb_resampler_0.avalon_rgb_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
  <connection
    kind="avalon"
    version="17.0"
@@ -1797,6 +1896,16 @@
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
+   kind="avalon_streaming"
+   version="17.0"
+   start="video_pixel_buffer_dma_0.avalon_pixel_source"
+   end="video_rgb_resampler_0.avalon_rgb_sink" />
+ <connection
+   kind="avalon_streaming"
+   version="17.0"
+   start="video_rgb_resampler_0.avalon_rgb_source"
+   end="video_vga_controller_0.avalon_vga_sink" />
+ <connection
    kind="clock"
    version="17.0"
    start="ADC_PLL.c0"
@@ -1918,6 +2027,26 @@
    start="System_PLL.sys_clk"
    end="ADC_PLL.inclk_interface" />
  <connection
+   kind="clock"
+   version="17.0"
+   start="System_PLL.sys_clk"
+   end="VGA_clk.ref_clk" />
+ <connection
+   kind="clock"
+   version="17.0"
+   start="VGA_clk.vga_clk"
+   end="video_pixel_buffer_dma_0.clk" />
+ <connection
+   kind="clock"
+   version="17.0"
+   start="VGA_clk.vga_clk"
+   end="video_rgb_resampler_0.clk" />
+ <connection
+   kind="clock"
+   version="17.0"
+   start="VGA_clk.vga_clk"
+   end="video_vga_controller_0.clk" />
+ <connection
    kind="conduit"
    version="17.0"
    start="JoyStick_ADC.adc_pll_locked"
@@ -1997,6 +2126,11 @@
    version="17.0"
    start="System_PLL.reset_source"
    end="ADC_PLL.inclk_interface_reset" />
+ <connection
+   kind="reset"
+   version="17.0"
+   start="System_PLL.reset_source"
+   end="VGA_clk.ref_reset" />
  <connection
    kind="reset"
    version="17.0"
@@ -2092,6 +2226,21 @@
    version="17.0"
    start="System_PLL.reset_source"
    end="Accelerometer_SPI.reset" />
+ <connection
+   kind="reset"
+   version="17.0"
+   start="VGA_clk.reset_source"
+   end="video_pixel_buffer_dma_0.reset" />
+ <connection
+   kind="reset"
+   version="17.0"
+   start="VGA_clk.reset_source"
+   end="video_rgb_resampler_0.reset" />
+ <connection
+   kind="reset"
+   version="17.0"
+   start="VGA_clk.reset_source"
+   end="video_vga_controller_0.reset" />
  <connection
    kind="reset"
    version="17.0"

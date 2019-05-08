@@ -29,7 +29,15 @@ module Computer_System (
 	servo_2_control_export,
 	slider_switches_export,
 	system_pll_ref_clk_clk,
-	system_pll_ref_reset_reset);	
+	system_pll_ref_reset_reset,
+	vga_stream_CLK,
+	vga_stream_HS,
+	vga_stream_VS,
+	vga_stream_BLANK,
+	vga_stream_SYNC,
+	vga_stream_R,
+	vga_stream_G,
+	vga_stream_B);	
 
 	inout		acceleromter_control_I2C_SDAT;
 	output		acceleromter_control_I2C_SCLK;
@@ -61,4 +69,12 @@ module Computer_System (
 	input	[9:0]	slider_switches_export;
 	input		system_pll_ref_clk_clk;
 	input		system_pll_ref_reset_reset;
+	output		vga_stream_CLK;
+	output		vga_stream_HS;
+	output		vga_stream_VS;
+	output		vga_stream_BLANK;
+	output		vga_stream_SYNC;
+	output	[7:0]	vga_stream_R;
+	output	[7:0]	vga_stream_G;
+	output	[7:0]	vga_stream_B;
 endmodule

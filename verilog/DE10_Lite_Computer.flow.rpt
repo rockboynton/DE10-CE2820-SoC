@@ -1,5 +1,5 @@
 Flow report for DE10_Lite_Computer
-Tue Apr 30 17:05:10 2019
+Wed May 08 12:58:15 2019
 Quartus Prime Version 17.0.2 Build 602 07/19/2017 SJ Lite Edition
 
 
@@ -41,24 +41,24 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Apr 30 17:05:09 2019       ;
+; Flow Status                        ; Flow Failed - Wed May 08 12:58:15 2019      ;
 ; Quartus Prime Version              ; 17.0.2 Build 602 07/19/2017 SJ Lite Edition ;
 ; Revision Name                      ; DE10_Lite_Computer                          ;
 ; Top-level Entity Name              ; DE10_Lite_Computer                          ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C6GES                            ;
 ; Timing Models                      ; Preliminary                                 ;
-; Total logic elements               ; 14,132                                      ;
-;     Total combinational functions  ; 11,636                                      ;
-;     Dedicated logic registers      ; 7,766                                       ;
-; Total registers                    ; 7766                                        ;
-; Total pins                         ; 185                                         ;
-; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 538,313                                     ;
-; Embedded Multiplier 9-bit elements ; 7                                           ;
-; Total PLLs                         ; 2                                           ;
-; UFM blocks                         ; 0                                           ;
-; ADC blocks                         ; 1                                           ;
+; Total logic elements               ; N/A until Partition Merge                   ;
+;     Total combinational functions  ; N/A until Partition Merge                   ;
+;     Dedicated logic registers      ; N/A until Partition Merge                   ;
+; Total registers                    ; N/A until Partition Merge                   ;
+; Total pins                         ; N/A until Partition Merge                   ;
+; Total virtual pins                 ; N/A until Partition Merge                   ;
+; Total memory bits                  ; N/A until Partition Merge                   ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
+; Total PLLs                         ; N/A until Partition Merge                   ;
+; UFM blocks                         ; N/A until Partition Merge                   ;
+; ADC blocks                         ; N/A until Partition Merge                   ;
 +------------------------------------+---------------------------------------------+
 
 
@@ -67,7 +67,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/30/2019 17:02:36 ;
+; Start date & time ; 05/08/2019 12:57:59 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; DE10_Lite_Computer  ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ agreement for further details.
 +--------------------------------------+-------------------------------------------------------------------+---------------+-----------------+----------------+
 ; Assignment Name                      ; Value                                                             ; Default Value ; Entity Name     ; Section Id     ;
 +--------------------------------------+-------------------------------------------------------------------+---------------+-----------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 2543711158273.155666175409740                                     ; --            ; --              ; --             ;
+; COMPILER_SIGNATURE_ID                ; 2543711158273.155733827710700                                     ; --            ; --              ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                ; --            ; --              ; CAMERA_CLK_TB  ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; CAMERA_CLK_TB                                                     ; --            ; --              ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Vhdl                                                              ; --            ; --              ; eda_simulation ;
@@ -101,7 +101,7 @@ agreement for further details.
 ; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                             ; --            ; --              ; --             ;
 ; SLD_FILE                             ; Computer_System/synthesis/Computer_System.regmap                  ; --            ; --              ; --             ;
 ; SLD_FILE                             ; Computer_System/synthesis/Computer_System.debuginfo               ; --            ; --              ; --             ;
-; SLD_INFO                             ; QSYS_NAME Computer_System HAS_SOPCINFO 1 GENERATION_ID 1556658953 ; --            ; Computer_System ; --             ;
+; SLD_INFO                             ; QSYS_NAME Computer_System HAS_SOPCINFO 1 GENERATION_ID 1557335351 ; --            ; Computer_System ; --             ;
 ; SOPCINFO_FILE                        ; Computer_System/synthesis/../../Computer_System.sopcinfo          ; --            ; --              ; --             ;
 ; SYNTHESIS_ONLY_QIP                   ; On                                                                ; --            ; --              ; --             ;
 ; USE_SIGNALTAP_FILE                   ; stp1.stp                                                          ; --            ; --              ; --             ;
@@ -113,8 +113,8 @@ agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:02:26     ; 1.0                     ; 5257 MB             ; 00:03:02                           ;
-; Total                ; 00:02:26     ; --                      ; --                  ; 00:03:02                           ;
+; Analysis & Synthesis ; 00:00:20     ; 1.0                     ; 4847 MB             ; 00:00:34                           ;
+; Total                ; 00:00:20     ; --                      ; --                  ; 00:00:34                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

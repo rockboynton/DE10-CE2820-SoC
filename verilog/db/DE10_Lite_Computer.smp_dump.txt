@@ -1,4 +1,11 @@
 
+State Machine - |DE10_Lite_Computer|Computer_System:u0|Computer_System_video_pixel_buffer_dma_0:video_pixel_buffer_dma_0|s_pixel_buffer
+Name s_pixel_buffer.STATE_3_MAX_PENDING_READS_STALL s_pixel_buffer.STATE_2_READ_BUFFER s_pixel_buffer.STATE_1_WAIT_FOR_LAST_PIXEL s_pixel_buffer.STATE_0_IDLE 
+s_pixel_buffer.STATE_0_IDLE 0 0 0 0 
+s_pixel_buffer.STATE_1_WAIT_FOR_LAST_PIXEL 0 0 1 1 
+s_pixel_buffer.STATE_2_READ_BUFFER 0 1 0 1 
+s_pixel_buffer.STATE_3_MAX_PENDING_READS_STALL 1 0 0 1 
+
 State Machine - |DE10_Lite_Computer|Computer_System:u0|altera_avalon_i2c:camera_i2c|altera_avalon_i2c_condt_gen:u_condt_gen|stop_state
 Name stop_state.STOP_SETUP stop_state.STOP_SCL_LOW stop_state.STOP_LOAD stop_state.STOP_IDLE stop_state.STOP_DONE 
 stop_state.STOP_IDLE 0 0 0 0 0 

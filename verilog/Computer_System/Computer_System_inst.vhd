@@ -29,7 +29,15 @@
 			servo_2_control_export             : out   std_logic_vector(7 downto 0);                     -- export
 			slider_switches_export             : in    std_logic_vector(9 downto 0)  := (others => 'X'); -- export
 			system_pll_ref_clk_clk             : in    std_logic                     := 'X';             -- clk
-			system_pll_ref_reset_reset         : in    std_logic                     := 'X'              -- reset
+			system_pll_ref_reset_reset         : in    std_logic                     := 'X';             -- reset
+			vga_stream_CLK                     : out   std_logic;                                        -- CLK
+			vga_stream_HS                      : out   std_logic;                                        -- HS
+			vga_stream_VS                      : out   std_logic;                                        -- VS
+			vga_stream_BLANK                   : out   std_logic;                                        -- BLANK
+			vga_stream_SYNC                    : out   std_logic;                                        -- SYNC
+			vga_stream_R                       : out   std_logic_vector(7 downto 0);                     -- R
+			vga_stream_G                       : out   std_logic_vector(7 downto 0);                     -- G
+			vga_stream_B                       : out   std_logic_vector(7 downto 0)                      -- B
 		);
 	end component Computer_System;
 
@@ -64,6 +72,14 @@
 			servo_2_control_export             => CONNECTED_TO_servo_2_control_export,             --      servo_2_control.export
 			slider_switches_export             => CONNECTED_TO_slider_switches_export,             --      slider_switches.export
 			system_pll_ref_clk_clk             => CONNECTED_TO_system_pll_ref_clk_clk,             --   system_pll_ref_clk.clk
-			system_pll_ref_reset_reset         => CONNECTED_TO_system_pll_ref_reset_reset          -- system_pll_ref_reset.reset
+			system_pll_ref_reset_reset         => CONNECTED_TO_system_pll_ref_reset_reset,         -- system_pll_ref_reset.reset
+			vga_stream_CLK                     => CONNECTED_TO_vga_stream_CLK,                     --           vga_stream.CLK
+			vga_stream_HS                      => CONNECTED_TO_vga_stream_HS,                      --                     .HS
+			vga_stream_VS                      => CONNECTED_TO_vga_stream_VS,                      --                     .VS
+			vga_stream_BLANK                   => CONNECTED_TO_vga_stream_BLANK,                   --                     .BLANK
+			vga_stream_SYNC                    => CONNECTED_TO_vga_stream_SYNC,                    --                     .SYNC
+			vga_stream_R                       => CONNECTED_TO_vga_stream_R,                       --                     .R
+			vga_stream_G                       => CONNECTED_TO_vga_stream_G,                       --                     .G
+			vga_stream_B                       => CONNECTED_TO_vga_stream_B                        --                     .B
 		);
 

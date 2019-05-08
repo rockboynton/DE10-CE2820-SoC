@@ -28,6 +28,14 @@
 		.servo_2_control_export             (<connected-to-servo_2_control_export>),             //      servo_2_control.export
 		.slider_switches_export             (<connected-to-slider_switches_export>),             //      slider_switches.export
 		.system_pll_ref_clk_clk             (<connected-to-system_pll_ref_clk_clk>),             //   system_pll_ref_clk.clk
-		.system_pll_ref_reset_reset         (<connected-to-system_pll_ref_reset_reset>)          // system_pll_ref_reset.reset
+		.system_pll_ref_reset_reset         (<connected-to-system_pll_ref_reset_reset>),         // system_pll_ref_reset.reset
+		.vga_stream_CLK                     (<connected-to-vga_stream_CLK>),                     //           vga_stream.CLK
+		.vga_stream_HS                      (<connected-to-vga_stream_HS>),                      //                     .HS
+		.vga_stream_VS                      (<connected-to-vga_stream_VS>),                      //                     .VS
+		.vga_stream_BLANK                   (<connected-to-vga_stream_BLANK>),                   //                     .BLANK
+		.vga_stream_SYNC                    (<connected-to-vga_stream_SYNC>),                    //                     .SYNC
+		.vga_stream_R                       (<connected-to-vga_stream_R>),                       //                     .R
+		.vga_stream_G                       (<connected-to-vga_stream_G>),                       //                     .G
+		.vga_stream_B                       (<connected-to-vga_stream_B>)                        //                     .B
 	);
 
