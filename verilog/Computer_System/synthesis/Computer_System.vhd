@@ -43,9 +43,9 @@ entity Computer_System is
 		vga_stream_VS                      : out   std_logic;                                        --                     .VS
 		vga_stream_BLANK                   : out   std_logic;                                        --                     .BLANK
 		vga_stream_SYNC                    : out   std_logic;                                        --                     .SYNC
-		vga_stream_R                       : out   std_logic_vector(7 downto 0);                     --                     .R
-		vga_stream_G                       : out   std_logic_vector(7 downto 0);                     --                     .G
-		vga_stream_B                       : out   std_logic_vector(7 downto 0)                      --                     .B
+		vga_stream_R                       : out   std_logic_vector(3 downto 0);                     --                     .R
+		vga_stream_G                       : out   std_logic_vector(3 downto 0);                     --                     .G
+		vga_stream_B                       : out   std_logic_vector(3 downto 0)                      --                     .B
 	);
 end entity Computer_System;
 
@@ -512,9 +512,9 @@ architecture rtl of Computer_System is
 			VGA_VS        : out std_logic;                                        -- export
 			VGA_BLANK     : out std_logic;                                        -- export
 			VGA_SYNC      : out std_logic;                                        -- export
-			VGA_R         : out std_logic_vector(7 downto 0);                     -- export
-			VGA_G         : out std_logic_vector(7 downto 0);                     -- export
-			VGA_B         : out std_logic_vector(7 downto 0)                      -- export
+			VGA_R         : out std_logic_vector(3 downto 0);                     -- export
+			VGA_G         : out std_logic_vector(3 downto 0);                     -- export
+			VGA_B         : out std_logic_vector(3 downto 0)                      -- export
 		);
 	end component Computer_System_video_vga_controller_0;
 

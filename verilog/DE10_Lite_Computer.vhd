@@ -108,9 +108,9 @@ architecture Structural of DE10_Lite_Computer is
             vga_stream_VS                      : out   std_logic;                                        -- VS
             vga_stream_BLANK                   : out   std_logic;                                        -- BLANK
             vga_stream_SYNC                    : out   std_logic;                                        -- SYNC
-            vga_stream_R                       : out   std_logic_vector(7 downto 0);                     -- R
-            vga_stream_G                       : out   std_logic_vector(7 downto 0);                     -- G
-            vga_stream_B                       : out   std_logic_vector(7 downto 0)                      -- B
+            vga_stream_R                       : out   std_logic_vector(3 downto 0);                     -- R
+            vga_stream_G                       : out   std_logic_vector(3 downto 0);                     -- G
+            vga_stream_B                       : out   std_logic_vector(3 downto 0)   
 				
         );
     end component Computer_System;

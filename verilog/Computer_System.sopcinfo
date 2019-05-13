@@ -5,11 +5,11 @@
  version="1.0"
  fabric="QSYS">
  <!-- Format version 17.0 602 (Future versions may contain additional information.) -->
- <!-- 2019.05.08.12:09:11 -->
+ <!-- 2019.05.13.10:29:06 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
-  <value>1557335351</value>
+  <value>1557761345</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -21232,7 +21232,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.TIMESTAMP</name>
-   <value>1557335351</value>
+   <value>1557761345</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.compatible</name>
@@ -21252,7 +21252,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.dts.params.timestamp</name>
-   <value>1557335351</value>
+   <value>1557761345</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.vendor</name>
@@ -21268,7 +21268,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="timestamp">
    <type>int</type>
-   <value>1557335351</value>
+   <value>1557761345</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -26758,7 +26758,7 @@ parameters are a RESULT of the module parameters. -->
 the requested settings for a module instance. -->
   <parameter name="board">
    <type>java.lang.String</type>
-   <value>DE10-Standard</value>
+   <value>DE10-Lite</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -27150,19 +27150,19 @@ parameters are a RESULT of the module parameters. -->
    <port>
     <name>VGA_R</name>
     <direction>Output</direction>
-    <width>8</width>
+    <width>4</width>
     <role>export</role>
    </port>
    <port>
     <name>VGA_G</name>
     <direction>Output</direction>
-    <width>8</width>
+    <width>4</width>
     <role>export</role>
    </port>
    <port>
     <name>VGA_B</name>
     <direction>Output</direction>
-    <width>8</width>
+    <width>4</width>
     <role>export</role>
    </port>
   </interface>

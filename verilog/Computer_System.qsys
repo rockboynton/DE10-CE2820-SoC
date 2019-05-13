@@ -1439,7 +1439,7 @@
    enabled="1">
   <parameter name="AUTO_CLK_CLOCK_RATE" value="25000000" />
   <parameter name="AUTO_DEVICE_FAMILY" value="MAX 10" />
-  <parameter name="board" value="DE10-Standard" />
+  <parameter name="board" value="DE10-Lite" />
   <parameter name="device" value="VGA Connector" />
   <parameter name="resolution" value="VGA 640x480" />
   <parameter name="underflow_flag" value="false" />

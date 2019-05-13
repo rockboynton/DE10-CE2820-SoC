@@ -244,22 +244,22 @@ agreement for further details.
 	(port
 		(pt 0 976)
 		(output)
-		(text "vga_stream_R[7..0]" (rect 0 0 83 12)(font "Arial" (font_size 8)))
-		(text "vga_stream_R[7..0]" (rect 4 965 112 976)(font "Arial" (font_size 8)))
+		(text "vga_stream_R[3..0]" (rect 0 0 83 12)(font "Arial" (font_size 8)))
+		(text "vga_stream_R[3..0]" (rect 4 965 112 976)(font "Arial" (font_size 8)))
 		(line (pt 0 976)(pt 224 976)(line_width 3))
 	)
 	(port
 		(pt 0 992)
 		(output)
-		(text "vga_stream_G[7..0]" (rect 0 0 82 12)(font "Arial" (font_size 8)))
-		(text "vga_stream_G[7..0]" (rect 4 981 112 992)(font "Arial" (font_size 8)))
+		(text "vga_stream_G[3..0]" (rect 0 0 82 12)(font "Arial" (font_size 8)))
+		(text "vga_stream_G[3..0]" (rect 4 981 112 992)(font "Arial" (font_size 8)))
 		(line (pt 0 992)(pt 224 992)(line_width 3))
 	)
 	(port
 		(pt 0 1008)
 		(output)
-		(text "vga_stream_B[7..0]" (rect 0 0 81 12)(font "Arial" (font_size 8)))
-		(text "vga_stream_B[7..0]" (rect 4 997 112 1008)(font "Arial" (font_size 8)))
+		(text "vga_stream_B[3..0]" (rect 0 0 81 12)(font "Arial" (font_size 8)))
+		(text "vga_stream_B[3..0]" (rect 4 997 112 1008)(font "Arial" (font_size 8)))
 		(line (pt 0 1008)(pt 224 1008)(line_width 3))
 	)
 	(port

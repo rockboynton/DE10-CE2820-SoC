@@ -74,7 +74,7 @@ module Computer_System (
 	output		vga_stream_VS;
 	output		vga_stream_BLANK;
 	output		vga_stream_SYNC;
-	output	[7:0]	vga_stream_R;
-	output	[7:0]	vga_stream_G;
-	output	[7:0]	vga_stream_B;
+	output	[3:0]	vga_stream_R;
+	output	[3:0]	vga_stream_G;
+	output	[3:0]	vga_stream_B;
 endmodule

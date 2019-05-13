@@ -8,9 +8,8 @@
    <export preferredWidth="150" />
   </columns>
  </systemtable>
- <library
-   expandedCategories="Library/Interface Protocols/Transceiver PLL,Library/Basic Functions/Clocks; PLLs and Resets,Library,Project,Library/University Program/Clock,Library/University Program,Library/Basic Functions/Clocks; PLLs and Resets/PLL,Library/Basic Functions,Library/Interface Protocols" />
- <window width="1920" height="1025" x="-23" y="16" />
+ <library expandedCategories="Library,Project" />
+ <window width="1920" height="1025" x="0" y="15" />
  <generation synthesis="VHDL" />
  <hdlexample language="VHDL" />
 </preferences>
