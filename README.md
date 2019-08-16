@@ -6,4 +6,4 @@
     *	A 1MHz ADC circuit with up to 18 channels for analog measurement with modes for single and continuous conversion for joystick control over pan and tilt servos
     *	A 4-wire SPI component with memory mapped address and data registers controlling the 10-bit ADXL345 accelerometer chip
     *	An I2C Master component to control an OV7670 camera module at 100kbits/sec with a FIFO queue.
-*	Also comes with an API for application developers in C plus a complete user manual outlining features, architecture, usage, memory map, and example code
+*	Also comes with an API for application developers in C plus a complete [user manual](Camera%20Mount%20User%20Manual.pdf) outlining features, architecture, usage, memory map, and example code
